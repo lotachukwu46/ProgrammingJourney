@@ -1,1 +1,1 @@
-I am just starting to learn software enginnering
+I am just starting to learn software engineering.
