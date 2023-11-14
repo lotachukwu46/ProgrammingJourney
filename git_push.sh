@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the project directory
-cd my directory
+cd "$(dirname "$0")" || exit
 
 # List untracked and modified files
 git status -s
