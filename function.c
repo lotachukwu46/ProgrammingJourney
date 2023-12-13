@@ -2,7 +2,7 @@
 void checkEvenOdd() {
     int num;
     // Get user input
-    Printf("Enter an integer: ");
+    printf("Enter an integer: ");
     scanf("%d", &num);
 
     // Debugging print statements

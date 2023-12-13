@@ -1,17 +1,18 @@
 #!/bin/bash
 
-pr=/home/lotachukwu/us
 
-if  [ -d "$pr" ] 
+read -p "enter an direcrory: " dir
+
+if  [ -d "$dir" ] 
 then
 	echo " this dirctory exist."
 else 
 	echo " this directory dosen't exist let make it. "
-	mkdir "$pr"
+	mkdir "$dir"
 	echo " A new dirctor has been created"
 fi 
 
-echo "the value of pr: $pr"
+echo "the value of pr: $dir"
 
-cd "$pr" || exit # exit if cd fails
+cd "$dir" || exit 1
 echo "your current directory is: $PWD"

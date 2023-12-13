@@ -2,3 +2,7 @@ First trial:
 I am just starting to learn software engineering.
 second:
 am beginning to figure aw this works
+third:
+am begining to understand bash scripting and c programming
+it's not really hard
+
