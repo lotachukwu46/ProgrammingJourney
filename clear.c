@@ -38,6 +38,12 @@ int main() {
 	printf("number of items: %i\n", item);
 	printf("cost per item: %c %.2f\n", currency, cpi);
 	printf("Total cost = %c %.2f\n", currency, totalcost);
+	// conversion
+	float fl = (float) 5 / 2;
+	float pl = 5.00 / 2.00;
+	printf("%f\n" , fl);
+	printf("%f\n" , pl);
+	printf("%lu\n", sizeof(fl));
 
 
 	return 0;
