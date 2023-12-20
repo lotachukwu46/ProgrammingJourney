@@ -1,0 +1,446 @@
+Sat 16 Dec 2023 03:41:39 PM WAT: Identified ubuntu/debian
+Sat 16 Dec 2023 03:41:39 PM WAT: updating ubuntu/debian...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfprint-2-tod1 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  apt-config-icons apt-config-icons-hidpi distro-info gir1.2-clutter-1.0
+  gir1.2-clutter-gst-3.0 gir1.2-cogl-1.0 gir1.2-coglpango-1.0
+  gir1.2-gtkclutter-1.0 libfwupdplugin5 libjcat1 libxmlb2 python3-click
+  python3-colorama ubuntu-advantage-desktop-daemon ubuntu-pro-client-l10n
+The following packages will be upgraded:
+  adwaita-icon-theme alsa-ucm-conf alsa-utils apparmor apport apport-gtk apt
+  apt-utils base-files bolt bsdutils cheese cheese-common command-not-found
+  deja-dup desktop-file-utils distro-info-data enchant-2 eog evince
+  evince-common evolution-data-server evolution-data-server-common fdisk
+  fonts-noto-color-emoji fonts-noto-mono fprintd friendly-recovery fwupd
+  fwupd-signed gamemode gdb gdbserver gdm3 gedit gedit-common
+  gir1.2-freedesktop gir1.2-gdm-1.0 gir1.2-glib-2.0 gir1.2-gnomebluetooth-1.0
+  gir1.2-gnomedesktop-3.0 gir1.2-goa-1.0 gir1.2-gtk-3.0 gir1.2-gweather-3.0
+  gir1.2-ibus-1.0 gir1.2-mutter-6 gir1.2-nm-1.0 gir1.2-nma-1.0
+  gir1.2-notify-0.7 gir1.2-secret-1 gir1.2-snapd-1 gir1.2-udisks-2.0
+  gir1.2-vte-2.91 gjs gnome-bluetooth gnome-calendar gnome-desktop3-data
+  gnome-disk-utility gnome-getting-started-docs gnome-initial-setup gnome-logs
+  gnome-online-accounts gnome-settings-daemon gnome-settings-daemon-common
+  gnome-shell gnome-shell-common gnome-shell-extension-appindicator
+  gnome-shell-extension-desktop-icons gnome-shell-extension-ubuntu-dock
+  gnome-system-monitor gnome-terminal gnome-terminal-data gnome-user-docs
+  google-chrome-stable grub-common grub-pc grub-pc-bin grub2-common
+  gtk-update-icon-cache ibus ibus-data ibus-gtk ibus-gtk3 iio-sensor-proxy
+  im-config initramfs-tools initramfs-tools-bin initramfs-tools-core iptables
+  isc-dhcp-client isc-dhcp-common kmod language-pack-en language-pack-en-base
+  language-pack-gnome-en language-pack-gnome-en-base language-selector-common
+  language-selector-gnome less libapparmor1 libapt-pkg6.0 libasound2
+  libasound2-data libatk-adaptor libatk-bridge2.0-0 libatopology2 libblkid1
+  libcamel-1.2-62 libcheese-gtk25 libcheese8 libdns-export1109
+  libebackend-1.2-10 libebook-1.2-20 libebook-contacts-1.2-3 libecal-2.0-1
+  libedata-book-1.2-26 libedata-cal-2.0-1 libedataserver-1.2-24
+  libedataserverui-1.2-2 libefiboot1 libefivar1 libenchant-2-2
+  libevdocument3-4 libevview3-3 libfdisk1 libfprint-2-2 libfprint-2-tod1
+  libfwupd2 libfwupdplugin1 libgamemode0 libgamemodeauto0 libgdm1
+  libgirepository-1.0-1 libgjs0g libgnome-bluetooth13 libgnome-desktop-3-19
+  libgoa-1.0-0b libgoa-1.0-common libgoa-backend-1.0-1 libgpgme11 libgpgmepp6
+  libgphoto2-6 libgphoto2-l10n libgphoto2-port12 libgtk-3-0 libgtk-3-bin
+  libgtk-3-common libgupnp-1.2-0 libgweather-3-16 libgweather-common
+  libibus-1.0-5 libip4tc2 libip6tc2 libisc-export1105 libkeyutils1 libkmod2
+  liblirc-client0 libmbim-glib4 libmbim-proxy libmm-glib0 libmount1
+  libmutter-6-0 libnetplan0 libnl-3-200 libnl-genl-3-200 libnl-route-3-200
+  libnm0 libnma0 libnotify-bin libnotify4 libnss-systemd libpam-fprintd
+  libpam-systemd libparted-fs-resize0 libparted2 libpci3 libplymouth5
+  libpulse-mainloop-glib0 libpulse0 libpulsedsp libqmi-glib5 libqmi-proxy
+  libsane libsane-common libsecret-1-0 libsecret-common libsensors-config
+  libsensors5 libsmartcols1 libsnapd-glib1 libsnmp-base libsnmp35 libsystemd0
+  libtracker-control-2.0-0 libtracker-miner-2.0-0 libtracker-sparql-2.0-0
+  libtss2-esys0 libudev1 libudisks2-0 libunwind8 libuuid1 libvte-2.91-0
+  libvte-2.91-common libwacom-bin libwacom-common libwacom2 libxmlb1
+  libxtables12 libyelp0 linux-base linux-firmware lshw lsof memtest86+
+  modemmanager mount mutter mutter-common nautilus-extension-gnome-terminal
+  nautilus-sendto netplan.io network-manager
+  network-manager-config-connectivity-ubuntu network-manager-gnome openvpn
+  parted pciutils plymouth plymouth-label plymouth-theme-spinner
+  plymouth-theme-ubuntu-text pulseaudio pulseaudio-module-bluetooth
+  pulseaudio-utils python-apt-common python3-apport python3-apt
+  python3-commandnotfound python3-cupshelpers python3-debian
+  python3-distro-info python3-distupgrade python3-ibus-1.0
+  python3-problem-report python3-software-properties python3-tz
+  python3-update-manager rfkill rhythmbox-plugin-alternative-toolbar rsync
+  sane-utils sbsigntool shotwell shotwell-common simple-scan
+  software-properties-common software-properties-gtk strace
+  system-config-printer system-config-printer-common
+  system-config-printer-udev systemd systemd-sysv systemd-timesyncd tcpdump
+  thermald tracker tracker-extract tracker-miner-fs tzdata
+  ubuntu-advantage-tools ubuntu-desktop ubuntu-desktop-minimal ubuntu-docs
+  ubuntu-drivers-common ubuntu-keyring ubuntu-minimal
+  ubuntu-release-upgrader-core ubuntu-release-upgrader-gtk ubuntu-settings
+  ubuntu-standard udev udisks2 ufw unattended-upgrades update-manager
+  update-manager-core update-notifier update-notifier-common util-linux
+  uuid-runtime wget xdg-desktop-portal xdg-desktop-portal-gtk
+  xserver-xorg-video-amdgpu yaru-theme-gnome-shell yaru-theme-gtk
+  yaru-theme-icon yaru-theme-sound yelp
+300 upgraded, 15 newly installed, 0 to remove and 0 not upgraded.
+Need to get 348 MB of archives.
+After this operation, 203 MB of additional disk space will be used.
+Err:1 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 120.0.6099.109-1
+  Temporary failure resolving 'dl.google.com'
+Get:2 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 base-files amd64 11ubuntu5.7 [60.4 kB]
+Get:3 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 bsdutils amd64 1:2.34-0.1ubuntu9.4 [63.0 kB]
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libblkid1 amd64 2.34-0.1ubuntu9.4 [137 kB]
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libuuid1 amd64 2.34-0.1ubuntu9.4 [20.0 kB]
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libfdisk1 amd64 2.34-0.1ubuntu9.4 [174 kB]
+Get:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libmount1 amd64 2.34-0.1ubuntu9.4 [150 kB]
+Get:8 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsmartcols1 amd64 2.34-0.1ubuntu9.4 [100 kB]
+Get:9 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 fdisk amd64 2.34-0.1ubuntu9.4 [119 kB]
+Get:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 util-linux amd64 2.34-0.1ubuntu9.4 [1,021 kB]
+Get:11 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss-systemd amd64 245.4-4ubuntu3.22 [95.8 kB]
+Get:12 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 udev amd64 245.4-4ubuntu3.22 [1,366 kB]
+Get:13 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libudev1 amd64 245.4-4ubuntu3.22 [75.4 kB]
+Get:14 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 kmod amd64 27-1ubuntu2.1 [94.8 kB]
+Get:15 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libkmod2 amd64 27-1ubuntu2.1 [45.3 kB]
+Get:16 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-sysv amd64 245.4-4ubuntu3.22 [10.3 kB]
+Get:17 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-timesyncd amd64 245.4-4ubuntu3.22 [28.1 kB]
+Get:18 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpam-systemd amd64 245.4-4ubuntu3.22 [186 kB]
+Get:19 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libapparmor1 amd64 2.13.3-7ubuntu5.3 [35.4 kB]
+Get:20 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libxtables12 amd64 1.8.4-3ubuntu2.1 [28.7 kB]
+Get:21 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 iptables amd64 1.8.4-3ubuntu2.1 [390 kB]
+Get:22 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libip6tc2 amd64 1.8.4-3ubuntu2.1 [19.4 kB]
+Get:23 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libip4tc2 amd64 1.8.4-3ubuntu2.1 [19.1 kB]
+Get:24 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 mount amd64 2.34-0.1ubuntu9.4 [115 kB]
+Get:25 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd amd64 245.4-4ubuntu3.22 [3,811 kB]
+Get:26 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsystemd0 amd64 245.4-4ubuntu3.22 [267 kB]
+Get:27 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libapt-pkg6.0 amd64 2.0.10 [843 kB]
+Get:28 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 apt amd64 2.0.10 [1,280 kB]
+Get:29 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 apt-utils amd64 2.0.10 [213 kB]
+Get:30 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-keyring all 2020.02.11.4 [22.1 kB]
+Get:31 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgirepository-1.0-1 amd64 1.64.1-1~ubuntu20.04.1 [85.7 kB]
+Get:32 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-freedesktop amd64 1.64.1-1~ubuntu20.04.1 [19.2 kB]
+Get:33 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-glib-2.0 amd64 1.64.1-1~ubuntu20.04.1 [134 kB]
+Get:34 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.1 [28.8 kB]
+Get:35 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 adwaita-icon-theme all 3.36.1-2ubuntu0.20.04.2 [3,441 kB]
+Get:36 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libatk-bridge2.0-0 amd64 2.34.2-0ubuntu2~20.04.1 [58.2 kB]
+Get:37 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgtk-3-common all 3.24.20-0ubuntu1.1 [234 kB]
+Get:38 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgtk-3-0 amd64 3.24.20-0ubuntu1.1 [2,620 kB]
+Get:39 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-gtk-3.0 amd64 3.24.20-0ubuntu1.1 [196 kB]
+Get:40 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python-apt-common all 2.0.1ubuntu0.20.04.1 [16.5 kB]
+Get:41 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-apt amd64 2.0.1ubuntu0.20.04.1 [154 kB]
+Get:42 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 im-config all 0.44-1ubuntu1.3 [25.1 kB]
+Get:43 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-selector-gnome all 0.204.2 [19.0 kB]
+Get:44 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-selector-common all 0.204.2 [224 kB]
+Get:45 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 rsync amd64 3.1.3-8ubuntu0.7 [322 kB]
+Get:46 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 uuid-runtime amd64 2.34-0.1ubuntu9.4 [35.4 kB]
+Get:47 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 alsa-ucm-conf all 1.2.2-1ubuntu0.13 [27.0 kB]
+Get:48 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libatopology2 amd64 1.2.2-2.1ubuntu2.5 [47.3 kB]
+Get:49 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libasound2 amd64 1.2.2-2.1ubuntu2.5 [335 kB]
+Get:50 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libasound2-data all 1.2.2-2.1ubuntu2.5 [20.1 kB]
+Get:51 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 wget amd64 1.20.3-1ubuntu2 [348 kB]
+Get:52 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-en all 1:20.04+20220818 [1,904 B]
+Get:53 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-en-base all 1:20.04+20220818 [445 kB]
+Get:54 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-gnome-en all 1:20.04+20220818 [1,924 B]
+Get:55 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-gnome-en-base all 1:20.04+20220818 [535 kB]
+Get:56 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgphoto2-port12 amd64 2.5.25-0ubuntu0.1 [51.8 kB]
+Get:57 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgphoto2-6 amd64 2.5.25-0ubuntu0.1 [653 kB]
+Get:58 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 pciutils amd64 1:3.6.4-1ubuntu0.20.04.1 [56.5 kB]
+Get:59 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpci3 amd64 1:3.6.4-1ubuntu0.20.04.1 [26.9 kB]
+Get:60 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsensors-config all 1:3.6.0-2ubuntu1.1 [6,052 B]
+Get:61 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsensors5 amd64 1:3.6.0-2ubuntu1.1 [27.2 kB]
+Get:62 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsnmp-base all 5.8+dfsg-2ubuntu2.9 [205 kB]
+Get:63 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsnmp35 amd64 5.8+dfsg-2ubuntu2.9 [978 kB]
+Get:64 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsane amd64 1.0.29-0ubuntu5.2 [2,405 kB]
+Get:64 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsane amd64 1.0.29-0ubuntu5.2 [2,405 kB]
+Get:65 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsane-common all 1.0.29-0ubuntu5.2 [277 kB]
+Get:66 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 sane-utils amd64 1.0.29-0ubuntu5.2 [201 kB]
+Get:67 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulsedsp amd64 1:13.99.1-1ubuntu3.13 [21.7 kB]
+Get:68 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 pulseaudio-utils amd64 1:13.99.1-1ubuntu3.13 [55.0 kB]
+Get:69 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulse-mainloop-glib0 amd64 1:13.99.1-1ubuntu3.13 [11.7 kB]
+Get:70 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 pulseaudio-module-bluetooth amd64 1:13.99.1-1ubuntu3.13 [60.4 kB]
+Get:71 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgdm1 amd64 3.36.3-0ubuntu0.20.04.4 [63.6 kB]
+Get:72 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-mutter-6 amd64 3.36.9-0ubuntu0.20.04.2 [109 kB]
+Get:73 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libmutter-6-0 amd64 3.36.9-0ubuntu0.20.04.2 [1,168 kB]
+Get:74 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-settings-daemon-common all 3.36.1-0ubuntu1.1 [20.2 kB]
+Get:75 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-disk-utility amd64 3.36.3-0ubuntu1 [187 kB]
+Get:76 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-settings-daemon amd64 3.36.1-0ubuntu1.1 [308 kB]
+Get:77 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gdm3 amd64 3.36.3-0ubuntu0.20.04.4 [261 kB]
+Get:78 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 pulseaudio amd64 1:13.99.1-1ubuntu3.13 [814 kB]
+Get:79 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulse0 amd64 1:13.99.1-1ubuntu3.13 [262 kB]
+Get:80 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 mutter-common all 3.36.9-0ubuntu0.20.04.2 [12.9 kB]
+Get:81 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-desktop3-data all 3.36.8-0ubuntu1 [21.7 kB]
+Get:82 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgnome-desktop-3-19 amd64 3.36.8-0ubuntu1 [115 kB]
+Get:83 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libwacom2 amd64 1.3-2ubuntu3 [20.0 kB]
+Get:84 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libwacom-common all 1.3-2ubuntu3 [45.3 kB]
+Get:85 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libparted-fs-resize0 amd64 3.3-4ubuntu0.20.04.1 [47.4 kB]
+Get:86 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 parted amd64 3.3-4ubuntu0.20.04.1 [43.3 kB]
+Get:87 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libparted2 amd64 3.3-4ubuntu0.20.04.1 [159 kB]
+Get:88 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libudisks2-0 amd64 2.8.4-1ubuntu2 [99.4 kB]
+Get:89 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 udisks2 amd64 2.8.4-1ubuntu2 [245 kB]
+Err:90 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnotify4 amd64 0.7.9-1ubuntu3.20.04.2
+  Connection failed [IP: 91.189.91.82 80]
+Get:91 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsecret-common all 0.20.4-0ubuntu1 [3,940 B]
+Get:92 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsecret-1-0 amd64 0.20.4-0ubuntu1 [110 kB]
+Get:93 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgweather-common all 3.36.1-1~ubuntu20.04.1 [169 kB]
+Get:94 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgweather-3-16 amd64 3.36.1-1~ubuntu20.04.1 [68.3 kB]
+Get:95 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libmm-glib0 amd64 1.18.6-1~ubuntu20.04.1 [203 kB]
+Get:96 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 grub-pc amd64 2.04-1ubuntu26.17 [125 kB]
+Get:97 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 grub2-common amd64 2.04-1ubuntu26.17 [590 kB]
+Get:98 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 grub-pc-bin amd64 2.04-1ubuntu26.17 [971 kB]
+Get:99 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 grub-common amd64 2.04-1ubuntu26.17 [1,872 kB]
+Get:100 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 friendly-recovery all 0.2.41ubuntu0.20.04.1 [8,980 B]
+Get:101 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools all 0.136ubuntu6.7 [9,248 B]
+Get:102 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools-core all 0.136ubuntu6.7 [47.8 kB]
+Get:103 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools-bin amd64 0.136ubuntu6.7 [10.8 kB]
+Get:104 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libefivar1 amd64 37-2ubuntu2.2 [47.7 kB]
+Get:105 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libefiboot1 amd64 37-2ubuntu2.2 [40.5 kB]
+Get:106 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-base all 4.5ubuntu3.7 [17.6 kB]
+Get:107 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnetplan0 amd64 0.104-0ubuntu2~20.04.4 [82.2 kB]
+Get:108 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 netplan.io amd64 0.104-0ubuntu2~20.04.4 [88.2 kB]
+Get:109 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 network-manager amd64 1.22.10-1ubuntu2.3 [1,855 kB]
+Get:110 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnm0 amd64 1.22.10-1ubuntu2.3 [370 kB]
+Get:111 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-gdm-1.0 amd64 3.36.3-0ubuntu0.20.04.4 [9,584 B]
+Get:112 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 mutter amd64 3.36.9-0ubuntu0.20.04.2 [129 kB]
+Get:113 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 nautilus-extension-gnome-terminal amd64 3.36.2-1ubuntu1~20.04 [32.2 kB]
+Get:114 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libvte-2.91-0 amd64 0.60.3-0ubuntu1~20.04 [195 kB]
+Get:115 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libvte-2.91-common amd64 0.60.3-0ubuntu1~20.04 [7,500 B]
+Get:116 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-terminal-data all 3.36.2-1ubuntu1~20.04 [30.3 kB]
+Get:117 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-terminal amd64 3.36.2-1ubuntu1~20.04 [171 kB]
+Get:118 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 yaru-theme-gnome-shell all 20.04.11.1 [106 kB]
+Get:119 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-gnomebluetooth-1.0 amd64 3.34.3-0ubuntu1 [5,592 B]
+Get:120 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-bluetooth amd64 3.34.3-0ubuntu1 [53.6 kB]
+Get:121 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gjs amd64 1.64.5-0ubuntu0.20.04.01 [43.4 kB]
+Get:122 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-gnomedesktop-3.0 amd64 3.36.8-0ubuntu1 [8,352 B]
+Get:123 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell amd64 3.36.9-0ubuntu0.20.04.2 [783 kB]
+Get:124 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell-common all 3.36.9-0ubuntu0.20.04.2 [153 kB]
+Get:125 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgnome-bluetooth13 amd64 3.34.3-0ubuntu1 [76.6 kB]
+Get:126 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgjs0g amd64 1.64.5-0ubuntu0.20.04.01 [288 kB]
+Get:127 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgoa-1.0-common all 3.36.1-0ubuntu1 [3,752 B]
+Get:128 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-online-accounts amd64 3.36.1-0ubuntu1 [83.5 kB]
+Get:129 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgoa-1.0-0b amd64 3.36.1-0ubuntu1 [63.4 kB]
+Get:130 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-snapd-1 amd64 1.58-0ubuntu0.20.04.0 [13.2 kB]
+Get:131 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsnapd-glib1 amd64 1.58-0ubuntu0.20.04.0 [90.1 kB]
+Get:132 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgoa-backend-1.0-1 amd64 3.36.1-0ubuntu1 [114 kB]
+Get:133 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 evolution-data-server amd64 3.36.5-0ubuntu1 [679 kB]
+Get:134 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcamel-1.2-62 amd64 3.36.5-0ubuntu1 [433 kB]
+Get:135 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 evolution-data-server-common all 3.36.5-0ubuntu1 [18.6 kB]
+Get:136 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libedataserver-1.2-24 amd64 3.36.5-0ubuntu1 [244 kB]
+Get:137 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libecal-2.0-1 amd64 3.36.5-0ubuntu1 [145 kB]
+Get:138 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libedata-cal-2.0-1 amd64 3.36.5-0ubuntu1 [127 kB]
+Get:139 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libebook-contacts-1.2-3 amd64 3.36.5-0ubuntu1 [54.5 kB]
+Get:140 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libedata-book-1.2-26 amd64 3.36.5-0ubuntu1 [209 kB]
+Get:141 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libebackend-1.2-10 amd64 3.36.5-0ubuntu1 [103 kB]
+Get:142 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libebook-1.2-20 amd64 3.36.5-0ubuntu1 [79.3 kB]
+Get:143 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libedataserverui-1.2-2 amd64 3.36.5-0ubuntu1 [54.7 kB]
+Get:144 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-gweather-3.0 amd64 3.36.1-1~ubuntu20.04.1 [7,356 B]
+Get:145 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ibus amd64 1.5.22-2ubuntu2.1 [288 kB]
+Get:146 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ibus-data all 1.5.22-2ubuntu2.1 [4,533 kB]
+Get:147 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libibus-1.0-5 amd64 1.5.22-2ubuntu2.1 [153 kB]
+Get:148 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-ibus-1.0 all 1.5.22-2ubuntu2.1 [7,120 B]
+Get:149 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-ibus-1.0 amd64 1.5.22-2ubuntu2.1 [65.9 kB]
+Get:150 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-nm-1.0 amd64 1.22.10-1ubuntu2.3 [64.5 kB]
+Get:151 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 network-manager-gnome amd64 1.8.24-1ubuntu3 [324 kB]
+Get:152 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnma0 amd64 1.8.24-1ubuntu3 [94.8 kB]
+Get:153 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-nma-1.0 amd64 1.8.24-1ubuntu3 [5,796 B]
+Get:154 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libkeyutils1 amd64 1.6-6ubuntu1.1 [10.3 kB]
+Get:155 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 python3-colorama all 0.4.3-1build1 [23.9 kB]
+Get:156 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 python3-click all 7.0-3 [64.8 kB]
+Get:157 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-drivers-common amd64 1:0.9.0~0.20.04.7 [53.5 kB]
+Get:158 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-release-upgrader-gtk all 1:20.04.41 [9,364 B]
+Get:159 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-release-upgrader-core all 1:20.04.41 [24.3 kB]
+Get:160 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-vte-2.91 amd64 0.60.3-0ubuntu1~20.04 [9,496 B]
+Get:161 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 distro-info-data all 0.43ubuntu1.14 [4,788 B]
+Get:162 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-distro-info all 0.23ubuntu1.1 [5,944 B]
+Get:163 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager all 1:20.04.10.18 [552 kB]
+Get:164 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager-core all 1:20.04.10.18 [11.6 kB]
+Get:165 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-update-manager all 1:20.04.10.18 [38.3 kB]
+Get:166 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-distupgrade all 1:20.04.41 [105 kB]
+Get:167 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 distro-info amd64 0.23ubuntu1.1 [17.1 kB]
+Get:168 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-advantage-tools amd64 30~20.04 [203 kB]
+Get:169 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-notifier amd64 3.192.30.17 [56.4 kB]
+Get:170 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-debian all 0.1.36ubuntu1.1 [64.9 kB]
+Get:171 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-notifier-common all 3.192.30.17 [173 kB]
+Get:172 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libisc-export1105 amd64 1:9.11.16+dfsg-3~ubuntu1 [175 kB]
+Get:173 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libdns-export1109 amd64 1:9.11.16+dfsg-3~ubuntu1 [765 kB]
+Get:174 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 isc-dhcp-client amd64 4.4.1-2.1ubuntu5.20.04.5 [247 kB]
+Get:175 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 isc-dhcp-common amd64 4.4.1-2.1ubuntu5.20.04.5 [45.3 kB]
+Get:176 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 less amd64 551-1ubuntu0.1 [123 kB]
+Get:177 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tzdata all 2023c-0ubuntu0.20.04.2 [301 kB]
+Get:178 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-minimal amd64 1.450.2 [2,752 B]
+Get:179 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-pro-client-l10n amd64 30~20.04 [18.4 kB]
+Get:180 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 apparmor amd64 2.13.3-7ubuntu5.3 [502 kB]
+Get:181 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 command-not-found all 20.04.6 [5,264 B]
+Get:182 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-commandnotfound all 20.04.6 [10.4 kB]
+Get:183 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libplymouth5 amd64 0.9.4git20200323-0ubuntu6.2 [98.6 kB]
+Get:184 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 lshw amd64 02.18.85-0.3ubuntu2.20.04.1 [271 kB]
+Get:185 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 lsof amd64 4.93.2+dfsg-1ubuntu0.20.04.1 [252 kB]
+Get:186 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 plymouth-theme-ubuntu-text amd64 0.9.4git20200323-0ubuntu6.2 [9,504 B]
+Get:187 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 plymouth-theme-spinner amd64 0.9.4git20200323-0ubuntu6.2 [110 kB]
+Get:188 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 plymouth-label amd64 0.9.4git20200323-0ubuntu6.2 [6,580 B]
+Get:189 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 plymouth amd64 0.9.4git20200323-0ubuntu6.2 [118 kB]
+Get:190 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libunwind8 amd64 1.2.1-9ubuntu0.1 [47.7 kB]
+Get:191 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 strace amd64 5.5-3ubuntu1 [380 kB]
+Get:192 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tcpdump amd64 4.9.3-4ubuntu0.2 [369 kB]
+Get:193 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-standard amd64 1.450.2 [2,800 B]
+Get:194 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ufw all 0.36-6ubuntu1.1 [148 kB]
+Get:195 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 alsa-utils amd64 1.2.2-1ubuntu2.1 [1,021 kB]
+Get:196 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-problem-report all 2.20.11-0ubuntu27.27 [11.2 kB]
+Get:197 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-apport all 2.20.11-0ubuntu27.27 [86.9 kB]
+Get:198 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 apport all 2.20.11-0ubuntu27.27 [129 kB]
+Get:199 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 apport-gtk all 2.20.11-0ubuntu27.27 [9,732 B]
+Get:200 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 apt-config-icons all 0.12.10-2 [2,864 B]
+Get:201 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 apt-config-icons-hidpi all 0.12.10-2 [2,776 B]
+Get:202 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 bolt amd64 0.9.1-2~ubuntu20.04.2 [143 kB]
+Get:203 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 cheese-common all 3.34.0-1ubuntu1 [390 kB]
+Get:204 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcheese8 amd64 3.34.0-1ubuntu1 [33.3 kB]
+Get:205 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcheese-gtk25 amd64 3.34.0-1ubuntu1 [27.0 kB]
+Get:206 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 cheese amd64 3.34.0-1ubuntu1 [139 kB]
+Get:207 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 deja-dup amd64 40.7-0ubuntu2 [270 kB]
+Get:208 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 desktop-file-utils amd64 0.24-1ubuntu3 [50.6 kB]
+Get:209 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libenchant-2-2 amd64 2.2.8-1ubuntu0.20.04.1 [45.6 kB]
+Get:210 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 enchant-2 amd64 2.2.8-1ubuntu0.20.04.1 [12.1 kB]
+Get:211 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 eog amd64 3.36.3-0ubuntu1 [421 kB]
+Get:212 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 evince-common all 3.36.10-0ubuntu1 [129 kB]
+Get:213 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 evince amd64 3.36.10-0ubuntu1 [252 kB]
+Get:214 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libevdocument3-4 amd64 3.36.10-0ubuntu1 [198 kB]
+Get:215 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libevview3-3 amd64 3.36.10-0ubuntu1 [126 kB]
+Get:216 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 fonts-noto-color-emoji all 0~20200916-1~ubuntu20.04.1 [9,940 kB]
+Get:217 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 fonts-noto-mono all 20200323-1build1~ubuntu20.04.1 [80.6 kB]
+Get:218 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 fwupd-signed amd64 1.51.1~20.04.1+1.4-0ubuntu0.1 [28.7 kB]
+Get:219 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgpgme11 amd64 1.13.1-7ubuntu2.1 [121 kB]
+Get:220 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libjcat1 amd64 0.1.4-0ubuntu0.20.04.1 [25.9 kB]
+Get:221 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libfwupd2 amd64 1.7.9-1~20.04.3 [91.9 kB]
+Get:222 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libxmlb2 amd64 0.3.6-2build1~20.04.1 [61.6 kB]
+Get:223 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libfwupdplugin5 amd64 1.7.9-1~20.04.3 [170 kB]
+Get:224 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libmbim-proxy amd64 1.26.2-1~ubuntu20.04.1 [6,012 B]
+Get:225 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libmbim-glib4 amd64 1.26.2-1~ubuntu20.04.1 [123 kB]
+Get:226 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libqmi-proxy amd64 1.30.4-1~ubuntu20.04.1 [5,908 B]
+Get:227 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libqmi-glib5 amd64 1.30.4-1~ubuntu20.04.1 [642 kB]
+Get:228 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libtss2-esys0 amd64 2.3.2-1ubuntu0.20.04.1 [226 kB]
+Get:229 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 fwupd amd64 1.7.9-1~20.04.3 [2,454 kB]
+Get:230 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgamemode0 amd64 1.5.1-0ubuntu3.1 [17.4 kB]
+Get:231 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgamemodeauto0 amd64 1.5.1-0ubuntu3.1 [6,996 B]
+Get:232 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gamemode amd64 1.5.1-0ubuntu3.1 [61.1 kB]
+Get:233 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gdb amd64 9.2-0ubuntu1~20.04.1 [3,222 kB]
+Get:233 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gdb amd64 9.2-0ubuntu1~20.04.1 [3,222 kB]
+Get:234 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gdbserver amd64 9.2-0ubuntu1~20.04.1 [222 kB]
+Get:235 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gedit-common all 3.36.2-0ubuntu1 [94.7 kB]
+Get:236 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gedit amd64 3.36.2-0ubuntu1 [407 kB]
+Get:237 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 gir1.2-cogl-1.0 amd64 1.22.6-1 [32.5 kB]
+Get:238 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 gir1.2-coglpango-1.0 amd64 1.22.6-1 [4,792 B]
+Get:239 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 gir1.2-clutter-1.0 amd64 1.26.4+dfsg-1 [105 kB]
+Get:240 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 gir1.2-clutter-gst-3.0 amd64 3.0.27-1 [7,060 B]
+Get:241 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-goa-1.0 amd64 3.36.1-0ubuntu1 [12.8 kB]
+Get:242 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 gir1.2-gtkclutter-1.0 amd64 1.8.4-4 [3,464 B]
+Get:243 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-notify-0.7 amd64 0.7.9-1ubuntu3.20.04.2 [3,588 B]
+Get:244 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-secret-1 amd64 0.20.4-0ubuntu1 [8,508 B]
+Get:245 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-udisks-2.0 amd64 2.8.4-1ubuntu2 [18.5 kB]
+Get:246 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-calendar amd64 3.36.2-0ubuntu1 [222 kB]
+Get:247 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 yelp amd64 3.36.2-0ubuntu1 [527 kB]
+Get:248 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libyelp0 amd64 3.36.2-0ubuntu1 [94.3 kB]
+Get:249 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-docs all 20.04.3 [249 kB]
+Get:250 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-user-docs all 3.36.2+git20200704-0ubuntu0.1 [1,740 kB]
+Get:251 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-getting-started-docs all 3.36.2-0ubuntu0.1 [7,423 kB]
+Get:252 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-initial-setup amd64 3.36.2-0ubuntu2 [942 kB]
+Get:253 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-logs amd64 3.34.0-1ubuntu1 [122 kB]
+Get:254 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell-extension-appindicator all 33.1-0ubuntu0.20.04.2 [27.7 kB]
+Get:255 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xdg-desktop-portal amd64 1.6.0-1ubuntu2 [238 kB]
+Get:256 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell-extension-desktop-icons all 20.04.0-3~ubuntu20.04.6 [25.0 kB]
+Get:257 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell-extension-ubuntu-dock all 68ubuntu1~20.04.1 [72.6 kB]
+Get:258 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-system-monitor amd64 3.36.1-0ubuntu0.20.04.1 [182 kB]
+Get:259 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ibus-gtk amd64 1.5.22-2ubuntu2.1 [15.2 kB]
+Get:260 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ibus-gtk3 amd64 1.5.22-2ubuntu2.1 [15.8 kB]
+Get:261 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 iio-sensor-proxy amd64 2.8-1ubuntu2 [35.8 kB]
+Get:262 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libatk-adaptor amd64 2.34.2-0ubuntu2~20.04.1 [12.9 kB]
+Get:263 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libfprint-2-2 amd64 1:1.90.2+tod1-0ubuntu1~20.04.10 [212 kB]
+Get:264 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libfprint-2-tod1 amd64 1:1.90.2+tod1-0ubuntu1~20.04.10 [44.6 kB]
+Get:265 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libxmlb1 amd64 0.1.15-2ubuntu1~20.04.1 [50.5 kB]
+Get:266 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libfwupdplugin1 amd64 1.5.11-0ubuntu1~20.04.2 [126 kB]
+Get:267 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgpgmepp6 amd64 1.13.1-7ubuntu2.1 [101 kB]
+Get:268 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgphoto2-l10n all 2.5.25-0ubuntu0.1 [12.2 kB]
+Get:269 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgtk-3-bin amd64 3.24.20-0ubuntu1.1 [61.9 kB]
+Get:270 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgupnp-1.2-0 amd64 1.2.4-0ubuntu1 [81.3 kB]
+Get:271 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnl-route-3-200 amd64 3.4.0-1ubuntu0.1 [151 kB]
+Get:272 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnl-genl-3-200 amd64 3.4.0-1ubuntu0.1 [11.2 kB]
+Get:273 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnl-3-200 amd64 3.4.0-1ubuntu0.1 [54.4 kB]
+Get:274 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnotify-bin amd64 0.7.9-1ubuntu3.20.04.2 [7,288 B]
+Get:275 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tracker-miner-fs amd64 2.3.3-2ubuntu0.20.04.1 [68.3 kB]
+Get:276 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tracker-extract amd64 2.3.3-2ubuntu0.20.04.1 [279 kB]
+Get:277 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tracker amd64 2.3.6-0ubuntu1 [272 kB]
+Get:278 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libtracker-miner-2.0-0 amd64 2.3.6-0ubuntu1 [73.6 kB]
+Get:279 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libtracker-control-2.0-0 amd64 2.3.6-0ubuntu1 [17.0 kB]
+Get:280 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libtracker-sparql-2.0-0 amd64 2.3.6-0ubuntu1 [251 kB]
+Get:281 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libwacom-bin amd64 1.3-2ubuntu3 [5,484 B]
+Get:282 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-firmware all 1.187.39 [136 MB]
+Get:282 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-firmware all 1.187.39 [136 MB]
+Get:282 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-firmware all 1.187.39 [136 MB]
+Get:282 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-firmware all 1.187.39 [136 MB]
+Get:282 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-firmware all 1.187.39 [136 MB]
+Get:283 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 memtest86+ amd64 5.01-3.1ubuntu2.1 [71.2 kB]
+Get:284 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 modemmanager amd64 1.18.6-1~ubuntu20.04.1 [895 kB]
+Get:285 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 nautilus-sendto amd64 3.8.6-3ubuntu0.20.04.1 [15.7 kB]
+Get:286 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 network-manager-config-connectivity-ubuntu all 1.22.10-1ubuntu2.3 [2,516 B]
+Get:287 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 openvpn amd64 2.4.12-0ubuntu0.20.04.1 [483 kB]
+Get:288 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 system-config-printer all 1.5.12-0ubuntu1.1 [74.4 kB]
+Get:289 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 system-config-printer-common all 1.5.12-0ubuntu1.1 [108 kB]
+Get:290 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-cupshelpers all 1.5.12-0ubuntu1.1 [32.5 kB]
+Get:291 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 software-properties-common all 0.99.9.12 [10.4 kB]
+Get:292 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-advantage-desktop-daemon amd64 1.10~20.04.1 [23.5 kB]
+Get:293 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 software-properties-gtk all 0.99.9.12 [69.1 kB]
+Get:294 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-software-properties all 0.99.9.12 [21.7 kB]
+Get:295 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-tz all 2019.3-1ubuntu0.20.04.0 [24.5 kB]
+Get:296 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 rfkill amd64 2.34-0.1ubuntu9.4 [22.9 kB]
+Get:297 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 rhythmbox-plugin-alternative-toolbar all 0.19.3-1.1 [49.3 kB]
+Get:298 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 sbsigntool amd64 0.9.2-2ubuntu1.1 [63.8 kB]
+Get:299 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 shotwell-common all 0.30.10-0ubuntu0.1 [326 kB]
+Get:300 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 shotwell amd64 0.30.10-0ubuntu0.1 [1,796 kB]
+Get:301 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 simple-scan amd64 3.36.3-0ubuntu0.20.04.0 [180 kB]
+Get:302 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 system-config-printer-udev amd64 1.5.12-0ubuntu1.1 [19.7 kB]
+Get:303 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 thermald amd64 1.9.1-1ubuntu0.6 [233 kB]
+Get:304 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-settings all 20.04.6 [5,752 B]
+Get:305 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-desktop-minimal amd64 1.450.2 [3,636 B]
+Get:306 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-desktop amd64 1.450.2 [2,848 B]
+Get:307 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 unattended-upgrades all 2.3ubuntu0.3 [48.5 kB]
+Get:308 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xdg-desktop-portal-gtk amd64 1.6.0-1ubuntu1 [148 kB]
+Get:309 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-xorg-video-amdgpu amd64 19.1.0-1ubuntu0.1 [68.5 kB]
+Get:310 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 yaru-theme-gtk all 20.04.11.1 [334 kB]
+Get:311 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 yaru-theme-icon all 20.04.11.1 [13.8 MB]
+Ign:311 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 yaru-theme-icon all 20.04.11.1
+Get:312 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 yaru-theme-sound all 20.04.11.1 [411 kB]
+Get:313 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpam-fprintd amd64 1.90.9-1~ubuntu20.04.1 [13.2 kB]
+Get:314 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 fprintd amd64 1.90.9-1~ubuntu20.04.1 [80.8 kB]
+Get:315 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 liblirc-client0 amd64 0.10.1-6.1ubuntu1.1 [23.4 kB]
+Get:311 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 yaru-theme-icon all 20.04.11.1 [13.8 MB]
+Fetched 112 MB in 25min 21s (74.0 kB/s)
+Sat 16 Dec 2023 04:07:06 PM WAT: package upgrades copleted
+Sat 16 Dec 2023 04:07:06 PM WAT: System upgrade finished
+Sat 16 Dec 2023 04:09:44 PM WAT: Identified ubuntu/debian
+Sat 16 Dec 2023 04:09:44 PM WAT: updating ubuntu/debian...
+Err:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 https://dl.google.com/linux/chrome/deb stable InRelease
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Fetched 114 kB in 29s (3,878 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+300 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Sat 16 Dec 2023 04:10:58 PM WAT: package lisst fetched
+Sat 16 Dec 2023 04:10:58 PM WAT: System upgrade finished
+Sat 16 Dec 2023 04:10:58 PM WAT: Identified ubuntu/debian
+Sat 16 Dec 2023 04:10:58 PM WAT: updating ubuntu/debian...
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Err:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Err:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+300 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Sat 16 Dec 2023 04:12:00 PM WAT: package lisst fetched
+Sat 16 Dec 2023 04:12:00 PM WAT: System upgrade finished
