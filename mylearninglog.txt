@@ -5,4 +5,5 @@ am beginning to figure aw this works
 third:
 am begining to understand bash scripting and c programming
 it's not really hard
-
+fourh:
+well i guess i have to be clean

@@ -6,8 +6,8 @@
 // main function 
 int main () {
 	int operation;
-	char flag;
-	continueflag = true;
+	char flag; // this is a flag for continuation
+	flag = true;
 	
 	while (flag == true ) {
 		//prompt to confirm what user wants to do then assign it to a variable 'operation!'
@@ -38,6 +38,7 @@ int main () {
 	scanf(" %c", &flag);
 	if (flag == 'q' || flag == 'Q') { 
 		flag = false;
+	} else { flag = true ;
 	}
 
 	}
