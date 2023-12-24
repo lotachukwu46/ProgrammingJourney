@@ -18,9 +18,12 @@ git_push() {
 	untrackedfiles=$(git ls-files --others --exclude-standard)
 
 	#check if they are untracked files
-	if [ -n "$untrackedfiles" ]; then
+	if [ -z "$untrackedfiles" ]; then
 		echo "Untracked files:"
 		echo "$untrackedfiles"
+	else
+		echo "No untracked files."
+		return
 	fi
 
 	#Ask for file to add
