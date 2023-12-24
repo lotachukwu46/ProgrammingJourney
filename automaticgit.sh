@@ -9,7 +9,7 @@ git_push() {
 
 	read -p "Do you want to pull changes before pushing?(y/n): " pull_choice
 	if [[ $pull_choice == ^[yY]$ ]]; then
-		git pull
+		git pull || { echo "Pulling changes failed."; exit 1; }
 	fi
 
 
@@ -35,7 +35,7 @@ git_push() {
 		git add "$file"
 	fi
 
-	read -p "Enter a commit message or enter to use default" message
+	read -p "Enter a commit message or enter to use default: " message
 
 	git commit -m "${message:-'Updated'}"
 
@@ -52,12 +52,9 @@ git_status() {
 
 git_pull() {
 
-	#promt to confirm if user want to pull from the remote repository
-	read -p "Are you shure you want to pull changes from your remote repository? (y/n): " choice
-	if [[ $choice == ^[yY]$ ]]; then
-	       #perform git pull	
+	read -p "Press ener to continue..."
 		git pull
-	else
+	if [[ $? -gt 0 ]]; then
 		echo "Pulling changes not performed."
 	fi
 }
@@ -67,9 +64,9 @@ git_log() {
 	git log
 }
 
-git_clone2() {
+git_clone() {
 	# Prompt for the repository URL
-	read -p "Enter the repository URL: " url
+	read -p "Enter the repository HTTPS URL: " url
 
 	# Prompt for destination directory
 	read -p "Enter the directory you which to clone $url to: " dest_dir
@@ -107,10 +104,16 @@ git_config() {
 
 git_reset() {
 	#prompt the user for the type of reset
-	read -p "choose the type of reset (sort/mixed/hard): " reset
-	read -p "Enter the commit to reset to: " commit
+	read -p "choose the type of reset (soft/mixed/hard): " reset
 
-	#perform the choosen reset
+	# Check if there are any commits before attempting to reset
+    if [ -z "$(git log -1)" ]; then
+        echo "Cannot perform a reset in an empty repository."
+        return
+    fi
+	read -p "Enter the commit to reset to (e.g.., HEAD): " commit
+
+	# Perform the choosen reset
 	git reset --$reset $commit
 }
 
@@ -118,8 +121,18 @@ git_tag() {
     # Prompt the user to enter a tag name
     read -p "Enter a tag name: " tag_name
 
+    # Check if there are any commits before attempting to tag
+    if [ -z "$(git log -1)" ]; then
+        echo "Cannot create a tag in an empty repository."
+        return
+    fi
+
+    #prompt for commit reference 
+    read -p "Enter the commit refrence for the tag (e.g., HEAD): " ref
+
     # Create a lightweight tag
-    git tag $tag_name
+    git tag -a $tag_name $ref -m "Tag: $tag_name"
+    git tag
 }
 
 git_branch() {
@@ -164,6 +177,7 @@ while true; do
 		1) git_push ;;
 		2) git_pull ;;
 		3) git_status ;;
+		4) git_clone ;;
 		5) git_log ;;
 		6) git_diff ;;
 		7) git_branch ;;
