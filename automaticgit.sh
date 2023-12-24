@@ -21,9 +21,6 @@ git_push() {
 	if [ -n "$untrackedfiles" ]; then
 		echo "Untracked files:"
 		echo "$untrackedfiles"
-	else
-		echo "There are no untracked files."
-		exit 1
 	fi
 
 	#Ask for file to add
