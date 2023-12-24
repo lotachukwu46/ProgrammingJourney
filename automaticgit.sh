@@ -9,21 +9,21 @@ git_push() {
 
 	read -p "Do you want to pull changes before pushing?(y/n): " pull_choice
 	if [[ $pull_choice == ^[yY]$ ]]; then
-		git pull || { echo "Pulling changes failed."; exit 1; }
+		git pull || { echo "Pulling changes failed."; return 1; }
 	fi
 
 
 
 	#list untracked files and modified files
-	untrackedfiles=$(git ls-files --others --exclude-standard)
+	untrackedfiles=$(git status -s | awk '$1 == "?" || $1 == "M" { print $2 }')
+
 
 	#check if they are untracked files
 	if [ -z "$untrackedfiles" ]; then
-		echo "Untracked files:"
-		echo "$untrackedfiles"
+		echo "NO untracked files or modified files."
 	else
-		echo "No untracked files."
-		return
+		echo "untracked files/modifiedfiles:"
+		echo "$untrackedfiles"
 	fi
 
 	#Ask for file to add
