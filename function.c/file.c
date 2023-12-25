@@ -10,7 +10,12 @@ void addition() {
 
 	//prompt for input of numbers to me stored in the variables
 	printf("Please enter the number you want to add: \n");
-        scanf("%f %f" , &num , &num2);
+        if (scanf("%f %f" , &num , &num2) != 2 ) {
+		printf("Syntax Error please enter a valid number.\n");
+		while (getchar() != '\n');
+		return;
+
+	}
 
 	//adding the values and displaying results
 	float sum = num + num2;

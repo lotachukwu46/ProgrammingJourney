@@ -6,8 +6,13 @@ void oddchecker() {
 	int num;
 
 	// Prompt collecting input
-	printf("enter a nuber: \n");
-	scanf(" %d" , &num);
+	printf("enter a number: \n");
+	if (scanf(" %d" , &num) != 1 ) {
+		printf("Syntax ERROR please enter a valid input.\n");
+		while (getchar() != '\n');
+
+		return;
+	}
 
 	// Check if the number is even or odd
 	if (num % 2 == 0) {

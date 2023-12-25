@@ -9,37 +9,75 @@ int main () {
 	char flag; // this is a flag for continuation
 	flag = true;
 	
-	while (flag == true ) {
+	while (flag) {
+
+		//while (getchar() != '\n');
+
 		//prompt to confirm what user wants to do then assign it to a variable 'operation!'
-		printf("Enter an operation to be performed:\n");
-		printf("1 for addition (+)\n");
-		printf("2 for sutraction(-)\n");
-		printf("3 to check if a number is even or odd: ");
-		scanf("%d",  &operation);
+		printf("MENU:\n");
+		printf("1. for addition (+)\n");
+		printf("2. for sutraction(-)\n");
+		printf("3. to check if a number is even or odd\n");
+		printf("4. To exit\n");
+
+		//while (getchar() != '\n');
+
+
+		if (scanf("%d",  &operation) != 1) {
+
+			while (getchar() != '\n');
+
+
+			printf("Invalid operation, pls select from nomber 1 - 4\n");
+			continue;
+
+		}
+
+		bool stay_in_operation = true;
+
 		
 		//check for value of input if not valid the display "please enter a valid operation!" and reprint option for input
 		switch (operation) {
 			case 1 :
-				addition();
+				while (stay_in_operation) {
+					addition();
+					printf("Do u want to stay in this operation.(y/n)\n");
+					scanf(" %c" , &flag);
+					if (flag != 'Y' && flag != 'y') {
+						stay_in_operation = false;
+					}
+				}
 				break;
 			case 2 :
+				while (stay_in_operation) {
 					subtraction();
-					break;
+					printf("Do u want to stay in this operation.(y/n)\n");
+                                        scanf(" %c" , &flag);
+                                        if (flag != 'Y' && flag != 'y') {
+                                                stay_in_operation = false;
+                                        }
+
+				}
+				break;
 			case 3 :
-					oddchecker();
+					while (stay_in_operation) {
+						oddchecker();
+						printf("Do u want to stay in this operation.(y/n)\n");
+						scanf(" %c" , &flag);
+						if (flag != 'Y' || flag != 'y') {
+							stay_in_operation = false;
+						}
+					}
+					break;
+			case 4 :
+					printf("Goodbye!!\n");
+					flag = false;
 					break;
 			default :
 					printf("Please enter a valid operation!\n");
 					continue;
 
-			}
-	// ASk permision for continuation
-	printf("Do you want to continue?(Enter 'q'or 'Q' to exit, any othe key to continue): \n");
-	scanf(" %c", &flag);
-	if (flag == 'q' || flag == 'Q') { 
-		flag = false;
-	} else { flag = true ;
-	}
+		}
 
 	}
 

@@ -10,7 +10,13 @@ void subtraction() {
 
 	// Prompt to get user's input on numbers to be subtracted
 	printf("Enter the number u want to substract: \n");
-	scanf("%f %f" , &num , &num2);
+	if (scanf("%f %f" , &num , &num2) != 2 ) {
+		printf("Syntax ERROR!! please enter a valid input.\n");
+		while (getchar() != '\n');
+		return;
+
+
+	}
 
 	// Subtacting the values and printing the values of the result
 	float difference = num - num2;
