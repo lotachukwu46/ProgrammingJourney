@@ -11,16 +11,12 @@ int main () {
 	
 	while (flag) {
 
-		//while (getchar() != '\n');
-
 		//prompt to confirm what user wants to do then assign it to a variable 'operation!'
 		printf("MENU:\n");
 		printf("1. for addition (+)\n");
 		printf("2. for sutraction(-)\n");
 		printf("3. to check if a number is even or odd\n");
 		printf("4. To exit\n");
-
-		//while (getchar() != '\n');
 
 
 		if (scanf("%d",  &operation) != 1) {

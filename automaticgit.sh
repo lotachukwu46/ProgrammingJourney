@@ -52,6 +52,8 @@ git_status() {
 
 git_pull() {
 
+	echo "DO u want to pull changes from your remote repository"
+
 	read -p "Press ener to continue..."
 		git pull
 	if [[ $? -gt 0 ]]; then
@@ -60,6 +62,8 @@ git_pull() {
 }
 
 git_log() {
+
+	echo "THis are your commit logs"
 	# Display commit log
 	git log
 }
@@ -77,6 +81,7 @@ git_clone() {
 }
 
 git_diff() {
+	echo "This is the difference between your local machine and your remote repository"
 	#show difference between working directory and last commit
 	git diff
 }
@@ -103,13 +108,15 @@ git_config() {
 }
 
 git_reset() {
-	#prompt the user for the type of reset
-	read -p "choose the type of reset (soft/mixed/hard): " reset
 
 	# Check if there are any commits before attempting to reset
     if [ -z "$(git log -1)" ]; then
         echo "Cannot perform a reset in an empty repository."
         return
+
+	#prompt the user for the type of reset
+        read -p "choose the type of reset (soft/mixed/hard): " reset
+
     fi
 	read -p "Enter the commit to reset to (e.g.., HEAD): " commit
 
@@ -118,13 +125,16 @@ git_reset() {
 }
 
 git_tag() {
-    # Prompt the user to enter a tag name
-    read -p "Enter a tag name: " tag_name
 
     # Check if there are any commits before attempting to tag
     if [ -z "$(git log -1)" ]; then
         echo "Cannot create a tag in an empty repository."
         return
+
+	# Prompt the user to enter a tag name
+    read -p "Enter a tag name: " tag_name
+
+
     fi
 
     #prompt for commit reference 

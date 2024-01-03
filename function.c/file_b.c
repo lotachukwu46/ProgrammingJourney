@@ -1,27 +1,29 @@
-//headers
+/* Headers */
 #include <stdio.h>
 #include "header.h"
 
-// Subtraction function
-void subtraction() {
+/* Function to perform subtraction for two numbers */
+void subtraction(void)
+{
 
-	// Variables to store the numbers to be subtracted
+	/* Variables to store the numbers to be subtracted */
 	float num, num2;
 
-	// Prompt to get user's input on numbers to be subtracted
+	/* Prompt to get user's input on numbers to be subtracted */
 	printf("Enter the number u want to substract: \n");
-	if (scanf("%f %f" , &num , &num2) != 2 ) {
+	if (scanf("%f %f", &num, &num2) != 2)
+       	{
 		printf("Syntax ERROR!! please enter a valid input.\n");
+
 		while (getchar() != '\n');
+
 		return;
-
-
 	}
 
-	// Subtacting the values and printing the values of the result
+	/* Subtacting the values and printing the values of the result */
 	float difference = num - num2;
-	printf("the difference between %.2f and %.2f = %.2f \n", num , num2 , difference);
 
+	printf("%.2f - %.2f = %.2f \n", num, num2, difference);
 }
 
-//I also choose to use float in case of input being a float
+/*I also choose to use float in case of input being a float */
