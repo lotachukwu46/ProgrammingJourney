@@ -15,6 +15,7 @@ debian_based() {
 
 
 	# Referesh package list
+	echo "Refreshing package list"
 	sudo apt upgrade -y >> update.log
 
 	# While loop to enable reprompt of options unless choses to exit
@@ -25,7 +26,7 @@ debian_based() {
 		echo "2.Full upgrade (may change configurations)."
 		echo "3.Upgrade specific packages."
 		echo "4.Upgrade to latest version of your distribution."
-		echo "5.Install now packages."
+		echo "5.Install  packages."
 		echo "6.Remove packages."
 		echo "7.Purge packages (Remove complete)."
 		echo "8.View available updates."
@@ -58,7 +59,7 @@ debian_based() {
 				read -p "Enter package name(s) to upgrade (seperated by space): " packages
 				echo "Upgrading $packages"
 				log "Upgrading $packages"
-				sudo apt upgrade $packages >> update.log
+				sudo apt upgrade $packages -y >> update.log
 				echo "$packages upgraded!"
 				log "$packages upgraded"
 				;;
@@ -87,61 +88,87 @@ debian_based() {
 					fi
 					echo "Beginning roll back"
 					log "Beginning rollback"
-					sudo do-release-upgrade --rollback >> update.log
+					sudo do-release-upgrade --rollback -y  >> update.log
 					log "Revert complete"
 				else
 					echo "Beginning upgrade to $new_version"
 					log "Beginning upgrade to $new_version"
 					
-					sudo do-release-upgrade -d $new_version >> update.log
+					sudo do-release-upgrade -d $new_version -y >> update.log
 					echo "Completing upgrade to $new_version"
 					log "Upgrade complete"
 				fi
 				;;
-		5)
-			read -p "Enter package name(s) to install (saperated by space): " packages
-			sudo apt install $packages
-			echo "$packages installed"
-			;;
-		6)
-			read -p "Enter package name(s) to remove (separated by spaces): " packages
-			sudo apt remove $packages
-			echo "$packages removed!"
-			;;
-		7)
-			read -p "Enter package name(s) to purge (separated by spaces): " packages
-			sudo apt purge $packages
-			echo "Packages purged!"
-			;;
-		8)
-			sudo apt list --upgradeable
-			;;
-		9)
-			read -p "Enter package name to view information: " package
-			apt show $package
-			;;
-		10)
-			sudo apt update && apt list --upgradable
-			;;
-		11)
-			log "Exiting debian function"
-			echo "Good bye have a nice day"
-			return 0 # Success
-			;;
-		*)
-			echo "Invalid choice."
-			;;
-	esac
-
-	read -p "Press enter to continue or q to quit" option
-	if [[ "$option" == "Q" || "$option" == "q" ]]; then
-		log "Existing debian function"
-		return 0
-	fi
-done
+			
+			5)
+				read -p "Enter package name(s) to install (saperated by space): " packages
+				echo "Beginning to update $packages
+				log "beginning to update $packages
+				sudo apt install $packages -y >> update.log
+				log "$Packages installed"
+				echo "$packages installed"
+				;;
+			
+			6)
+				
+				read -p "Enter package name(s) to remove (separated by spaces): " packages
+				echo "Are you sure you want to remove $package"
+				read -p "Press 1 continue or any other key to go back" choice
+				if [[ $choice == 1 ]]; then
+					echo "Beginning to remove $packages"
+					log "Beginning to remove $packages"
+					sudo apt remove $packages -y >> update.log
+					echo "$packages removed!"
+					log "$packages removed"
+				fi
+				;;
+			
+			7)
+				
+				read -p "Enter package name(s) to purge (separated by spaces): " packages
+				echo "Are you sure you want to comppletely remove $package"
+				read -p "Press 1 continue or any other key to go back" choice
+				if [[ $choice == 1 ]]; then
+					echo "Beginning to remove $packages"
+					log "Beginning to remove $packages"
+					sudo apt purge $packages -y >> update.log
+					echo "$Packages completely removed!"
+					log "$packages completely removed!"
+				fi
+				;;
+			8)
+				echo "Available updates:"
+				sudo apt list --upgradeable
+				;;
+			9)
+				read -p "Enter package name to view information: " package
+				echo "$package information:"
+				apt show $package
+				;;
+			10)
+				sudo apt update && apt list --upgradable
+				;;
+			11)
+				log "Exiting debian function"
+				echo "Good bye have a nice day"
+				return 0 # Success
+				;;
+			*)
+				echo "Invalid choice."
+				;;
+		esac
+		
+		read -p "Press enter to continue or q to quit" option
+		if [[ "$option" == "Q" || "$option" == "q" ]]; then
+			log "Existing debian function"
+			return 0
+		fi
+	done
 
 }
 
+# Function for arch linux 
+# The logic is similar to that of debian_based
 arch() {
 
 	# Capture commands for error traping
@@ -160,20 +187,21 @@ arch() {
 
 		read -p "Enter your choice (1-7): " choice
 		case $choice in
-            1)
-                sudo pacman -Syu
-                log "Full upgrade complete"
-                ;;
-            2)
-                read -r -p "Enter package names to upgrade (separated by spaces): " packages
-                sudo pacman -Su $packages
-                log "$packages upgraded"
-                ;;
-            3)
-                read -r -p "Enter package names to install (separated by spaces): " packages
-                sudo pacman -S $packages
-                log "$packages installed"
-                ;;
+			
+			1)
+				sudo pacman -Syu
+				log "Full upgrade complete"
+				;;
+			2)
+				read -r -p "Enter package names to upgrade (separated by spaces): " packages
+				sudo pacman -Su $packages
+				log "$packages upgraded"
+				;;
+			3)
+				read -r -p "Enter package names to install (separated by spaces): " packages
+				sudo pacman -S $packages
+				log "$packages installed"
+				;;
             4)
                 read -r -p "Enter package names to remove (separated by spaces): " packages
                 sudo pacman -R $packages
@@ -202,6 +230,8 @@ arch() {
     done
 }
 
+# Function for rpm_based system
+# Same logic as debian_based
 rpm_based() {
 
 	# Capture commands for error traping
@@ -261,4 +291,4 @@ rpm_based() {
             return 0
         fi
     done
-}
+}	
