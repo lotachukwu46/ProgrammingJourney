@@ -2,40 +2,11 @@
 
 source log.sh
 
-# Function to handle errors
-error_handler() {
-
-	local error_message="$1"
-	local error_line="${3:-$(caller)}" # Get line number or use caller if unavailable
-
-	echo "An error occurred within ditribution_detect:"
-	echo "Error message: $error_message"
-	log "Error details: $error_message on line $error_line"
-
-	# Check if the error is due to unsupported distribution
-	if [[ "$error_message" = "unsupported distribution" ]]; then
-		echo "Please try with a supported distribution"
-		echo "supported distributions:"
-		echo "Ubuntu"
-		echo "Kali"
-		echo "Debian"
-		echo "Linuxmint"
-		echo "Arch linux"
-		echo "Fedora"
-		echo "centos"
-		echo "Redhat"
-		exit 2 # exit code for unsupported os
-	else
-		echo "Existing script..."
-		return 1 # Generic error exit code
-	fi
-
-}
-
 # Function to detect distribution
 distribution_detect() {
 	# Store the detected variable name
 	local distirbution
+	update_host=""
 
 	# Capture commands for error traping
 	trap 'error_handler "$BASH_COMMAND" ' ERR
@@ -75,16 +46,19 @@ distribution_detect() {
 	# Validate and normalize the distribution name
 	case "${distribution,,}" in # Convert to lower case for matching
 		ubuntu|debian|kali|linuxmint) # Debian based distribution
+			update_host=$(grep '^deb ' /etc/apt/sources.list | head -n1 | cut -d' ' -f2)
 			echo "Idetified as: $distribution"
 			log "detected distribution: $distribution"
 			return 0 # Indicates success
 			;;
 		arch)
 			return 0 # Indicates success
+			update_host=$(grep '^Server = ' /etc/pacman.conf | cut -d'=' -f2-)
 			echo "Iddentified as $distribution"
 			log "Identified as $distribution"
 			;;
 		fedora|centos|redhat) # RPM-based distributions
+			update_host=$(grep -m1 '^baseurl = ' /etc/yum.repos.d/*.repo | cut -d'=' -f2)
 			echo "Identified as: $distribution"
 			log "Idetifiedas as: $distribution"
 			return 0 # Indicates succes
