@@ -1,10 +1,23 @@
 #!/bin/bash
 
+# Distribution detection functions
+# Author: Lotachukwu Odiegwu
+# Version: 1.0
+# Usage: Source in other scripts.
+# Dependencies: log.sh
+# Supported Distributions: Ubuntu, Debian, Kali, Linux Mint, Arch, Fedora, CentOS, Red Hat
+
+
+
+# This script is used to detect the distribution of linux through different methods
+# It uses this information to know which update to perfrom and also know the update server
+
+# Source the log.sh file for effective logging and error trapping
 source log.sh
 
 # Function to detect distribution
 distribution_detect() {
-	# Store the detected variable name
+	# Store the detected distribution variable name and the update_host
 	local distirbution
 	update_host=""
 
@@ -13,7 +26,7 @@ distribution_detect() {
 
 
 	# Attemp to detect os with different methods
-	if distribution=$(lsb_release -is 2> /dev/null); then
+	if distribution=$(lsb_release -is 2> /dev/null); then # Not too conversant with these commands for ditribution check got them from AI 
 		: # Then do northing if lsb_release succeeds
 
 	elif distribution=$(cat /etc/os-release | grep -E "^ID=" | cut -d '=' -f2 | tr -d '"'); then
@@ -46,19 +59,19 @@ distribution_detect() {
 	# Validate and normalize the distribution name
 	case "${distribution,,}" in # Convert to lower case for matching
 		ubuntu|debian|kali|linuxmint) # Debian based distribution
-			update_host=$(grep '^deb ' /etc/apt/sources.list | head -n1 | cut -d' ' -f2)
+			# update_host=$(grep '^deb ' /etc/apt/sources.list | head -n1 | cut -d' ' -f2) # update host for debian based systems
 			echo "Idetified as: $distribution"
 			log "detected distribution: $distribution"
 			return 0 # Indicates success
 			;;
 		arch)
 			return 0 # Indicates success
-			update_host=$(grep '^Server = ' /etc/pacman.conf | cut -d'=' -f2-)
+			# update_host=$(grep '^Server = ' /etc/pacman.conf | cut -d'=' -f2-) # Update host for arch linux systems
 			echo "Iddentified as $distribution"
 			log "Identified as $distribution"
 			;;
 		fedora|centos|redhat) # RPM-based distributions
-			update_host=$(grep -m1 '^baseurl = ' /etc/yum.repos.d/*.repo | cut -d'=' -f2)
+			# update_host=$(grep -m1 '^baseurl = ' /etc/yum.repos.d/*.repo | cut -d'=' -f2) # Update server for RPM based
 			echo "Identified as: $distribution"
 			log "Idetifiedas as: $distribution"
 			return 0 # Indicates succes
@@ -70,3 +83,4 @@ distribution_detect() {
 			;;
 	esac
 }
+# Designed by lotachukwu
