@@ -12,11 +12,11 @@ void subtraction(void)
 	/* Prompt to get user's input on numbers to be subtracted */
 	printf("Enter the number u want to substract: \n");
 	if (scanf("%f %f", &num, &num2) != 2)
-       	{
+	{
 		printf("Syntax ERROR!! please enter a valid input.\n");
 
-		while (getchar() != '\n');
-
+		while
+			(getchar() != '\n');
 		return;
 	}
 

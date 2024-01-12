@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+	char num = 'z';
+
+	while (num >= 'a')
+	{
+		putchar(num);
+		putchar('\n');
+		num--;
+	}
+	putchar('\n');
+
+	return 0;
+}

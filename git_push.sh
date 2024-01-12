@@ -7,7 +7,8 @@ cd "$(dirname "$0")" || exit
 git status -s
 
 # Ask the user for the file to add
-read -p "Enter the file you want to add (or press Enter to add all): " file_to_add
+echo "Enter the file you want to add"
+read -p "(or press Enter to add all): " file_to_add
 
 # Add the chosen file or all files
 if [ -z "$file_to_add" ]; then
@@ -24,4 +25,3 @@ git commit -m "${commit_message:-'Automated commit'}"
 
 # Push changes to the remote repository
 git push
-h

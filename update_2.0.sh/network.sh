@@ -7,14 +7,20 @@
 # Dependencies: distribution_detector.sh, log.sh
 
 
-# This file checks for network by connecting to google if success full connects to the update host to avoid network errors from the network server
+# This file checks for network by connecting to google
+# If success full connects to the update host
+# To avoid network errors from the network server
 
-# Source the logging file for consistent loging and the distribution_detector.sh file to get the update host value
+# Source the logging file for consistent loging
+# And the distribution_detector.sh file to get the update host value
+
 source log.sh
 source distribution_detector.sh
 
 # Function to check for network
-networkcheck() { 
+networkcheck()
+
+{
 
 	# Capture commands for error traping
         # trap 'error_handler "$BASH_COMMAND" ' ERR
@@ -37,32 +43,40 @@ networkcheck() {
 			return 0 # Success
 		#else
 			#log "Host server not available for update."
-			#echo "Host server not available for update"
-			#echo "Please try again later."
-			#return 1 # General network error
+			#cho "Host server not available for update"
+			#cho "Please try again later."
+			#eturn 1 # General network error
 		#fi
 	else
 		sleep 5 # Wait before retry
 	fi
 done
 		# Connectivity failed
-		no_network=true
-		while no_network=true; do # Flag in case of ivalid option to repromt option of retrying for network
+		# Flag in case of ivalid option to repromt option of retrying for network
+		no_nwtwork=0
+		while no_network=0; do
 		echo "Network connection not available"
 		echo "Please check your network connection"
 		echo "Press enter to retry or 1 to exit"
 		read -p	"choice : " choice
 		case $choice in
-			"") break ;; # If $choice is empty breaks out of the inner loop and retry for network
-			1) echo "Thanks and have a nice day!" # If 1 echo's a lovely message and exit
+			# If $choice is empty breaks out of the inner loop and retry for network
+			"") break ;;
+			# If 1 echo's a lovely message and exit
+			1) echo "Thanks and have a nice day!"
 				log "Network not available"
-				exit 1;; # Network error
-			*) echo "Invalid option" # I option is invalid reprompt to try again by not breaking out of the inner loop
+				no_network=-1;; # Network error
+			       	# If option is invalid
+				# Reprompt to try again by not breaking out of the inner loop
+				*) echo "Invalid option"
 		esac
 	done
 done
 }
+# networkcheck
 
-# I commented out the network check to the host_server because of error messages displayed but if i resolve the i'll uncommet and likely modify those lines
+# I commented out the network check to the host_server
+# Because of error messages displayed but if i resolve the
+# I'll uncommet and likely modify those lines
 
 # Designed by lotachukwu

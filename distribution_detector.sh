@@ -61,25 +61,25 @@ distribution_detect() {
 		ubuntu|debian|kali|linuxmint) # Debian based distribution
 			update_host=$(grep '^deb ' /etc/apt/sources.list | head -n1 | cut -d' ' -f2) # update host for debian based systems
 			echo "Idetified as: $distribution"
-			#log "detected distribution: $distribution"
+			log "detected distribution: $distribution"
 			return 0 # Indicates success
 			;;
 		arch)
 			return 0 # Indicates success
 			update_host=$(grep '^Server = ' /etc/pacman.conf | cut -d'=' -f2-) # Update host for arch linux systems
 			echo "Iddentified as $distribution"
-			#log "Identified as $distribution"
+			log "Identified as $distribution"
 			return 0
 			;;
 		fedora|centos|redhat) # RPM-based distributions
 			update_host=$(grep -m1 '^baseurl = ' /etc/yum.repos.d/*.repo | cut -d'=' -f2) # Update server for RPM based
 			echo "Identified as: $distribution"
-			#log "Idetifiedas as: $distribution"
+			log "Idetifiedas as: $distribution"
 			return 0 # Indicates succes
 			;;
 		*)
 			echo "Unsupported OS : $distribution"
-			#log "Unsupported Distribution Detected : $distribution"
+			log "Unsupported Distribution Detected : $distribution"
 			exit 2 # Unsupported distribution
 			;;
 	esac

@@ -1,6 +1,7 @@
 # Automated System Updater
 
 Author: Lotachukwu Odiegwu
+github: Lotachukwu46
 
 ## Overview
 

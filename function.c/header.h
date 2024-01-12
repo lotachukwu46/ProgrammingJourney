@@ -1,11 +1,16 @@
-//single header file for all the header files
+/* single header file for all the header files */
+
 #ifndef HEADER_h
 #define HEADER_H
 
-//functions
-void addition();
-void subtraction();
-void oddchecker();
+/* Functions */
 
-//end of functions
+void addition(void);
+
+void subtraction(void);
+
+void oddchecker(void);
+
+/* end of functions */
+
 #endif

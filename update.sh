@@ -39,8 +39,11 @@ ubuntu() {
 
 	#prompt for updates (fetching list, upgrades, full upgrade)
 
-	while true ; do 
-		read -p "choose update option (1: Fetch list only, 2: Upgrade packages, 3: Full upgrade (caution: may include disruptive changes)): " choice
+	while true ; do
+		echo "choose update option"
+		echo "1: Fetch list only"
+		echo "2: Upgrade packages"
+		read -p "3: Full upgrade (caution: may include disruptive changes)): " choice
 		case $choice in
 			1)
 				echo "fetching package lists.."
@@ -117,4 +120,4 @@ esac
 fi
 log "System upgrade finished"
 
-exit 0 
+exit 0

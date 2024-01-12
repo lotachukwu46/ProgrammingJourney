@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git_push() {
-
+git_push()
+{
 	#display current branch and status
 	current_branch=$(git rev-parse --abbrev-ref HEAD)
 	echo "current branch: $current_branch"
@@ -28,7 +28,8 @@ git_push() {
 
 	#Ask for file to add
 
-	read -p "Enter the file you want to commit(or press enter add all files): " file
+	echo "Enter the file you want to commit"
+	read -p "Or press enter add all files: " file
 	if [[ -z "$file" ]]; then
 		git add .
 	else
@@ -81,7 +82,8 @@ git_clone() {
 }
 
 git_diff() {
-	echo "This is the difference between your local machine and your remote repository"
+	echo "This is the difference between your local machine"
+	echo "and your remote repository"
 	#show difference between working directory and last commit
 	git diff
 }
@@ -137,7 +139,7 @@ git_tag() {
 
     fi
 
-    #prompt for commit reference 
+	#prompt for commit reference
     read -p "Enter the commit refrence for the tag (e.g., HEAD): " ref
 
     # Create a lightweight tag
