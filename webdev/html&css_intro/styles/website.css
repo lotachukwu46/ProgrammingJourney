@@ -1,0 +1,58 @@
+.nike {
+
+	font-weight: bold;
+	font-size: 30px;
+	transition: color 0.15s;
+}
+
+.link {
+	color: rgb(0, 113, 113);
+}
+
+.link:hover {
+	color: rgb(200, 0, 0);
+}
+
+.price {
+	color: rgb(0, 188, 0);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.add {
+	background-color : rgb(255, 216, 20);
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: rgb(0, 0, 0);
+	border-radius: 30px;
+	transition: opacity 0.15s, background-color 0.15s;
+}
+
+.add:hover {
+	background-color: rgb(255, 226, 20);
+}
+.add:active {
+	opacity: 0.5;
+}
+
+.buy {
+	background-color: rgb(255, 165, 28);
+	border: none;
+	padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+	transition: opacity 0.15s, background-color 0.15s;
+}
+.buy:active {
+	opacity: 0.5;
+}
+.buy:hover {
+	background-color: rgb(225, 175, 38);
+}
+

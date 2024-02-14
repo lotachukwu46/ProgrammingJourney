@@ -16,17 +16,15 @@ source log.sh
 
 # Function for updating debian systems
 debian_based() {
+	trap 'error_handler "$BASH_COMMAND" ' ERR
 
 	# Capture commands for error traping
-        trap 'error_handler "$BASH_COMMAND" ' ERR
-
 	id="0"
-
-
-
+	
 	# Referesh package list
 	echo "Refreshing package list"
-#	 sudo apt update -y >> update.log
+	sudo apt update -y >> update.log
+
 
 	# While loop to enable reprompt of options unless choses to exit
 	while [[ $id -ne 1 ]]; do
@@ -53,17 +51,19 @@ debian_based() {
 			1)
 				echo "Beginning upgrade"
 				log "Beginning upgrade"
-				sudo apt upgrade -y >> update.log # Push the result to the log file
+				sudo apt upgrade -y >> update.log 2>> error.log # Push the result to the log file
 				echo "Upgrade complete"
 				log "upgrade complete"
+				read -p "Press enter to continue..."
 				;;
 
 			2)
 				echo "Beginning full upgrade"
 				log "Beginning full upgrade"
-				sudo apt full-upgrade -y >> update.log
+				sudo apt full-upgrade -y >> update.log 2>> error.log
 				echo "Full upgrade complete"
 				log "Full upgrade complete"
+				read -p "Press enter to continue..."
 				;;
 
 			3)
@@ -71,15 +71,16 @@ debian_based() {
 				read -p "You wish to upgrade (seperated by space): " packages
 				echo "Upgrading $packages"
 				log "Upgrading $packages"
-				sudo apt upgrade $packages -y >> update.log
+				sudo apt upgrade $packages -y >> update.log 2>> error.log
 				echo "$packages upgraded!"
 				log "$packages upgraded"
+				read -p "Press enter to continue..."
 				;;
 
 			4)
 				echo "Please advice to backup file before you continue"
 				echo "Do you want to continue"
-				read -p "press any key or 1 to exit and backup files" choice
+				read -p "press any key continue or 1 to exit and backup files: " choice
 				if [[ $choice == 1 ]]; then
 					exit 1
 				fi
@@ -101,26 +102,28 @@ debian_based() {
 					fi
 					echo "Beginning roll back"
 					log "Beginning rollback"
-					sudo do-release-upgrade --rollback -y  >> update.log
+					sudo do-release-upgrade --rollback -y  >> update.log 2>> error.log
 					log "Revert complete"
 				else
 					echo "Beginning upgrade to $new_version"
 					log "Beginning upgrade to $new_version"
 
-					sudo do-release-upgrade -d $new_version -y >> update.log
+					sudo do-release-upgrade -d $new_version -y >> update.log 2>> error.log
 					echo "Completing upgrade to $new_version"
 					log "Upgrade complete"
 				fi
+				read -p "Press enter to continue..."
 				;;
 
 			5)
 				echo "Enter package name(s)"
 				read -p "You wish to install (saperated by space): " packages
-				echo "Beginning to update $packages
-				log "beginning to update $packages
-				sudo apt install $packages -y >> update.log
+				echo "Beginning to install  $packages"
+				log "beginning to install $packages"
+				sudo apt install $packages -y >> update.log 2>> error.log
 				log "$Packages installed"
 				echo "$packages installed"
+				read -p "Press enter to continue..."
 				;;
 
 			6)
@@ -128,14 +131,15 @@ debian_based() {
 				echo "Enter package name(s)"
 				read -p "You wish to remove (separated by spaces): " packages
 				echo "Are you sure you want to remove $package"
-				read -p "Press 1 continue or any other key to go back" choice
+				read -p "Press 1 continue or any other key to go back: " choice
 				if [[ $choice == 1 ]]; then
 					echo "Beginning to remove $packages"
 					log "Beginning to remove $packages"
-					sudo apt remove $packages -y >> update.log
+					sudo apt remove $packages -y >> update.log 2>> error.log
 					echo "$packages removed!"
 					log "$packages removed"
 				fi
+				read -p "Press enter to continue..."
 				;;
 
 			7)
@@ -143,38 +147,42 @@ debian_based() {
 				echo "Enter package name(s)"
 				read -p " You wish to purge (separated by spaces): " packages
 				echo "Are you sure you want to comppletely remove $package"
-				read -p "Press 1 continue or any other key to go back" choice
+				read -p "Press 1 continue or any other key to go back: " choice
 				if [[ $choice == 1 ]]; then
 					echo "Beginning to remove $packages"
 					log "Beginning to remove $packages"
-					sudo apt purge $packages -y >> update.log
+					sudo apt purge $packages -y >> update.log 2>> errer.log
 					echo "$Packages completely removed!"
 					log "$packages completely removed!"
+					read -p "Press enter to continue..."
 				fi
 				;;
 			8)
 				echo "Available updates:"
 				sudo apt list --upgradeable
+				read -p "Press enter to continue..."
 				;;
 			9)
 				read -p "Enter package name to view information: " package
 				echo "$package information:"
 				apt show $package
+				read -p "Press enter to continue..."
 				;;
 			10)
 				sudo apt update && apt list --upgradable
+				read -p "Press enter to continue..."
 				;;
 			11)
 				log "Exiting debian function"
 				echo "Good bye have a nice day"
-				id=1  # Success
+				id=1 
 				;;
 			*)
 				echo "Invalid choice."
 				;;
 		esac
 	done
-
+	exit 0
 }
 
 # Function for updating RPM-based systems
@@ -218,14 +226,16 @@ rpm_based() {
                 sudo dnf upgrade -y >> update.log
                 echo "Upgrade complete"
                 log "upgrade complete"
+		read -p "Press enter to continue..."
                 ;;
 
             2)
                 echo "Beginning full upgrade"
                 log "Beginning full upgrade"
-                sudo dnf upgrade --best --allowerasing -y >> update.log
+                sudo dnf upgrade --best --allowerasing -y >> update.log 2>> error.log
                 echo "Full upgrade complete"
                 log "Full upgrade complete"
+		read -p "Press enter to continue..."
                 ;;
 
             3)
@@ -233,9 +243,10 @@ rpm_based() {
 		read -p "You wish to upgrade (separated by space): " packages
                 echo "Upgrading $packages"
                 log "Upgrading $packages"
-                sudo dnf upgrade $packages -y >> update.log
+                sudo dnf upgrade $packages -y >> update.log 2>> error.log
                 echo "$packages upgraded!"
                 log "$packages upgraded"
+		read -p "Press enter to continue..."
                 ;;
 
             4)
@@ -243,9 +254,10 @@ rpm_based() {
 		read -p "You wish to install (separated by space): " packages
                 echo "Beginning to install $packages"
                 log "Beginning to install $packages"
-                sudo dnf install $packages -y >> update.log
+                sudo dnf install $packages -y >> update.log 2>> error.log
                 log "$packages installed"
                 echo "$packages installed"
+		read -p "Press enter to continue..."
                 ;;
 
             5)
@@ -253,13 +265,14 @@ rpm_based() {
 		read -p "You to remove (separated by spaces): " packages
                 echo "Are you sure you want to remove $packages"
                 echo "Press 1 to continue"
-		read -p "Or any other key to go back" choice
+		read -p "Or any other key to go back: " choice
                 if [[ $choice == 1 ]]; then
                     echo "Beginning to remove $packages"
                     log "Beginning to remove $packages"
-                    sudo dnf remove $packages -y >> update.log
+                    sudo dnf remove $packages -y >> update.log 2>> error.log
                     echo "$packages removed!"
                     log "$packages removed"
+		    read -p "Press enter to continue..."
                 fi
                 ;;
 
@@ -268,29 +281,34 @@ rpm_based() {
 		read -p "you wish to purge (separated by spaces): " packages
                 echo "Are you sure you want to completely remove $packages"
                 echo "Press 1 to continue"
-		read -p "Or any other key to go back" choice
+		read -p "Or any other key to go back: " choice
                 if [[ $choice == 1 ]]; then
                     echo "Beginning to remove $packages"
                     log "Beginning to remove $packages"
-                    sudo dnf remove $packages --allowerasing -y >> update.log
+                    sudo dnf remove $packages --allowerasing -y >> update.log 2>> error.log
                     echo "$packages completely removed!"
                     log "$packages completely removed!"
+
                 fi
+		read -p "Press enter to continue..."
                 ;;
 
             7)
                 echo "Available updates:"
                 sudo dnf list --upgrades
+		read -p "Press enter to continue..."
                 ;;
 
             8)
                 read -p "Enter package name to view information: " package
                 echo "$package information:"
                 dnf info $package
+		read -p "Press enter to continue..."
                 ;;
 
             9)
                 sudo dnf check-update
+		read -p "Press enter to continue..."
                 ;;
 
             10)
@@ -316,7 +334,7 @@ arch_linux() {
 
     # Refresh package list
     echo "Refreshing package list"
-    sudo pacman -Syu --noconfirm >> update.log
+    sudo pacman -Syu --noconfirm >> update.log 2>> error.log
 
     # While loop to enable reprompt of options unless chooses to exit
     while [[ $id -ne 1 ]]; do
@@ -341,9 +359,10 @@ arch_linux() {
             1)
                 echo "Beginning upgrade"
                 log "Beginning upgrade"
-                sudo pacman -Syu --noconfirm >> update.log
+                sudo pacman -Syu --noconfirm >> update.log 2>> error.log
                 echo "Upgrade complete"
                 log "upgrade complete"
+		read -p "Press enter to continue..."
                 ;;
 
             2)
@@ -351,9 +370,10 @@ arch_linux() {
 		read -p "You wish to upgrade (separated by space): " packages
                 echo "Upgrading $packages"
                 log "Upgrading $packages"
-                sudo pacman -S $packages --noconfirm >> update.log
+                sudo pacman -S $packages --noconfirm >> update.log 2>> error.log
                 echo "$packages upgraded!"
                 log "$packages upgraded"
+		read -p "Press enter to continue..."
                 ;;
 
             3)
@@ -361,9 +381,10 @@ arch_linux() {
 		read -p "You wish to install (separated by space): " packages
                 echo "Beginning to install $packages"
                 log "Beginning to install $packages"
-                sudo pacman -S $packages --noconfirm >> update.log
+                sudo pacman -S $packages --noconfirm >> update.log 2>> error.log
                 log "$packages installed"
                 echo "$packages installed"
+		read -p "Press enter to continue..."
                 ;;
 
             4)
@@ -371,25 +392,28 @@ arch_linux() {
 		read -p "You wish to remove (separated by spaces): " packages
                 echo "Are you sure you want to remove $packages"
                 echo "Press 1 to continue"
-		read -p "Or any other key to go back" choice
+		read -p "Or any other key to go back: " choice
                 if [[ $choice == 1 ]]; then
                     echo "Beginning to remove $packages"
                     log "Beginning to remove $packages"
-                    sudo pacman -Rns $packages --noconfirm >> update.log
+                    sudo pacman -Rns $packages --noconfirm >> update.log 2>> error.log
                     echo "$packages removed!"
                     log "$packages removed"
+		    read -p "Press enter to continue..."
                 fi
                 ;;
 
             5)
                 echo "Available updates:"
                 sudo pacman -Qu
+		read -p "Press enter to continue..."
                 ;;
 
             6)
                 read -p "Enter package name to view information: " package
                 echo "$package information:"
                 pacman -Qi $package
+		read -p "Press enter to continue..."
                 ;;
 
             7)
@@ -404,4 +428,6 @@ arch_linux() {
         esac
     done
 }
-debian_based
+
+#debian_based
+#Desgined by : Lotachukwu odiegwu

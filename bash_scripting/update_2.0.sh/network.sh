@@ -43,9 +43,9 @@ networkcheck()
 			return 0 # Success
 		#else
 			#log "Host server not available for update."
-			#cho "Host server not available for update"
-			#cho "Please try again later."
-			#eturn 1 # General network error
+			#echo "Host server not available for update"
+			#echo "Please try again later."
+			#return 1 # General network error
 		#fi
 	else
 		sleep 5 # Wait before retry
@@ -65,7 +65,7 @@ done
 			# If 1 echo's a lovely message and exit
 			1) echo "Thanks and have a nice day!"
 				log "Network not available"
-				no_network=-1;; # Network error
+				exit 3;; # Network error
 			       	# If option is invalid
 				# Reprompt to try again by not breaking out of the inner loop
 				*) echo "Invalid option"
@@ -73,7 +73,7 @@ done
 	done
 done
 }
-# networkcheck
+#networkcheck
 
 # I commented out the network check to the host_server
 # Because of error messages displayed but if i resolve the

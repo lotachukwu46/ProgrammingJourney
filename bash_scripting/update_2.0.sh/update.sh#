@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Source external features
+source distribution_detector.sh
+source log.sh
+#source network.sh
+source update_packages.sh
+
+#networkcheck
+distribution_detect
+
+if [[ $EUID -ne 0 ]]; then
+    echo "This script must be run with sudo or as root."
+    read -p "Press Enter to run with sudo or Q to quit." choice
+    if [[ "$choice" =~ ^[Qq]$ ]]; then
+        echo "Exiting script"
+        exit 1
+    elif [[ -z "$choice" ]]; then
+        echo "Running script with sudo"
+        sudo bash "$0" "$@"
+    else
+        echo "Invalid command"
+        exit 1
+    fi
+fi
+
+#local id="0"
+#for i in {1..2}; do
+#	if [[ $i -eq 2 ]]; then
+#		break
+#	else
+#while [[ $id -ne 11 ]]; do
+case "${distribution,,}" in
+	ubuntu|debian|kali|linuxmint)
+		debian_based ;;
+	arch)
+		arch_linux ;;
+	fedora|centos|redhat)
+		rpm_based ;;
+	*)
+		echo "Unsupported distribution: $distribution"
+		log "Unsupported Distribution Detected: $distribution"
+		exit 2 # Unsupported distribution ;;
+esac
+			#read -p "Press enter to continue or type 'exit' to quit: " user_input
+			#if [[ "$user_input" == "exit" ]]; then
+			#	id=11  # Exit the loop
+			#fi
+
+			#id=1
+		#fi
+	#done
+
