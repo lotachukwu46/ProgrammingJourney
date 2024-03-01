@@ -3,257 +3,436 @@
 	<head> 
 		<title> Youtube.com Clone </title>
 
-		<link rel="preconnect" href="https://fonts.googleleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleleapis.com/css2? family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-<style>
-
-p{
-	font-family: Roboto, Arial;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.cover,
-.cover2{
-	width: 100%;
-	height: 150px;
-	object-fit: cover;
-}
-
-.cover2{
-	object-position: top;
-}
-
-
-.dp{
-	width: 40px;
-	height: 36px;
-	object-fit: cover;
-	border-radius: 50px;
-}
-
-
-.search-bar{
-	display: block;
-}
-
-.video-title{
-
-	width: 200px;
-	color: rgb(0, 0, 0);
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 20px;
-	margin-bottom: 12px;
-}
-
-.video-author,
-.video-stats{
-	font-size: 12px;
-	color: rgb(96, 96, 96);
-}
-
-.video-author{
-	margin-bottom: 4px;
-}
-
-.video-info-grid{
-	display: grid;
-	grid-template-columns: 50px 1fr;
-}
-
-
-.cover-row{
-	margin-bottom: 12px;
-}
-
-.video-grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 16px;
-	row-gap: 40px;
-}
-</style>
-
-
+		<link rel="stylesheet" href="styles/video.css">
+		<link rel="stylesheet" href="styles/header.css">
+		<link rel="stylesheet" href="styles/general.css">
+		<link rel="stylesheet" href="styles/sidebar.css">
 	</head>
 
-	<body style="background-color: rgb(255, 255, 255);">
-		<input class="search-bar" type="text" placeholder="search">
+	<body>
 
-		<div class="video-grid">
+		<header class="header">
+			<div class="left-section">
+				<img class="menu" src="thumbnails/logos/hamburger-menu.svg">
+				<img class="youtube" src="thumbnails/logos/youtube-logo.svg">
+			</div>
 
-			<div class="video-preview">
-				<div class="cover-row">
-					<img  class="cover" src="thumbnails/cover/space">
-				</div> 
-				<div class="video-info-grid">
-					<div class="channel-pic">
-						<img class="dp" src="thumbnails/dp/shuli">
+			<div class="middle-section">
+				<input class="search-bar" type="text" placeholder="Search">
+				<button class="search-button">
+					<img class="search-icon"  src="thumbnails/logos/search.svg">
+					<div class="tooltip">Search</div>
+				</button>
+
+				<button class="voice-search">
+					<img class="voice-icon" src="thumbnails/logos/voice-search-icon.svg">
+					<div class="tooltip"> Search with your voice </div>
+				</button>
+			</div>
+
+			<div class="right-section">
+				<div class="upload-icon-container">
+					<img class="upload-icon" src="thumbnails/logos/upload.svg">
+					<div class="tooltip">Create</div>
+				</div>
+
+				<div class="youtube-icon-container">
+					<img class="youtube-icon" src="thumbnails/logos/youtube-apps.svg">
+					<div class="tooltip">Apps</div>
+				</div>
+
+				<div class ="notifications-icon-container">
+					<img class="notification-icon" src="thumbnails/logos/notifications.svg">
+					<div class="tooltip">You have 3 notifications</div>
+					<div class="notifications-count">3</div>
+				</div>
+				<img class="current-user-pic" src="thumbnails/dp/profile">
+			</div>
+		</header>
+
+		<nav class="sidebar">
+			<div class="sidebar-link">
+				<img src="thumbnails/logos/home.svg">
+				<div>Home</div>
+			</div>
+
+			<div class="sidebar-link">
+				<img src="thumbnails/logos/explore.svg">
+				<div>Explore</div>
+                        </div>
+
+			<div class="sidebar-link">
+				<img src="thumbnails/logos/subscriptions.svg">
+				<div>Subscriptions</div>
+                        </div>
+
+			<div class="sidebar-link">
+				<img src="thumbnails/logos/originals.svg">
+				<div>Originals</div>
+                        </div>
+
+			<div class="sidebar-link">
+				<img src="thumbnails/logos/youtube-music.svg">
+				<div>Youtube Music</div>
+                        </div>
+
+			<div class="sidebar-link">
+				<img src="thumbnails/logos/library.svg">
+				<div>Library</div>
+                        </div>
+		</nav>
+
+		<main>
+			<section class="video-grid">
+
+				<div class="video-preview">
+	
+					<div class="cover-row">
+						<img  class="cover" src="thumbnails/cover/space">
+						<div class="video-time">14:20</div>
+					</div> 
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/shuli">
+						</div>
+						
+						<div class="info">
+							<p class="video-title">
+							  What is Really Out There
+							  and How Can we Get There
+							</p>
+	
+							<p class="video-author">
+							  Shuli
+							</p>
+	
+							<p class="video-stats">
+							3m Views &#183; 6 Months ago
+							</p>
+						</div>
 					</div>
-
-					<div class="info">
-					<p class="video-title">
-					  What is Really Out There
-					  and How Can we Get There
-					</p>
-
-					<p class="video-author">
-					  Shuli
-					</p>
-
-					<p class="video-stats">
-					  3m Views &#183; 6 Months ago
-					</p>
 				</div>
-			</div>
-		</div>
-
-		<div class="video-preview">
-                        <div class="cover-row">
-				<img class="cover2" src="thumbnails/cover/engin">
-                        </div>
-
-			<div class="video-info-grid">
-				<div class="channel-pic">
-					<img class="dp" src="thumbnails/dp/me">
+	
+				<div class="video-preview">
+	
+					<div class="cover-row">
+						<img class="cover2" src="thumbnails/cover/engin">
+						<div class="video-time">8:22</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+						<img class="dp" src="thumbnails/dp/me">
+						</div>
+	
+						<div class="info">
+							<p class="video-title">
+							  Engineering the Job of the
+							  Future
+							</p>
+	
+							<p class=" video-author">
+							  Løtá Çhí
+							</p>
+	
+							<p class="video-stats">
+							  19m Views &#183; 3 years ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+					<div class="cover-row">
+						<img  class="cover2" src="thumbnails/cover/albert">
+						<div class="video-time">9:13</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/me2">
+						</div>
+	
+						<div class="info">
+							<p class="video-title">
+							  Your Bad handwritting Means your
+							  Smart
+							</p>
+	
+							<p class="video-author">
+							  Caleb Kalu
+							</p>
+	
+							<p class="video-stats">
+							  12m Views &#183; 1 year ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+	
+					<div class="cover-row">
+						<img class="cover" src="thumbnails/cover/twitter">
+						<div class="video-time">22:09</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/mosh">
+						</div>
+	
+						<div class="info">
+	
+							<p class="video-title">
+							  Why Elon Musk changed Twitter
+							  to X
+							</p>
+	
+							<p class=" video-author">
+							  Mosh
+							</p>
+	
+							<p class="video-stats">
+							  141m Views &#183; 1 years ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+					<div class="cover-row">
+						<img  class="cover" src="thumbnails/cover/aunty">
+						<div class="video-time">11:17</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/snow">
+						</div>
+	
+						<div class="info">
+							<p class="video-title">
+							  Meet my tweeny
+							</p>
+	
+							<p class="video-author">
+							  Snow
+							</p>
+							
+							<p class="video-stats">
+							  18m Views &#183; 4 Months ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+					<div class="cover-row">
+						<img class="cover2" src="thumbnails/cover/spiritual">
+						<div class="video-time">19:59</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/cyber">
+						</div>
+	
+						<div class="info">
+	
+							<p class="video-title">
+							  Ancient Gods of Egypt
+							</p>
+	
+							<p class=" video-author">
+							  Demi god
+							</p>
+	
+							<p class="video-stats">
+							  519k Views &#183; 5 years ago
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="video-preview">
+	
+					<div class="cover-row">
+						<img  class="cover" src="thumbnails/cover/christ">
+						<div class="video-time">10:12</div>
+					</div> 
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/kitty">
+						</div>
+						
+						<div class="info">
+							<p class="video-title">
+							  The true lover
+							</p>
+	
+							<p class="video-author">
+							  Faith
+							</p>
+	
+							<p class="video-stats">
+							4m Views &#183; 5 Months ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+	
+					<div class="cover-row">
+						<img class="cover2" src="thumbnails/cover/moshchino">
+						<div class="video-time">5:31</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+						<img class="dp" src="thumbnails/dp/emma-gift">
+						</div>
+	
+						<div class="info">
+							<p class="video-title">
+							  Top 10 cool toys for teens 2024
+							</p>
+	
+							<p class=" video-author">
+							  Emma
+							</p>
+	
+							<p class="video-stats">
+							  533k Views &#183; 1 month ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+					<div class="cover-row">
+						<img  class="cover2" src="thumbnails/cover/cutie">
+						<div class="video-time">2:03</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/moshino2">
+						</div>
+	
+						<div class="info">
+							<p class="video-title">
+							  Why listen to music
+							</p>
+	
+							<p class="video-author">
+							  Star Boi
+							</p>
+	
+							<p class="video-stats">
+							  2k Views &#183; 1 year ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+	
+					<div class="cover-row">
+						<img class="cover" src="thumbnails/cover/thegreat">
+						<div class="video-time">22:09</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/mosh2">
+						</div>
+	
+						<div class="info">
+	
+							<p class="video-title">
+							  The great beyound
+							</p>
+	
+							<p class=" video-author">
+							  Jack Jake
+							</p>
+	
+							<p class="video-stats">
+							  14M Views &#183; 1 years ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+					<div class="cover-row">
+						<img  class="cover" src="thumbnails/cover/joke">
+						<div class="video-time">57:09</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/emma">
+						</div>
+	
+						<div class="info">
+							<p class="video-title">
+							  2023 Closing comedy series
+							</p>
+	
+							<p class="video-author">
+							  Mr Buhari
+							</p>
+							
+							<p class="video-stats">
+							  2M Views &#183; 11 Months ago
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="video-preview">
+					<div class="cover-row">
+						<img class="cover2" src="thumbnails/cover/techchurch">
+						<div class="video-time">8:43</div>
+					</div>
+	
+					<div class="video-info-grid">
+						<div class="channel-pic">
+							<img class="dp" src="thumbnails/dp/chelsy">
+						</div>
+	
+						<div class="info">
+	
+							<p class="video-title">
+							  Fantasic views
+							</p>
+	
+							<p class=" video-author">
+							  Nebula
+							</p>
+	
+							<p class="video-stats">
+							  519k Views &#183; 5 Months ago
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="info">
+			</section>
+			
+		</main>
 
-					<p class="video-title">
-					  Engineering the Job of the
-					  Future
-					</p>
-
-					<p class=" video-author">
-					  Løtá Çhí
-					</p>
-
-					<p class="video-stats">
-					  19m Views &#183; 3 years ago
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="video-preview">
-			<div class="cover-row">
-				<img  class="cover2" src="thumbnails/cover/albert">
-			</div>
-
-			<div class="video-info-grid">
-				<div class="channel-pic">
-					<img class="dp" src="thumbnails/dp/me2">
-				</div>
-
-				<div class="info">
-					<p class="video-title">
-					  Your Bad handwritting Means your
-					  Smart
-					</p>
-
-					<p class="video-author">
-					  Caleb Kalu
-					</p>
-
-					<p class="video-stats">
-					  12m Views &#183; 1 year ago
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="video-preview">
-                        <div class="cover-row">
-				<img class="cover" src="thumbnails/cover/twitter">
-                        </div>
-
-			<div class="video-info-grid">
-				<div class="channel-pic">
-					<img class="dp" src="thumbnails/dp/mosh">
-				</div>
-
-				<div class="info">
-
-					<p class="video-title">
-					  Why Elon Musk changed Twitter
-					  to X
-					</p>
-
-					<p class=" video-author">
-					  mosh
-					</p>
-
-					<p class="video-stats">
-					  141m Views &#183; 1 years ago
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="video-preview">
-			<div class="cover-row">
-				<img  class="cover" src="thumbnails/cover/aunty">
-			</div>
-
-			<div class="video-info-grid">
-				<div class="channel-pic">
-					<img class="dp" src="thumbnails/dp/snow">
-				</div>
-
-				<div class="info">
-					<p class="video-title">
-					  Meet my tweeny
-					</p>
-
-					<p class="video-author">
-					  Snow
-					</p>
-
-					<p class="video-stats">
-					  18m Views &#183; 4 Months ago
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="video-preview">
-                        <div class="cover-row">
-				<img class="cover2" src="thumbnails/cover/spiritual">
-                        </div>
-
-			<div class="video-info-grid">
-				<div class="channel-pic">
-					<img class="dp" src="thumbnails/dp/cyber">
-				</div>
-
-				<div class="info">
-
-					<p class="video-title">
-					  Ancient Gods of Egypt
-					</p>
-
-					<p class=" video-author">
-					  Demi god
-					</p>
-
-					<p class="video-stats">
-					  519k Views &#183; 5 years ago
-					</p>
-				</div>
-			</div>
-		</div>
-
-		</div>
-
-
-
-
-
-
-
+		
 	</body>
+
+
 </html>
 

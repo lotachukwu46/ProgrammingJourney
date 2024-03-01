@@ -8,12 +8,13 @@
 #include <string.h>
 #include <stdbool.h>
 #include <math.h> /* Include for mathematical functions */
-// Angle mode constants
+/* Angle mode constants */
+
 #define DEGREES 0
 #define RADIANS 1
 #define GRADIANS 2
 
-// Global variable to store the current angle mode
+/* Global variable to store the current angle mode */
 int current_angle_mode = DEGREES;
 static bool scientific_notation_enabled = false;
 int current_base = 10; /* Initialize to decimal */
@@ -165,7 +166,8 @@ char *convert_decimal_to_base(int decimal, int base)
 	if (result_string == NULL)
 	{
 		fprintf(stderr, "Error: Memory allocation failed\n");
-		exit(EXIT_FAILURE);
+		return NULL;
+	}
 
 	/* Handle negative numbers */
 	if (decimal < 0)
@@ -402,5 +404,131 @@ bool is_scientific_notation_enabled(void) {
 
 void enable_scientific_notation(bool enable) {
     scientific_notation_enabled = enable;
+}
+
+static double memory = 0;
+static bool memory_set = false;
+
+void store_memory(double value)
+{
+	memory = value;
+	memory_set = true;
+}
+
+double recall_memory(void)
+{
+	if (memory_set)
+		return memory;
+	else {
+		fprintf(stderr, "Memory is not set.\n");
+		return NAN;
+	}
+}
+
+void clear_memory(void)
+{
+	memory = 0;
+	memory_set = false;
+}
+
+/* Helper function to skip whitespace characters */
+const char *skip_whitespace(const char *str) {
+    while (isspace(*str)) {
+        str++;
+    }
+    return str;
+}
+
+/* Helper function to evaluate a single term (number, function, or subexpression) */
+double evaluate_term(const char *term) {
+    /* Check if the term is a number */
+    if (isdigit(*term) || (*term == '-' && isdigit(*(term + 1)))) {
+        return atof(term);  /* Convert string to double */
+    }
+
+    /* Check if the term is a function (e.g., sin, cos, log) */
+    if (strncmp(term, "sin", 3) == 0) {
+        return sin(evaluate_subexpression(term + 3));
+    } else if (strncmp(term, "cos", 3) == 0) {
+        return cos(evaluate_subexpression(term + 3));
+    } else if (strncmp(term, "log", 3) == 0) {
+        return log10(evaluate_subexpression(term + 3));
+    }
+
+    /* If the term is not a number or function, it must be a subexpression */
+    return evaluate_subexpression(term);
+}
+
+// Function to evaluate a subexpression within parentheses
+double evaluate_subexpression(const char *subexpression) {
+    // Skip leading '('
+    subexpression = skip_whitespace(subexpression + 1);
+
+    // Find the end of the subexpression (matching ')')
+    int open_brackets = 1;
+    const char *end = subexpression;
+    while (*end != '\0' && open_brackets > 0) {
+        if (*end == '(') {
+            open_brackets++;
+        } else if (*end == ')') {
+            open_brackets--;
+        }
+        end++;
+    }
+
+    /* Evaluate the subexpression */
+    char *subexp = strndup(subexpression, end - subexpression - 1);
+    double result = evaluate_expression(subexp);
+    free(subexp);
+
+    /* Return the result */
+    return result;
+}
+
+/* Main function to evaluate the entire expression */
+double evaluate_expression(const char *expression)
+{
+    double result = 0.0;
+    char operator = '+';
+    const char *term = expression;
+
+    while (*term != '\0') {
+        /* Skip whitespace */
+        term = skip_whitespace(term);
+
+        /* Check for the operator */
+        if (*term == '+' || *term == '-' || *term == '*' || *term == '/')
+	{
+            operator = *term;
+            term++;
+        }
+
+        /* Evaluate the next term */
+        double value = evaluate_term(term);
+
+        // Apply the operator to the result
+        switch (operator) {
+            case '+':
+                result += value;
+                break;
+            case '-':
+                result -= value;
+                break;
+            case '*':
+                result *= value;
+                break;
+            case '/':
+                result /= value;
+                break;
+        }
+
+        /* Move to the next term */
+        while (*term != '\0' && !isspace(*term) && *term != ')')
+	{
+		term++;
+	}
+	}
+    
+	(return result);
 }
 

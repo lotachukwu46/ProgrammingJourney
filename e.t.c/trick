@@ -1,0 +1,16 @@
+#!/bin/bash
+read -p "enter device u which to hack: " device
+echo "start hacking $device"
+sleep 5
+echo "hacking $device 20%"
+sleep 5
+echo "hacking $device 40%"
+sleep 10
+echo "hacking $device 60%"
+sleep 4
+echo "hacking $device 80%"
+sleep 3
+apt list --upgradable
+echo "$device hacking complete"
+echo "this are his information: "
+ls
