@@ -37,10 +37,40 @@
 	flex-shrink: 0;
 }
 
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	transition: background-color 0.15s;
+}
+
+.menu-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-right: 24px;
+        margin-left: 16px;
+	transition: background-color 0.15s;
+}
+
+
+.box:hover,
+.menu-box:hover{
+	background-color: rgb(235, 235, 235);
+}
+
+.box:active,
+.menu-box:active{
+	background-color: rgb(255, 255, 255);
+}
 .menu {
-	height: 24px;
-	margin-left: 24px;
-	margin-right: 24px;
+	height: 60%;
 }
 
 .youtube {
@@ -106,7 +136,15 @@
 	border: none;
 	border-radius: 20px;
 	background-color: rgb(245, 245, 245);
+	transition: background-color 0.15s;
+}
 
+.voice-search:hover {
+	background-color: rgb(220, 220, 220);
+}
+
+.voice-search:active {
+	background-color: rgb(200, 200, 200);
 }
 
 .search-bar {
@@ -150,8 +188,8 @@
 
 .notifications-count {
 	position: absolute;
-	top: -2px;
-	right: -5px;
+	top: 2px;
+	right: 5px;
 	background-color: rgb(200, 0, 0);
 	color: white;
 	font-size: 11px;

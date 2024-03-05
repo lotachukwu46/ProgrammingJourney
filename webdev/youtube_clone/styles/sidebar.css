@@ -17,12 +17,15 @@
 	flex-direction: column;
 	cursor: pointer;
 	border-radius: 15px;
+	transition: background-color 0.15s;
 }
 
 .sidebar-link:hover {
 	background-color: rgb(235, 235, 235);
 }
-
+.sidebar-link:active {
+	background-color: rgb(255, 255, 255);
+}
 .sidebar-link img {
 	height: 24px;
 	margin-bottom: 4px;
