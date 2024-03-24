@@ -52,8 +52,13 @@ debian_based() {
 				echo "Beginning upgrade"
 				log "Beginning upgrade"
 				sudo apt upgrade -y >> update.log 2>> error.log # Push the result to the log file
-				echo "Upgrade complete"
-				log "upgrade complete"
+				if [[ $? == 0 ]];then
+					echo "Upgrade complete"
+					log "upgrade complete"
+				else
+					echo "unsuccessfull upgrade!"
+					log "unsuccessfull upgrade"
+				fi
 				read -p "Press enter to continue..."
 				;;
 
@@ -61,8 +66,13 @@ debian_based() {
 				echo "Beginning full upgrade"
 				log "Beginning full upgrade"
 				sudo apt full-upgrade -y >> update.log 2>> error.log
-				echo "Full upgrade complete"
-				log "Full upgrade complete"
+				if [[ $? == 0 ]];then
+                                        echo "Full Upgrade complete"
+                                        log "upgrade complete"
+                                else
+					echo"unsuccessfull upgrade "
+                                        log "unsuccessfull upgrade"
+                                fi
 				read -p "Press enter to continue..."
 				;;
 
@@ -72,8 +82,14 @@ debian_based() {
 				echo "Upgrading $packages"
 				log "Upgrading $packages"
 				sudo apt upgrade $packages -y >> update.log 2>> error.log
-				echo "$packages upgraded!"
-				log "$packages upgraded"
+				if [[ $? == 0 ]];then
+                                        echo "$packages upgraded!"
+                                        log "$packages upgraded!"
+                                else
+					echo"Failed to upgrade $packages"
+                                        log "unsuccessfull upgrade"
+                                fi
+
 				read -p "Press enter to continue..."
 				;;
 
@@ -103,14 +119,25 @@ debian_based() {
 					echo "Beginning roll back"
 					log "Beginning rollback"
 					sudo do-release-upgrade --rollback -y  >> update.log 2>> error.log
-					log "Revert complete"
+					if [[ $? == 0 ]];then
+						echo"Revert successfully complete"
+						log "Revert complete"
+					else
+						echo"Revert unsuccessful"
+						log "Revert unsuccessfull"
+					fi
 				else
 					echo "Beginning upgrade to $new_version"
 					log "Beginning upgrade to $new_version"
 
 					sudo do-release-upgrade -d $new_version -y >> update.log 2>> error.log
-					echo "Completing upgrade to $new_version"
-					log "Upgrade complete"
+					if [[ $? == 0 ]];then
+						echo "Completing upgrade to $new_version"
+						log "Upgrade complete"
+					else
+						echo"$new_version upgrade unsuccessful"
+						log"$new_version upgrade unsuccessful"
+					fi
 				fi
 				read -p "Press enter to continue..."
 				;;
@@ -121,8 +148,13 @@ debian_based() {
 				echo "Beginning to install  $packages"
 				log "beginning to install $packages"
 				sudo apt install $packages -y >> update.log 2>> error.log
-				log "$Packages installed"
-				echo "$packages installed"
+				if [[ $? == 0 ]];then
+					log "$Packages installed"
+					echo "$packages installed"
+				else
+					log "$Packages installation failed"
+					echo "$Packages installation wasn't successfull"
+				fi
 				read -p "Press enter to continue..."
 				;;
 
@@ -136,8 +168,13 @@ debian_based() {
 					echo "Beginning to remove $packages"
 					log "Beginning to remove $packages"
 					sudo apt remove $packages -y >> update.log 2>> error.log
-					echo "$packages removed!"
-					log "$packages removed"
+					if [[ $? == 0 ]];then
+						echo "$packages removed!"
+						log "$packages removed"
+					else
+						echo "$Packages removal failed"
+						log "$Packages removal failed"
+					fi
 				fi
 				read -p "Press enter to continue..."
 				;;
@@ -152,8 +189,13 @@ debian_based() {
 					echo "Beginning to remove $packages"
 					log "Beginning to remove $packages"
 					sudo apt purge $packages -y >> update.log 2>> errer.log
-					echo "$Packages completely removed!"
-					log "$packages completely removed!"
+					if [[ $? == 0 ]];then
+						echo "$Packages completely removed!"
+						log "$packages completely removed!"
+					else
+						echo "$Packages  removal unsuccessfull"
+                                                log "$packages removal unsuccessfull"
+					fi
 					read -p "Press enter to continue..."
 				fi
 				;;

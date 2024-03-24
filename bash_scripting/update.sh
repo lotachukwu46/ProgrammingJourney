@@ -6,9 +6,10 @@ if [ $EUID -ne 0 ];then
 	read -p "Do u want to run with sudo privillage.(y/n)" con
 	if [[ "$con" =~ ^[Yy]$ ]]; then
 		sudo bash "$0" "$@"
+		exit 0
 	else
 		echo "exiting script"
-		exit 1
+		exit 0
 	fi
 
 fi

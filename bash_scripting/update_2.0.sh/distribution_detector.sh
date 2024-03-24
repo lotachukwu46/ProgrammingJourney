@@ -14,7 +14,7 @@
 # Author: Lotachukwu Odiegwu
 # Date: January 6, 2024
 # Version: 1.0
-# GitHub Repository: https://github.com/lotachukwu46/ProgrammingJourrney
+# GitHub Repository: https://github.com/lotachukwu46/ProgrammingJourrney/bash_scripting/update_2.0.sh
 #
 # Usage:
 #   - Source this file in other scripts to access the distribution_detect function.
@@ -43,7 +43,7 @@ distribution_detect() {
 
 
 	# Attemp to detect os with different methods
-	if distribution=$(lsb_release -is 2> /dev/null); then # Not too conversant with these commands for ditribution check got them from AI 
+	if distribution=$(lsb_release -is 2> /dev/null); then 
 		: # Then do northing if lsb_release succeeds
 
 	elif distribution=$(cat /etc/os-release | grep -E "^ID=" | cut -d '=' -f2 | tr -d '"'); then
@@ -77,20 +77,17 @@ distribution_detect() {
 	case "${distribution,,}" in # Convert to lower case for matching
 		ubuntu|debian|kali|linuxmint) # Debian based distribution
 			update_host=$(grep '^deb ' /etc/apt/sources.list | head -n1 | cut -d' ' -f2) # update host for debian based systems
-			echo "Idetified as: $distribution"
 			log "detected distribution: $distribution"
 			return 0 # Indicates success
 			;;
 		arch)
 			return 0 # Indicates success
 			update_host=$(grep '^Server = ' /etc/pacman.conf | cut -d'=' -f2-) # Update host for arch linux systems
-			echo "Iddentified as $distribution"
 			log "Identified as $distribution"
 			return 0 # Indicates success
 			;;
 		fedora|centos|redhat) # RPM-based distributions
 			update_host=$(grep -m1 '^baseurl = ' /etc/yum.repos.d/*.repo | cut -d'=' -f2) # Update server for RPM based
-			echo "Identified as: $distribution"
 			log "Idetifiedas as: $distribution"
 			return 0 # Indicates succes
 			;;
@@ -101,6 +98,6 @@ distribution_detect() {
 			;;
 	esac
 }
-#distribution_detect
-#echo "$distribution"
+
+
 # Designed by lotachukwu

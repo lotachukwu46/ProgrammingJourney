@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Calculator</title>
+<style>
+
+body{
+	background-color: rgb(10, 10, 10);
+	color: white;
+	font: Arial;
+}
+
+button {
+	color: white;
+	background-color: rgb(60, 60, 60);
+	height: 50px;
+	width: 50px;
+	border:  none;
+	margin: 2px;
+	border-radius:25px;
+	transition: background-color 0.15s;
+}
+
+button:hover {
+	background: rgb(100, 100, 100);
+}
+
+button:active {
+	background: rgb(30, 30, 30)
+}
+
+.special-buttons {
+	background-color: rgb(240, 160, 0);
+}
+
+.special-buttons:hover {
+	background-color: rgb(255, 180, 20);
+}
+
+.special-buttons:active {
+	background-color: rgb(255, 165, 0);
+}
+.numbers{
+	display: inline-block;
+}
+
+.screen {
+	border: none;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	background-color: rgb(10, 10, 10);
+	width: 200px;
+	height: 40px;
+	padding: 7px;
+	margin: 20px 6px;
+}
+
+</style>
+
+	</head>
+
+	<body>
+		<div>
+			<input placeholder="ans" class=" js-screen screen" onkeyup="
+									   handleKeyboard(event);
+			">
+		</div>
+
+		<div class="buttons">
+
+				<div class="numbers">
+
+				<div>
+					<button onclick="
+						updateExpression(1);
+						">1</button>
+					<button onclick="
+						updateExpression(2);
+						">2</button>
+					<button onclick="
+						updateExpression(3);
+							 ">3</button>
+					<button class="special-buttons" onclick="
+									updateExpression(' + ');
+						">+</button>
+				</div>
+
+				<div>
+					<button onclick="
+						updateExpression(4);
+						">4</button>
+					<button onclick="
+						updateExpression(5);
+						">5</button>
+					<button onclick="
+						updateExpression(6);
+						">6</button>
+					<button class="special-buttons" onclick="
+									updateExpression(' - ');
+						">-</button>
+				</div>
+
+				<div>
+					<button onclick="
+						updateExpression(7);
+						">7</button>
+					<button onclick="
+						updateExpression(8);
+						">8</button>
+					<button onclick="
+						updateExpression(9);
+						">9</button>
+					<button class="special-buttons" onclick="
+									updateExpression(' * ');
+						">*</button>
+				</div>
+
+				<div>
+					<button onclick="
+						updateExpression(0);
+						">0</button>
+					<button onclick="
+						updateExpression('.');
+						">.</button>
+					<button onclick="
+						evaluateExpression();
+						">=</button>
+					<button class="special-buttons" onclick="
+									updateExpression(' / ');
+						">/</button>
+				</div>
+
+				<div>
+					<button onclick="
+						clean();
+						">Clear</button>
+				</div>
+
+			</div>
+		</div>
+	<script>
+		let expression = document.querySelector('.js-screen').value;
+		function updateExpression(character) {
+			expression = expression + character;
+			document.querySelector('.js-screen').value = expression;
+		}
+
+		function clean() {
+			document.querySelector('.js-screen').value ='';
+			expression='';
+		}
+
+		function evaluateExpression() {
+			let ans = eval(expression);
+			document.querySelector('.js-screen').value = `${expression} = ${ans}`;
+			expression = "";
+		}
+
+		function handleKeyboard(event) {
+			console.log(typeof(event.key));
+			if(event.key = number) {
+			updateExpression(String(event.key));
+			}
+		}
+
+	</script>
+	</body>
+
+</html>

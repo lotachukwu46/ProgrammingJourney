@@ -69,5 +69,6 @@ log() {
 	echo "[${timestamp}][${level}] ${message}" >> update.log 2>> error.log
 
 }
-log
+
+
 # Desined by Lotachukwu
