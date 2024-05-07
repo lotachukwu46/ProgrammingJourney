@@ -529,6 +529,6 @@ double evaluate_expression(const char *expression)
 	}
 	}
     
-	(return result);
+	return result;
 }
 

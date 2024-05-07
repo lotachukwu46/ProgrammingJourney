@@ -1,0 +1,2950 @@
+[2024-01-11 17:49:34]
+        [Exiting debian function] 
+[2024-01-11 17:49:51]
+        [Exiting debian function] 
+[2024-01-11 19:23:13][Network connection verified] 
+[2024-01-11 19:23:13][Error details:  on line 127 ./log.sh] 
+[2024-01-11 19:25:53][Error details:  on line 71 ./log.sh] 
+[2024-01-11 19:26:58][Error details:  on line 68 log.sh] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 https://deb.opera.com/opera-stable stable InRelease
+Hit:6 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:7 https://dl.google.com/linux/chrome/deb stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+6 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-13 09:11:24][Exiting debian function] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+6 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-13 09:16:02][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+6 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-13 09:17:26][Beginning upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  firefox firefox-locale-en google-chrome-stable iputils-ping
+  iputils-tracepath opera-stable
+6 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2 standard LTS security updates
+Need to get 213 MB/277 MB of archives.
+After this operation, 142 kB of additional disk space will be used.
+Get:1 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 120.0.6099.216-1 [105 MB]
+Get:2 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 iputils-ping amd64 3:20190709-3ubuntu1 [40.0 kB]
+Get:3 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 106.0.4998.41 [108 MB]
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 iputils-tracepath amd64 3:20190709-3ubuntu1 [20.1 kB]
+Preconfiguring packages ...
+Fetched 213 MB in 4min 26s (802 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195577 files and directories currently installed.)
+Preparing to unpack .../0-google-chrome-stable_120.0.6099.216-1_amd64.deb ...
+Unpacking google-chrome-stable (120.0.6099.216-1) over (120.0.6099.199-1) ...
+Preparing to unpack .../1-opera-stable_106.0.4998.41_amd64.deb ...
+Unpacking opera-stable (106.0.4998.41) over (106.0.4998.28) ...
+Preparing to unpack .../2-iputils-ping_3%3a20190709-3ubuntu1_amd64.deb ...
+Unpacking iputils-ping (3:20190709-3ubuntu1) over (3:20190709-3) ...
+Preparing to unpack .../3-iputils-tracepath_3%3a20190709-3ubuntu1_amd64.deb ...
+Unpacking iputils-tracepath (3:20190709-3ubuntu1) over (3:20190709-3) ...
+Preparing to unpack .../4-firefox_121.0.1+build1-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking firefox (121.0.1+build1-0ubuntu0.20.04.1) over (121.0+build1-0ubuntu0.20.04.1) ...
+Preparing to unpack .../5-firefox-locale-en_121.0.1+build1-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking firefox-locale-en (121.0.1+build1-0ubuntu0.20.04.1) over (121.0+build1-0ubuntu0.20.04.1) ...
+Setting up google-chrome-stable (120.0.6099.216-1) ...
+Setting up opera-stable (106.0.4998.41) ...
+Setting up firefox (121.0.1+build1-0ubuntu0.20.04.1) ...
+Please restart all running instances of firefox, or you will experience problems.
+Setting up firefox-locale-en (121.0.1+build1-0ubuntu0.20.04.1) ...
+Setting up iputils-ping (3:20190709-3ubuntu1) ...
+Setting up iputils-tracepath (3:20190709-3ubuntu1) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for shared-mime-info (1.15-1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+[2024-01-13 09:24:01][upgrade complete] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  tree
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 43.0 kB of archives.
+After this operation, 115 kB of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal/universe amd64 tree amd64 1.8.0-1 [43.0 kB]
+Fetched 43.0 kB in 2s (21.9 kB/s)
+Selecting previously unselected package tree.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195577 files and directories currently installed.)
+Preparing to unpack .../tree_1.8.0-1_amd64.deb ...
+Unpacking tree (1.8.0-1) ...
+Setting up tree (1.8.0-1) ...
+Processing triggers for man-db (2.9.1-1) ...
+[2024-01-13 09:25:26][ installed] 
+[2024-01-13 09:25:52][Exiting debian function] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 09:26:26][Beginning upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[2024-01-13 09:26:28][upgrade complete] 
+[2024-01-13 09:26:38][Exiting debian function] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://deb.opera.com/opera-stable stable InRelease
+Hit:4 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 09:27:48][Beginning upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[2024-01-13 09:27:50][upgrade complete] 
+[2024-01-13 09:27:54][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 09:29:25][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:6 https://deb.opera.com/opera-stable stable InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Fetched 114 kB in 9s (12.2 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 09:44:03][Beginning upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[2024-01-13 09:44:05][upgrade complete] 
+[2024-01-13 09:44:13][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[2024-01-13 09:44:15][Full upgrade complete] 
+[2024-01-13 09:44:46][Upgrading vlc] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+vlc is already the newest version (3.0.9.2-1).
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[2024-01-13 09:44:48][vlc upgraded] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 https://deb.opera.com/opera-stable stable InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:4 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 09:47:38][Exiting debian function] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 https://deb.opera.com/opera-stable stable InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 09:56:22][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 09:56:39][Exiting debian function] 
+[2024-01-13 09:56:42][Network connection verified] 
+[2024-01-13 09:56:42][Unsupported Distribution Detected: ] 
+[2024-01-13 09:56:45][Network interuputed. Exiting.] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 https://deb.opera.com/opera-stable stable InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://deb.opera.com/opera-stable stable InRelease
+[2024-01-13 10:09:35][Network connection verified] 
+[2024-01-13 10:09:35][Unsupported Distribution Detected: ] 
+[2024-01-13 10:09:38][Network connection verified] 
+[2024-01-13 10:09:38][Unsupported Distribution Detected: ] 
+[2024-01-13 10:11:16][Network connection verified] 
+[2024-01-13 10:11:16][Unsupported Distribution Detected: ] 
+[2024-01-13 10:11:20][Network connection verified] 
+[2024-01-13 10:11:20][Unsupported Distribution Detected: ] 
+[2024-01-13 10:16:35][Network connection verified] 
+[2024-01-13 10:16:35][Unsupported Distribution Detected: ] 
+[2024-01-13 10:16:38][Network connection verified] 
+[2024-01-13 10:16:38][Unsupported Distribution Detected: ] 
+[2024-01-13 10:19:18][Network connection verified] 
+[2024-01-13 10:19:18][Unsupported Distribution Detected: ] 
+[2024-01-13 10:19:21][Network connection verified] 
+[2024-01-13 10:19:21][Unsupported Distribution Detected: ] 
+[2024-01-13 10:20:45][Network connection verified] 
+[2024-01-13 10:20:45][Unsupported Distribution Detected: ] 
+[2024-01-13 10:20:48][Network connection verified] 
+[2024-01-13 10:20:48][Unsupported Distribution Detected: ] 
+[2024-01-13 15:59:30][Network connection verified] 
+[2024-01-13 15:59:30][Unsupported Distribution Detected: ] 
+[2024-01-13 15:59:33][Network connection verified] 
+[2024-01-13 15:59:33][Unsupported Distribution Detected: ] 
+[2024-01-13 16:03:03][Network connection verified] 
+[2024-01-13 16:03:03][Unsupported Distribution Detected: ] 
+[2024-01-13 16:03:06][Network connection verified] 
+[2024-01-13 16:03:06][Unsupported Distribution Detected: ] 
+[2024-01-13 16:10:46][Network connection verified] 
+[2024-01-13 16:10:46][Unsupported Distribution Detected: ] 
+[2024-01-13 16:10:49][Network connection verified] 
+[2024-01-13 16:10:49][Unsupported Distribution Detected: ] 
+[2024-01-13 16:11:19][Network connection verified] 
+[2024-01-13 16:11:19][Unsupported Distribution Detected: ] 
+[2024-01-13 16:11:23][Network connection verified] 
+[2024-01-13 16:11:23][Unsupported Distribution Detected: ] 
+[2024-01-13 16:13:25][Network connection verified] 
+[2024-01-13 16:13:25][Unsupported Distribution Detected: ] 
+[2024-01-13 16:13:28][Network connection verified] 
+[2024-01-13 16:13:28][Unsupported Distribution Detected: ] 
+[2024-01-13 16:16:54][Network connection verified] 
+[2024-01-13 16:16:54][Unsupported Distribution Detected: ] 
+[2024-01-13 16:16:57][Network connection verified] 
+[2024-01-13 16:16:57][Unsupported Distribution Detected: ] 
+[2024-01-13 16:18:09][Network connection verified] 
+[2024-01-13 16:18:09][Unsupported Distribution Detected: ] 
+[2024-01-13 16:18:11][Network connection verified] 
+[2024-01-13 16:18:11][Unsupported Distribution Detected: ] 
+[2024-01-13 16:20:45][Network connection verified] 
+[2024-01-13 16:20:45][Unsupported Distribution Detected: ] 
+[2024-01-13 16:20:48][Network connection verified] 
+[2024-01-13 16:20:48][Unsupported Distribution Detected: ] 
+[2024-01-13 16:25:45][Network connection verified] 
+[2024-01-13 16:25:45][Unsupported Distribution Detected: ] 
+[2024-01-13 16:25:48][Network connection verified] 
+[2024-01-13 16:25:48][Unsupported Distribution Detected: ] 
+[2024-01-13 16:51:06][Network connection verified] 
+[2024-01-13 16:51:06][Unsupported Distribution Detected: ] 
+[2024-01-13 16:51:09][Network interuputed. Exiting.] 
+[2024-01-13 16:55:21][Network connection verified] 
+[2024-01-13 16:55:21][Unsupported Distribution Detected: ] 
+[2024-01-13 16:55:24][Network interuputed. Exiting.] 
+[2024-01-13 16:55:55][Network connection verified] 
+[2024-01-13 16:55:56][Unsupported Distribution Detected: ] 
+[2024-01-13 16:55:59][Network connection verified] 
+[2024-01-13 16:55:59][Unsupported Distribution Detected: ] 
+[2024-01-13 16:59:35][Network connection verified] 
+[2024-01-13 16:59:35][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 16:59:38][Network interuputed. Exiting.] 
+[2024-01-13 17:00:08][Network connection verified] 
+[2024-01-13 17:00:08][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:00:11][Network interuputed. Exiting.] 
+[2024-01-13 17:01:20][Network connection verified] 
+[2024-01-13 17:01:20][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:01:23][Network connection verified] 
+[2024-01-13 17:01:23][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:02:56][Network connection verified] 
+[2024-01-13 17:02:56][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:02:59][Network connection verified] 
+[2024-01-13 17:02:59][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:19:01][Network connection verified] 
+[2024-01-13 17:19:01][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:19:05][Network connection verified] 
+[2024-01-13 17:19:05][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:20:49][Network connection verified] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.101.143.112 443]
+Reading package lists...
+[2024-01-13 17:22:11][Network interuputed. Exiting.] 
+[2024-01-13 17:22:14][Network connection verified] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:4 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:5 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+[2024-01-13 17:24:17][Network connection verified] 
+[2024-01-13 17:24:17][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:24:20][Network connection verified] 
+[2024-01-13 17:24:20][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:25:44][Network connection verified] 
+[2024-01-13 17:25:44][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:25:48][Network connection verified] 
+[2024-01-13 17:25:48][Unsupported Distribution Detected: Detected using lsb_release: Ubuntu
+Idetified as: Ubuntu] 
+[2024-01-13 17:33:52][Network connection verified] 
+[2024-01-13 17:33:52][Unsupported Distribution Detected: Idetified as: Ubuntu] 
+[2024-01-13 17:33:55][Network connection verified] 
+[2024-01-13 17:33:55][Unsupported Distribution Detected: Idetified as: Ubuntu] 
+[2024-01-13 17:35:47][Network connection verified] 
+[2024-01-13 17:35:47][Unsupported Distribution Detected: Idetified as: Ubuntu] 
+[2024-01-13 17:35:50][Network connection verified] 
+[2024-01-13 17:35:50][Unsupported Distribution Detected: Idetified as: Ubuntu] 
+[2024-01-13 17:37:15][Network connection verified] 
+[2024-01-13 17:37:15][Unsupported Distribution Detected: Ubuntu] 
+[2024-01-13 17:37:18][Network connection verified] 
+[2024-01-13 17:37:18][Unsupported Distribution Detected: Ubuntu] 
+[2024-01-13 17:42:43][Network interuputed. Exiting.] 
+[2024-01-13 17:42:46][Network connection verified] 
+[2024-01-13 17:42:46][Unsupported Distribution Detected: Ubuntu] 
+[2024-01-13 19:07:28][Unsupported Distribution Detected: ] 
+[2024-01-13 19:07:28][Unsupported Distribution Detected: ] 
+[2024-01-13 19:09:09][Unsupported Distribution Detected : Ubuntu] 
+[2024-01-13 19:09:58][Unsupported Distribution Detected : Ubuntu] 
+[2024-01-13 19:10:02][Network interuputed. Exiting.] 
+[2024-01-13 19:10:53][Unsupported Distribution Detected : Ubuntu] 
+[2024-01-13 19:11:20][Unsupported Distribution Detected : Ubuntu] 
+[2024-01-13 19:20:41][detected distribution: Ubuntu] 
+[2024-01-13 19:22:27][detected distribution: Ubuntu] 
+[2024-01-13 19:22:27][detected distribution: Ubuntu] 
+[2024-01-13 19:22:37][detected distribution: Ubuntu] 
+[2024-01-13 19:22:37][detected distribution: Ubuntu] 
+[2024-01-13 19:22:37][Unsupported Distribution Detected: Ubuntu] 
+[2024-01-13 19:22:41][Network interuputed. Exiting.] 
+[2024-01-13 19:23:14][Unsupported Distribution Detected: ] 
+[2024-01-13 19:23:14][Unsupported Distribution Detected: ] 
+[2024-01-13 19:24:10][detected distribution: Ubuntu] 
+[2024-01-13 19:24:10][Unsupported Distribution Detected: Ubuntu] 
+[2024-01-13 19:24:10][detected distribution: Ubuntu] 
+[2024-01-13 19:24:10][Unsupported Distribution Detected: Ubuntu] 
+[2024-01-13 19:24:51][detected distribution: Ubuntu] 
+[2024-01-13 19:24:59][Network interuputed. Exiting.] 
+[2024-01-13 19:25:00][detected distribution: Ubuntu] 
+[2024-01-13 19:25:03][Network interuputed. Exiting.] 
+[2024-01-13 19:25:49][detected distribution: Ubuntu] 
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 19:26:13][Exiting debian function] 
+[2024-01-13 19:26:13][detected distribution: Ubuntu] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Err:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:6 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:7 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 19:26:40][Exiting debian function] 
+[2024-01-13 19:27:56][detected distribution: Ubuntu] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-13 19:36:31][Error details:  on line 77 ./log.sh] 
+[2024-01-13 19:44:47][Network connection verified] 
+[2024-01-13 19:45:19][Network not available] 
+[2024-01-13 19:45:32][Network not available] 
+[2024-01-13 19:45:43][Network not available] 
+[2024-01-13 19:45:44][Network not available] 
+[2024-01-13 19:46:07][Network not available] 
+[2024-01-13 19:46:10][Network not available] 
+[2024-01-13 19:47:11][Network not available] 
+[2024-01-13 19:47:49][Network connection verified] 
+[2024-01-14 09:21:34][detected distribution: Ubuntu] 
+[2024-01-14 09:25:52][Network interuputed. Exiting.] 
+[2024-01-14 09:27:04][Network interuputed. Exiting.] 
+[2024-01-14 09:28:42][Network not available] 
+[2024-01-14 09:30:30][Network not available] 
+[2024-01-14 15:31:21][detected distribution: Ubuntu] 
+[2024-01-14 15:44:16][Error details:  on line 77 ./log.sh] 
+[2024-01-14 15:44:46][Network interuputed. Exiting.] 
+[2024-01-14 15:46:07][info] 
+[2024-01-14 15:46:09][info] 
+[2024-01-14 15:46:10][info] 
+[2024-01-14 15:47:13][info] 
+[2024-01-14 15:47:13][info] 
+[2024-01-14 15:47:16][Network connection verified] 
+[2024-01-14 15:47:41][info] 
+[2024-01-14 15:47:41][info] 
+[2024-01-14 15:50:13][Network not available] 
+[2024-01-14 15:50:15][info] 
+[2024-01-14 15:50:15][info] 
+[2024-01-14 15:52:01][Network connection verified] 
+[2024-01-14 16:51:58][info] 
+Err:1 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-14 16:53:37][Exiting debian function] 
+[2024-01-14 16:56:54][info] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-14 16:57:15][Upgrading htop] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+htop is already the newest version (2.2.0-2build1).
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[2024-01-14 16:57:16][htop upgraded] 
+[2024-01-14 16:57:25][Exiting debian function] 
+[2024-01-14 16:57:47][info] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+[2024-01-14 16:58:11][Network interuputed. Exiting.] 
+[2024-01-14 16:59:29][info] 
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+[2024-01-14 16:59:50][Network interuputed. Exiting.] 
+[2024-01-14 16:59:54][info] 
+Err:1 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+[2024-01-14 17:00:38][Error details: sudo apt install $packages -y >> update.log 2>> error.log on line 125 ./update_packages.sh] 
+[2024-01-14 17:01:43][info] 
+Reading package lists...
+[2024-01-14 17:01:56][Network interuputed. Exiting.] 
+[2024-01-14 17:02:19][info] 
+Err:1 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-14 17:02:39][Beginning to remove tree at] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  libfl2
+Use 'sudo apt autoremove' to remove it.
+The following packages will be REMOVED:
+  at tree
+0 upgraded, 0 newly installed, 2 to remove and 0 not upgraded.
+After this operation, 278 kB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195584 files and directories currently installed.)
+Removing at (3.1.23-1ubuntu1) ...
+Removing tree (1.8.0-1) ...
+Processing triggers for man-db (2.9.1-1) ...
+[2024-01-14 17:02:57][tree at removed] 
+[2024-01-14 17:03:06][Exiting debian function] 
+[2024-01-14 17:03:30][info] 
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-14 17:03:50][beginning to update tree at] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Suggested packages:
+  default-mta | mail-transport-agent
+The following NEW packages will be installed:
+  at tree
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 81.7 kB of archives.
+After this operation, 278 kB of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal/main amd64 at amd64 3.1.23-1ubuntu1 [38.7 kB]
+Get:2 http://ci.archive.ubuntu.com/ubuntu focal/universe amd64 tree amd64 1.8.0-1 [43.0 kB]
+Fetched 81.7 kB in 2s (44.6 kB/s)
+Selecting previously unselected package at.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195555 files and directories currently installed.)
+Preparing to unpack .../at_3.1.23-1ubuntu1_amd64.deb ...
+Unpacking at (3.1.23-1ubuntu1) ...
+Selecting previously unselected package tree.
+Preparing to unpack .../tree_1.8.0-1_amd64.deb ...
+Unpacking tree (1.8.0-1) ...
+Setting up at (3.1.23-1ubuntu1) ...
+Setting up tree (1.8.0-1) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for systemd (245.4-4ubuntu3.22) ...
+[2024-01-14 17:04:10][ installed] 
+[2024-01-14 17:04:15][Exiting debian function] 
+[2024-01-14 17:05:21][info] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Err:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Cannot initiate the connection to deb.opera.com:443 (95.100.105.47). - connect (101: Network is unreachable) Cannot initiate the connection to deb.opera.com:443 (95.100.105.15). - connect (101: Network is unreachable) [IP: 95.100.105.47 443]
+Reading package lists...
+[2024-01-14 17:06:15][Network interuputed. Exiting.] 
+[2024-01-14 17:06:34][info] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:6 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.105.47 443]
+Reading package lists...
+[2024-01-14 17:07:51][Error details: sudo apt update -y >> update.log on line 29 ./update_packages.sh] 
+[2024-01-14 17:10:09][info] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-14 17:12:28][Error details: apt show $package on line 168 ./update_packages.sh] 
+[2024-01-14 17:14:38][info] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Err:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.105.47 443]
+Reading package lists...
+[2024-01-14 17:16:30][Exiting debian function] 
+[2024-01-14 17:41:25][info] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+Err:6 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.105.15 443]
+Reading package lists...
+[2024-01-14 18:04:46][Exiting debian function] 
+[2024-01-14 18:05:19][info] 
+[2024-01-14 18:05:19][info] 
+[2024-01-14 18:05:19][info] 
+[2024-01-14 18:05:19][info] 
+[2024-01-14 18:05:19][info] 
+[2024-01-14 18:05:28][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-01-14 18:05:34][Exiting debian function] 
+[2024-01-14 18:05:37][Network connection verified] 
+[2024-01-14 18:05:37][detected distribution: Ubuntu] 
+[2024-01-14 18:05:55][info] 
+[2024-01-14 18:05:55][info] 
+[2024-01-14 18:05:55][info] 
+[2024-01-14 18:05:55][info] 
+[2024-01-14 18:05:55][info] 
+[2024-01-14 18:05:59][Network connection verified] 
+[2024-01-14 18:05:59][detected distribution: Ubuntu] 
+[2024-01-14 18:06:35][info] 
+[2024-01-14 18:06:35][info] 
+[2024-01-14 18:06:35][info] 
+[2024-01-14 18:06:35][info] 
+[2024-01-14 18:06:35][info] 
+[2024-01-14 18:06:38][Network connection verified] 
+[2024-01-14 18:06:38][detected distribution: Ubuntu] 
+[2024-01-14 18:06:55][info] 
+[2024-01-14 18:06:55][info] 
+[2024-01-14 18:06:55][info] 
+[2024-01-14 18:06:55][info] 
+[2024-01-14 18:06:55][info] 
+[2024-01-14 18:06:58][Network connection verified] 
+[2024-01-14 18:06:58][detected distribution: Ubuntu] 
+[2024-01-14 18:07:08][info] 
+[2024-01-14 18:07:08][info] 
+[2024-01-14 18:07:08][info] 
+[2024-01-14 18:07:08][info] 
+[2024-01-14 18:07:08][info] 
+[2024-01-14 18:07:11][Network connection verified] 
+[2024-01-14 18:07:11][detected distribution: Ubuntu] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Get:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.108.185 443]
+Reading package lists...
+[2024-01-14 18:08:34][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-01-14 18:08:47][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.105.47 443]
+Reading package lists...
+[2024-01-14 18:10:00][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-01-14 18:10:18][Exiting debian function] 
+[2024-01-14 18:11:24][info] 
+[2024-01-14 18:11:24][info] 
+[2024-01-14 18:11:24][info] 
+[2024-01-14 18:11:24][info] 
+[2024-01-14 18:11:24][info] 
+[2024-01-14 18:11:27][Network connection verified] 
+[2024-01-14 18:11:27][detected distribution: Ubuntu] 
+[2024-01-14 18:11:33][info] 
+[2024-01-14 18:11:33][info] 
+[2024-01-14 18:11:33][info] 
+[2024-01-14 18:11:33][info] 
+[2024-01-14 18:11:33][info] 
+[2024-01-14 18:11:36][Network connection verified] 
+[2024-01-14 18:11:36][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.108.185 443]
+Reading package lists...
+[2024-01-14 18:12:52][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-01-14 18:14:18][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+[2024-01-14 18:14:23][info] 
+[2024-01-14 18:14:23][info] 
+[2024-01-14 18:14:23][info] 
+[2024-01-14 18:14:23][info] 
+[2024-01-14 18:14:23][info] 
+[2024-01-14 18:14:26][info] 
+[2024-01-14 18:14:26][info] 
+[2024-01-14 18:14:26][info] 
+[2024-01-14 18:14:26][info] 
+[2024-01-14 18:14:26][info] 
+[2024-01-14 18:14:26][Unsupported Distribution Detected: ] 
+[2024-01-14 18:14:29][Network connection verified] 
+[2024-01-14 18:14:29][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+[2024-01-15 17:56:13][info] 
+[2024-01-15 17:56:13][info] 
+[2024-01-15 17:56:13][info] 
+[2024-01-15 17:56:13][info] 
+[2024-01-15 17:56:13][info] 
+[2024-01-15 17:56:17][Network connection verified] 
+[2024-01-15 17:56:17][detected distribution: Ubuntu] 
+[2024-01-15 17:56:28][info] 
+[2024-01-15 17:56:28][info] 
+[2024-01-15 17:56:28][info] 
+[2024-01-15 17:56:28][info] 
+[2024-01-15 17:56:28][info] 
+[2024-01-15 17:56:31][Network connection verified] 
+[2024-01-15 17:56:31][detected distribution: Ubuntu] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:5 https://deb.opera.com/opera-stable stable InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [3,028 kB]
+Hit:8 http://security.ubuntu.com/ubuntu focal-security InRelease
+Get:9 http://ci.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [920 kB]
+Get:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [764 kB]
+Get:11 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,144 kB]
+Fetched 5,970 kB in 1min 3s (95.4 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+8 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-15 17:58:12][beginning to install g++] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+g++ is already the newest version (4:9.3.0-1ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+[2024-01-15 17:58:17][ installed] 
+[2024-01-15 18:00:25][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  binutils binutils-common binutils-x86-64-linux-gnu gnome-shell
+  gnome-shell-common libbinutils libctf-nobfd0 libctf0
+8 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+6 standard LTS security updates
+Need to get 3,330 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf0 amd64 2.34-6ubuntu1.8 [46.7 kB]
+Get:2 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.8 [1,614 kB]
+Get:3 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libbinutils amd64 2.34-6ubuntu1.8 [475 kB]
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils amd64 2.34-6ubuntu1.8 [3,384 B]
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-common amd64 2.34-6ubuntu1.8 [208 kB]
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1.8 [48.1 kB]
+Get:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell amd64 3.36.9-0ubuntu0.20.04.3 [783 kB]
+Get:8 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell-common all 3.36.9-0ubuntu0.20.04.3 [152 kB]
+Fetched 3,330 kB in 9s (363 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195584 files and directories currently installed.)
+Preparing to unpack .../0-libctf0_2.34-6ubuntu1.8_amd64.deb ...
+Unpacking libctf0:amd64 (2.34-6ubuntu1.8) over (2.34-6ubuntu1.7) ...
+Preparing to unpack .../1-binutils-x86-64-linux-gnu_2.34-6ubuntu1.8_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.34-6ubuntu1.8) over (2.34-6ubuntu1.7) ...
+Preparing to unpack .../2-libbinutils_2.34-6ubuntu1.8_amd64.deb ...
+Unpacking libbinutils:amd64 (2.34-6ubuntu1.8) over (2.34-6ubuntu1.7) ...
+Preparing to unpack .../3-binutils_2.34-6ubuntu1.8_amd64.deb ...
+Unpacking binutils (2.34-6ubuntu1.8) over (2.34-6ubuntu1.7) ...
+Preparing to unpack .../4-binutils-common_2.34-6ubuntu1.8_amd64.deb ...
+Unpacking binutils-common:amd64 (2.34-6ubuntu1.8) over (2.34-6ubuntu1.7) ...
+Preparing to unpack .../5-libctf-nobfd0_2.34-6ubuntu1.8_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.34-6ubuntu1.8) over (2.34-6ubuntu1.7) ...
+Preparing to unpack .../6-gnome-shell_3.36.9-0ubuntu0.20.04.3_amd64.deb ...
+Unpacking gnome-shell (3.36.9-0ubuntu0.20.04.3) over (3.36.9-0ubuntu0.20.04.2) ...
+Preparing to unpack .../7-gnome-shell-common_3.36.9-0ubuntu0.20.04.3_all.deb ...
+Unpacking gnome-shell-common (3.36.9-0ubuntu0.20.04.3) over (3.36.9-0ubuntu0.20.04.2) ...
+Setting up binutils-common:amd64 (2.34-6ubuntu1.8) ...
+Setting up libctf-nobfd0:amd64 (2.34-6ubuntu1.8) ...
+Setting up gnome-shell-common (3.36.9-0ubuntu0.20.04.3) ...
+Setting up libbinutils:amd64 (2.34-6ubuntu1.8) ...
+Setting up libctf0:amd64 (2.34-6ubuntu1.8) ...
+Setting up binutils-x86-64-linux-gnu (2.34-6ubuntu1.8) ...
+Setting up binutils (2.34-6ubuntu1.8) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.6) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.14) ...
+Processing triggers for man-db (2.9.1-1) ...
+Setting up gnome-shell (3.36.9-0ubuntu0.20.04.3) ...
+[2024-01-15 18:01:39][Full upgrade complete] 
+[2024-01-15 18:11:02][Exiting debian function] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-15 18:11:35][Exiting debian function] 
+[2024-01-17 16:50:31][info] 
+[2024-01-17 16:50:31][detected distribution: Ubuntu] 
+[2024-01-17 16:50:59][info] 
+[2024-01-17 16:50:59][detected distribution: Ubuntu] 
+[2024-01-17 17:31:57][info] 
+[2024-01-17 17:31:57][info] 
+[2024-01-17 17:31:57][info] 
+[2024-01-17 17:31:57][info] 
+[2024-01-17 17:31:57][info] 
+[2024-01-17 17:32:22][Network not available] 
+[2024-01-17 17:32:56][info] 
+[2024-01-17 17:32:56][info] 
+[2024-01-17 17:32:56][info] 
+[2024-01-17 17:32:56][info] 
+[2024-01-17 17:32:56][info] 
+[2024-01-17 17:32:57][detected distribution: Ubuntu] 
+[2024-01-17 17:33:16][info] 
+[2024-01-17 17:33:16][info] 
+[2024-01-17 17:33:16][info] 
+[2024-01-17 17:33:16][info] 
+[2024-01-17 17:33:16][info] 
+[2024-01-17 17:33:16][detected distribution: Ubuntu] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 17:33:54][Exiting debian function] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 17:34:01][Exiting debian function] 
+[2024-01-17 17:42:50][info] 
+[2024-01-17 17:42:50][info] 
+[2024-01-17 17:42:50][info] 
+[2024-01-17 17:42:50][info] 
+[2024-01-17 17:42:50][info] 
+[2024-01-17 17:42:50][detected distribution: Ubuntu] 
+[2024-01-17 17:42:51][info] 
+[2024-01-17 17:42:51][info] 
+[2024-01-17 17:42:51][info] 
+[2024-01-17 17:42:51][info] 
+[2024-01-17 17:42:51][info] 
+[2024-01-17 17:42:51][detected distribution: Ubuntu] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 17:42:58][Exiting debian function] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 17:43:05][Exiting debian function] 
+[2024-01-17 17:49:53][info] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 17:49:59][Exiting debian function] 
+[2024-01-17 17:53:23][info] 
+[2024-01-17 17:53:23][info] 
+[2024-01-17 17:53:23][info] 
+[2024-01-17 17:53:23][info] 
+[2024-01-17 17:53:23][info] 
+[2024-01-17 17:53:23][detected distribution: Ubuntu] 
+[2024-01-17 17:53:25][info] 
+[2024-01-17 17:53:25][info] 
+[2024-01-17 17:53:25][info] 
+[2024-01-17 17:53:25][info] 
+[2024-01-17 17:53:25][info] 
+[2024-01-17 17:53:25][detected distribution: Ubuntu] 
+[2024-01-17 17:53:35][Network interuputed. Exiting.] 
+[2024-01-17 17:53:45][Network interuputed. Exiting.] 
+[2024-01-17 17:56:12][info] 
+[2024-01-17 17:56:12][info] 
+[2024-01-17 17:56:12][info] 
+[2024-01-17 17:56:12][info] 
+[2024-01-17 17:56:12][info] 
+[2024-01-17 17:56:12][detected distribution: Ubuntu] 
+[2024-01-17 17:56:13][info] 
+[2024-01-17 17:56:13][info] 
+[2024-01-17 17:56:13][info] 
+[2024-01-17 17:56:13][info] 
+[2024-01-17 17:56:13][info] 
+[2024-01-17 17:56:13][detected distribution: Ubuntu] 
+[2024-01-17 17:56:23][Network interuputed. Exiting.] 
+[2024-01-17 17:56:33][Network interuputed. Exiting.] 
+[2024-01-17 17:56:46][info] 
+[2024-01-17 17:56:46][info] 
+[2024-01-17 17:56:46][info] 
+[2024-01-17 17:56:46][info] 
+[2024-01-17 17:56:46][info] 
+[2024-01-17 17:56:46][detected distribution: Ubuntu] 
+[2024-01-17 17:56:47][info] 
+[2024-01-17 17:56:47][info] 
+[2024-01-17 17:56:47][info] 
+[2024-01-17 17:56:47][info] 
+[2024-01-17 17:56:47][info] 
+[2024-01-17 17:56:47][detected distribution: Ubuntu] 
+[2024-01-17 17:56:57][Network interuputed. Exiting.] 
+[2024-01-17 17:57:25][info] 
+[2024-01-17 17:57:25][info] 
+[2024-01-17 17:57:25][info] 
+[2024-01-17 17:57:25][info] 
+[2024-01-17 17:57:25][info] 
+[2024-01-17 17:57:26][detected distribution: Ubuntu] 
+[2024-01-17 17:57:26][info] 
+[2024-01-17 17:57:26][info] 
+[2024-01-17 17:57:26][info] 
+[2024-01-17 17:57:26][info] 
+[2024-01-17 17:57:26][info] 
+[2024-01-17 17:57:26][detected distribution: Ubuntu] 
+[2024-01-17 17:57:36][Network interuputed. Exiting.] 
+[2024-01-17 17:58:09][info] 
+[2024-01-17 17:58:09][info] 
+[2024-01-17 17:58:09][info] 
+[2024-01-17 17:58:09][info] 
+[2024-01-17 17:58:09][info] 
+[2024-01-17 17:58:09][detected distribution: Ubuntu] 
+[2024-01-17 17:58:11][info] 
+[2024-01-17 17:58:11][info] 
+[2024-01-17 17:58:11][info] 
+[2024-01-17 17:58:11][info] 
+[2024-01-17 17:58:11][info] 
+[2024-01-17 17:58:11][detected distribution: Ubuntu] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 17:58:18][Exiting debian function] 
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 17:58:25][Exiting debian function] 
+[2024-01-17 17:59:48][info] 
+[2024-01-17 17:59:48][info] 
+[2024-01-17 17:59:48][info] 
+[2024-01-17 17:59:48][info] 
+[2024-01-17 17:59:48][info] 
+[2024-01-17 17:59:48][detected distribution: Ubuntu] 
+[2024-01-17 17:59:49][info] 
+[2024-01-17 17:59:49][info] 
+[2024-01-17 17:59:49][info] 
+[2024-01-17 17:59:49][info] 
+[2024-01-17 17:59:49][info] 
+[2024-01-17 17:59:49][detected distribution: Ubuntu] 
+[2024-01-17 18:00:03][info] 
+[2024-01-17 18:00:03][info] 
+[2024-01-17 18:00:03][info] 
+[2024-01-17 18:00:03][info] 
+[2024-01-17 18:00:03][info] 
+[2024-01-17 18:00:03][detected distribution: Ubuntu] 
+[2024-01-17 18:00:05][info] 
+[2024-01-17 18:00:05][info] 
+[2024-01-17 18:00:05][info] 
+[2024-01-17 18:00:05][info] 
+[2024-01-17 18:00:05][info] 
+[2024-01-17 18:00:05][detected distribution: Ubuntu] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 18:00:11][Exiting debian function] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 18:00:18][Exiting debian function] 
+[2024-01-17 18:02:49][info] 
+[2024-01-17 18:02:49][info] 
+[2024-01-17 18:02:49][info] 
+[2024-01-17 18:02:49][info] 
+[2024-01-17 18:02:49][info] 
+[2024-01-17 18:02:49][detected distribution: Ubuntu] 
+[2024-01-17 18:02:50][info] 
+[2024-01-17 18:02:50][info] 
+[2024-01-17 18:02:50][info] 
+[2024-01-17 18:02:50][info] 
+[2024-01-17 18:02:50][info] 
+[2024-01-17 18:02:50][detected distribution: Ubuntu] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 18:02:57][Exiting debian function] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 18:03:03][Exiting debian function] 
+[2024-01-17 18:05:14][info] 
+[2024-01-17 18:05:14][info] 
+[2024-01-17 18:05:14][info] 
+[2024-01-17 18:05:14][info] 
+[2024-01-17 18:05:14][info] 
+[2024-01-17 18:05:15][detected distribution: Ubuntu] 
+[2024-01-17 18:05:15][info] 
+[2024-01-17 18:05:15][info] 
+[2024-01-17 18:05:15][info] 
+[2024-01-17 18:05:15][info] 
+[2024-01-17 18:05:15][info] 
+[2024-01-17 18:05:15][detected distribution: Ubuntu] 
+Err:1 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:2 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 18:05:31][Network interuputed. Exiting.] 
+[2024-01-17 18:05:41][Network interuputed. Exiting.] 
+[2024-01-17 18:06:16][info] 
+[2024-01-17 18:06:16][info] 
+[2024-01-17 18:06:16][info] 
+[2024-01-17 18:06:16][info] 
+[2024-01-17 18:06:16][info] 
+[2024-01-17 18:06:16][detected distribution: Ubuntu] 
+[2024-01-17 18:06:17][info] 
+[2024-01-17 18:06:17][info] 
+[2024-01-17 18:06:17][info] 
+[2024-01-17 18:06:17][info] 
+[2024-01-17 18:06:17][info] 
+[2024-01-17 18:06:17][detected distribution: Ubuntu] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 18:06:33][Network interuputed. Exiting.] 
+[2024-01-17 18:06:33][Error details: $id = 1 on line 176 update_packages.sh in ./update.sh] 
+[2024-01-17 18:06:33][Exiting debian function] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-01-17 18:06:55][Network interuputed. Exiting.] 
+[2024-01-17 18:06:55][Error details: $id = 1 on line 176 update_packages.sh in ./update.sh] 
+[2024-01-17 18:06:55][Exiting debian function] 
+[2024-01-17 19:08:40][info] 
+[2024-01-17 19:08:40][info] 
+[2024-01-17 19:08:40][info] 
+[2024-01-17 19:08:40][info] 
+[2024-01-17 19:08:40][info] 
+[2024-01-17 19:08:40][detected distribution: Ubuntu] 
+[2024-01-17 19:08:50][info] 
+[2024-01-17 19:08:50][info] 
+[2024-01-17 19:08:50][info] 
+[2024-01-17 19:08:50][info] 
+[2024-01-17 19:08:50][info] 
+[2024-01-17 19:08:50][detected distribution: Ubuntu] 
+Ign:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Ign:2 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Ign:3 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Err:4 http://ci.archive.ubuntu.com/ubuntu focal Release
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable)
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal-updates Release
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable)
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-backports Release
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable)
+Hit:7 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:8 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:9 http://security.ubuntu.com/ubuntu focal-security InRelease
+Err:10 http://security.ubuntu.com/ubuntu focal-security Release
+  Cannot initiate the connection to security.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to security.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to security.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to security.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to security.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable)
+Ign:11 https://deb.opera.com/opera-stable stable InRelease
+Err:12 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.105.15 443]
+Reading package lists...
+[2024-01-17 19:10:30][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-01-17 19:10:35][Exiting debian function] 
+[2024-01-17 19:11:55][info] 
+[2024-01-17 19:11:55][info] 
+[2024-01-17 19:11:55][info] 
+[2024-01-17 19:11:55][info] 
+[2024-01-17 19:11:55][info] 
+[2024-01-17 19:11:55][detected distribution: Ubuntu] 
+[2024-01-17 19:12:06][info] 
+[2024-01-17 19:12:06][info] 
+[2024-01-17 19:12:06][info] 
+[2024-01-17 19:12:06][info] 
+[2024-01-17 19:12:06][info] 
+[2024-01-17 19:12:06][detected distribution: Ubuntu] 
+[2024-01-17 19:12:07][info] 
+[2024-01-17 19:12:07][info] 
+[2024-01-17 19:12:07][info] 
+[2024-01-17 19:12:07][info] 
+[2024-01-17 19:12:07][info] 
+[2024-01-17 19:12:07][detected distribution: Ubuntu] 
+Err:1 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:12:16][Exiting debian function] 
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:12:22][Exiting debian function] 
+[2024-01-17 19:12:57][info] 
+[2024-01-17 19:12:57][info] 
+[2024-01-17 19:12:57][info] 
+[2024-01-17 19:12:57][info] 
+[2024-01-17 19:12:57][info] 
+[2024-01-17 19:12:57][detected distribution: Ubuntu] 
+[2024-01-17 19:12:58][info] 
+[2024-01-17 19:12:58][info] 
+[2024-01-17 19:12:58][info] 
+[2024-01-17 19:12:58][info] 
+[2024-01-17 19:12:58][info] 
+[2024-01-17 19:12:58][detected distribution: Ubuntu] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:4 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:13:04][Exiting debian function] 
+Err:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:2 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:13:10][Exiting debian function] 
+[2024-01-17 19:17:56][info] 
+[2024-01-17 19:17:56][info] 
+[2024-01-17 19:17:56][info] 
+[2024-01-17 19:17:56][info] 
+[2024-01-17 19:17:56][info] 
+[2024-01-17 19:17:56][detected distribution: Ubuntu] 
+[2024-01-17 19:17:57][info] 
+[2024-01-17 19:17:57][info] 
+[2024-01-17 19:17:57][info] 
+[2024-01-17 19:17:57][info] 
+[2024-01-17 19:17:57][info] 
+[2024-01-17 19:17:57][detected distribution: Ubuntu] 
+[2024-01-17 19:18:31][info] 
+[2024-01-17 19:18:31][info] 
+[2024-01-17 19:18:31][info] 
+[2024-01-17 19:18:31][info] 
+[2024-01-17 19:18:31][info] 
+[2024-01-17 19:18:31][detected distribution: Ubuntu] 
+[2024-01-17 19:18:32][info] 
+[2024-01-17 19:18:32][info] 
+[2024-01-17 19:18:32][info] 
+[2024-01-17 19:18:32][info] 
+[2024-01-17 19:18:32][info] 
+[2024-01-17 19:18:32][detected distribution: Ubuntu] 
+[2024-01-17 19:22:32][info] 
+[2024-01-17 19:22:32][info] 
+[2024-01-17 19:22:32][info] 
+[2024-01-17 19:22:32][info] 
+[2024-01-17 19:22:32][info] 
+[2024-01-17 19:22:32][detected distribution: Ubuntu] 
+[2024-01-17 19:22:33][info] 
+[2024-01-17 19:22:33][info] 
+[2024-01-17 19:22:33][info] 
+[2024-01-17 19:22:33][info] 
+[2024-01-17 19:22:33][info] 
+[2024-01-17 19:22:33][detected distribution: Ubuntu] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Fetched 114 kB in 30s (3,831 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:23:18][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Get:6 https://deb.opera.com/opera-stable stable InRelease [2,590 B]
+Get:7 https://deb.opera.com/opera-stable stable/non-free amd64 Packages [1,179 B]
+Hit:8 http://security.ubuntu.com/ubuntu focal-security InRelease
+Fetched 3,769 B in 12s (312 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:23:38][Exiting debian function] 
+[2024-01-17 19:23:53][info] 
+[2024-01-17 19:23:53][info] 
+[2024-01-17 19:23:53][info] 
+[2024-01-17 19:23:53][info] 
+[2024-01-17 19:23:53][info] 
+[2024-01-17 19:23:53][detected distribution: Ubuntu] 
+[2024-01-17 19:23:54][info] 
+[2024-01-17 19:23:54][info] 
+[2024-01-17 19:23:54][info] 
+[2024-01-17 19:23:54][info] 
+[2024-01-17 19:23:54][info] 
+[2024-01-17 19:23:54][detected distribution: Ubuntu] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 https://deb.opera.com/opera-stable stable InRelease
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:24:41][Beginning upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  google-chrome-stable tzdata xserver-common xserver-xephyr xserver-xorg-core
+  xserver-xorg-legacy xwayland
+7 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+5 standard LTS security updates
+Need to get 108 MB of archives.
+After this operation, 13.3 kB of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tzdata all 2023d-0ubuntu0.20.04 [303 kB]
+Get:2 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-common all 2:1.20.13-1ubuntu1~20.04.14 [27.9 kB]
+Get:3 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-xephyr amd64 2:1.20.13-1ubuntu1~20.04.14 [918 kB]
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-xorg-legacy amd64 2:1.20.13-1ubuntu1~20.04.14 [33.5 kB]
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xserver-xorg-core amd64 2:1.20.13-1ubuntu1~20.04.14 [1,340 kB]
+Get:6 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 120.0.6099.224-1 [105 MB]
+Get:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 xwayland amd64 2:1.20.13-1ubuntu1~20.04.14 [870 kB]
+Get:6 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 120.0.6099.224-1 [105 MB]
+[2024-01-17 19:28:36][info] 
+[2024-01-17 19:28:36][info] 
+[2024-01-17 19:28:36][info] 
+[2024-01-17 19:28:36][info] 
+[2024-01-17 19:28:36][info] 
+[2024-01-17 19:28:36][detected distribution: Ubuntu] 
+[2024-01-17 19:28:54][info] 
+[2024-01-17 19:28:54][info] 
+[2024-01-17 19:28:54][info] 
+[2024-01-17 19:28:54][info] 
+[2024-01-17 19:28:54][info] 
+[2024-01-17 19:28:54][detected distribution: Ubuntu] 
+Hit:1 https://deb.opera.com/opera-stable stable InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Hit:4 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:29:43][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-17 19:29:59][Exiting debian function] 
+Preconfiguring packages ...
+Fetched 96.3 MB in 6min 1s (267 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195584 files and directories currently installed.)
+Preparing to unpack .../0-google-chrome-stable_120.0.6099.224-1_amd64.deb ...
+Unpacking google-chrome-stable (120.0.6099.224-1) over (120.0.6099.216-1) ...
+Preparing to unpack .../1-tzdata_2023d-0ubuntu0.20.04_all.deb ...
+Unpacking tzdata (2023d-0ubuntu0.20.04) over (2023c-0ubuntu0.20.04.2) ...
+Preparing to unpack .../2-xserver-common_2%3a1.20.13-1ubuntu1~20.04.14_all.deb ...
+Unpacking xserver-common (2:1.20.13-1ubuntu1~20.04.14) over (2:1.20.13-1ubuntu1~20.04.12) ...
+Preparing to unpack .../3-xserver-xephyr_2%3a1.20.13-1ubuntu1~20.04.14_amd64.deb ...
+Unpacking xserver-xephyr (2:1.20.13-1ubuntu1~20.04.14) over (2:1.20.13-1ubuntu1~20.04.12) ...
+Preparing to unpack .../4-xserver-xorg-legacy_2%3a1.20.13-1ubuntu1~20.04.14_amd64.deb ...
+Unpacking xserver-xorg-legacy (2:1.20.13-1ubuntu1~20.04.14) over (2:1.20.13-1ubuntu1~20.04.12) ...
+Preparing to unpack .../5-xserver-xorg-core_2%3a1.20.13-1ubuntu1~20.04.14_amd64.deb ...
+Unpacking xserver-xorg-core (2:1.20.13-1ubuntu1~20.04.14) over (2:1.20.13-1ubuntu1~20.04.12) ...
+Preparing to unpack .../6-xwayland_2%3a1.20.13-1ubuntu1~20.04.14_amd64.deb ...
+Unpacking xwayland (2:1.20.13-1ubuntu1~20.04.14) over (2:1.20.13-1ubuntu1~20.04.12) ...
+Setting up google-chrome-stable (120.0.6099.224-1) ...
+Setting up tzdata (2023d-0ubuntu0.20.04) ...
+
+Current default time zone: 'Africa/Lagos'
+Local time is now:      Wed Jan 17 19:31:45 WAT 2024.
+Universal Time is now:  Wed Jan 17 18:31:45 UTC 2024.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up xserver-common (2:1.20.13-1ubuntu1~20.04.14) ...
+Setting up xwayland (2:1.20.13-1ubuntu1~20.04.14) ...
+Setting up xserver-xorg-legacy (2:1.20.13-1ubuntu1~20.04.14) ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+Setting up xserver-xorg-core (2:1.20.13-1ubuntu1~20.04.14) ...
+Setting up xserver-xephyr (2:1.20.13-1ubuntu1~20.04.14) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+[2024-01-17 19:32:50][upgrade complete] 
+[2024-01-17 19:33:57][info] 
+[2024-01-17 19:33:57][info] 
+[2024-01-17 19:33:57][info] 
+[2024-01-17 19:33:57][info] 
+[2024-01-17 19:33:58][info] 
+[2024-01-17 19:33:58][detected distribution: Ubuntu] 
+[2024-01-17 19:33:59][info] 
+[2024-01-17 19:33:59][info] 
+[2024-01-17 19:33:59][info] 
+[2024-01-17 19:33:59][info] 
+[2024-01-17 19:33:59][info] 
+[2024-01-17 19:33:59][detected distribution: Ubuntu] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+[2024-01-17 19:34:07][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[2024-01-17 19:34:09][Full upgrade complete] 
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:4 https://deb.opera.com/opera-stable stable InRelease
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:34:40][Error details: apt show $package on line 168 update_packages.sh in ./update.sh] 
+[2024-01-17 19:34:49][Exiting debian function] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 https://deb.opera.com/opera-stable stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 https://dl.google.com/linux/chrome/deb stable InRelease
+[2024-01-17 19:35:01][Exiting debian function] 
+Reading package lists...
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...[2024-01-17 19:35:08][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:36:36][Exiting debian function] 
+[2024-01-17 19:39:27][info] 
+[2024-01-17 19:39:27][info] 
+[2024-01-17 19:39:27][info] 
+[2024-01-17 19:39:27][info] 
+[2024-01-17 19:39:27][info] 
+[2024-01-17 19:39:31][Network connection verified] 
+[2024-01-17 19:39:31][detected distribution: Ubuntu] 
+[2024-01-17 19:39:32][info] 
+[2024-01-17 19:39:32][info] 
+[2024-01-17 19:39:32][info] 
+[2024-01-17 19:39:32][info] 
+[2024-01-17 19:39:32][info] 
+[2024-01-17 19:39:35][Network connection verified] 
+[2024-01-17 19:39:35][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 https://deb.opera.com/opera-stable stable InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:42:05][Exiting debian function] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+Err:5 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Hit:6 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:7 https://dl.google.com/linux/chrome/deb stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:43:32][Exiting debian function] 
+[2024-01-17 19:43:56][info] 
+[2024-01-17 19:43:56][info] 
+[2024-01-17 19:43:56][info] 
+[2024-01-17 19:43:56][info] 
+[2024-01-17 19:43:56][info] 
+[2024-01-17 19:44:14][Network connection verified] 
+[2024-01-17 19:44:14][detected distribution: Ubuntu] 
+[2024-01-17 19:44:15][info] 
+[2024-01-17 19:44:15][info] 
+[2024-01-17 19:44:15][info] 
+[2024-01-17 19:44:15][info] 
+[2024-01-17 19:44:15][info] 
+[2024-01-17 19:44:19][Network connection verified] 
+[2024-01-17 19:44:19][detected distribution: Ubuntu] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 https://deb.opera.com/opera-stable stable InRelease
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:45:50][Exiting debian function] 
+Hit:1 https://deb.opera.com/opera-stable stable InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Err:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Hit:7 https://dl.google.com/linux/chrome/deb stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:46:30][Exiting debian function] 
+[2024-01-17 19:52:56][info] 
+[2024-01-17 19:52:56][info] 
+[2024-01-17 19:52:56][info] 
+[2024-01-17 19:52:56][info] 
+[2024-01-17 19:52:56][info] 
+[2024-01-17 19:53:14][Network connection verified] 
+[2024-01-17 19:53:14][detected distribution: Ubuntu] 
+[2024-01-17 19:53:42][info] 
+[2024-01-17 19:53:42][info] 
+[2024-01-17 19:53:42][info] 
+[2024-01-17 19:53:42][info] 
+[2024-01-17 19:53:42][info] 
+[2024-01-17 19:53:46][Network connection verified] 
+[2024-01-17 19:53:46][detected distribution: Ubuntu] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Err:4 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:54:50][Exiting debian function] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 https://deb.opera.com/opera-stable stable InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Err:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Hit:7 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[2024-01-17 19:55:20][Exiting debian function] 
+[2024-01-19 16:53:25][info] 
+[2024-01-19 16:53:25][info] 
+[2024-01-19 16:53:25][info] 
+[2024-01-19 16:53:25][info] 
+[2024-01-19 16:53:25][info] 
+[2024-01-19 16:55:43][Network not available] 
+[2024-01-19 16:56:09][info] 
+[2024-01-19 16:56:09][info] 
+[2024-01-19 16:56:09][info] 
+[2024-01-19 16:56:09][info] 
+[2024-01-19 16:56:09][info] 
+[2024-01-19 16:56:12][Network connection verified] 
+[2024-01-19 16:56:12][detected distribution: Ubuntu] 
+[2024-01-19 16:57:34][info] 
+[2024-01-19 16:57:34][info] 
+[2024-01-19 16:57:34][info] 
+[2024-01-19 16:57:34][info] 
+[2024-01-19 16:57:34][info] 
+[2024-01-19 16:57:47][Network connection verified] 
+[2024-01-19 16:57:47][detected distribution: Ubuntu] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [920 kB]
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [3,028 kB]
+Get:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,154 kB]
+Err:8 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Get:9 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [768 kB]
+Hit:10 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:11 https://deb.opera.com/opera-stable stable InRelease
+Err:12 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 95.100.105.47 443]
+Reading package lists...
+[2024-01-19 16:59:09][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-01-19 16:59:36][Exiting debian function] 
+[2024-01-27 09:25:45][info] 
+[2024-01-27 09:25:45][info] 
+[2024-01-27 09:25:45][info] 
+[2024-01-27 09:25:45][info] 
+[2024-01-27 09:25:45][info] 
+[2024-01-27 09:26:04][Network not available] 
+[2024-01-27 09:34:41][info] 
+[2024-01-27 09:34:41][info] 
+[2024-01-27 09:34:41][info] 
+[2024-01-27 09:34:41][info] 
+[2024-01-27 09:34:41][info] 
+[2024-01-27 09:34:58][Network not available] 
+[2024-01-27 09:35:18][info] 
+[2024-01-27 09:35:18][info] 
+[2024-01-27 09:35:18][info] 
+[2024-01-27 09:35:18][detected distribution: Ubuntu] 
+[2024-01-27 09:35:30][info] 
+[2024-01-27 09:35:30][info] 
+[2024-01-27 09:35:30][info] 
+[2024-01-27 09:35:30][detected distribution: Ubuntu] 
+[2024-01-27 09:35:40][Network interuputed. Exiting.] 
+[2024-01-27 09:35:50][Network interuputed. Exiting.] 
+[2024-01-27 09:36:08][info] 
+[2024-01-27 09:36:08][info] 
+[2024-01-27 09:36:08][info] 
+[2024-01-27 09:36:08][detected distribution: Ubuntu] 
+[2024-01-27 09:36:09][info] 
+[2024-01-27 09:36:09][info] 
+[2024-01-27 09:36:09][info] 
+[2024-01-27 09:36:09][detected distribution: Ubuntu] 
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+13 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-27 09:36:20][Exiting debian function] 
+Err:1 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:4 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+13 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-01-27 09:36:26][Exiting debian function] 
+[2024-02-12 17:11:02][info] 
+[2024-02-12 17:11:02][info] 
+[2024-02-12 17:11:02][info] 
+[2024-02-12 17:11:02][info] 
+[2024-02-12 17:11:02][info] 
+[2024-02-12 17:11:06][Network connection verified] 
+[2024-02-12 17:11:06][detected distribution: Ubuntu] 
+[2024-02-12 17:11:16][info] 
+[2024-02-12 17:11:16][info] 
+[2024-02-12 17:11:16][info] 
+[2024-02-12 17:11:16][info] 
+[2024-02-12 17:11:16][info] 
+[2024-02-12 17:11:20][Network connection verified] 
+[2024-02-12 17:11:20][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:6 https://deb.opera.com/opera-stable stable InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Fetched 114 kB in 14s (7,850 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+11 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-02-12 17:11:45][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-5.15.0-94-generic linux-hwe-5.15-headers-5.15.0-94
+  linux-image-5.15.0-94-generic linux-modules-5.15.0-94-generic
+  linux-modules-extra-5.15.0-94-generic
+The following packages will be upgraded:
+  dns-root-data firefox firefox-locale-en google-chrome-stable libssl1.1
+  linux-generic-hwe-20.04 linux-headers-generic-hwe-20.04
+  linux-image-generic-hwe-20.04 linux-libc-dev openssl opera-stable
+11 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+8 standard LTS security updates
+Need to get 388 MB of archives.
+After this operation, 603 MB of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.21 [1,321 kB]
+Get:2 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 121.0.6167.160-1 [106 MB]
+Get:3 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 107.0.5045.15 [109 MB]
+Ign:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.21
+Ign:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.21
+Ign:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 dns-root-data all 2023112702~ubuntu0.20.04.1
+Ign:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 firefox amd64 122.0.1+build1-0ubuntu0.20.04.1
+Ign:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 firefox-locale-en amd64 122.0.1+build1-0ubuntu0.20.04.1
+Ign:8 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:9 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-extra-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:11 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+Ign:12 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+Ign:13 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+Ign:14 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:15 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+Ign:16 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-171.189
+Err:1 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.21
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 dns-root-data all 2023112702~ubuntu0.20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Ign:13 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+Err:4 http://security.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.21
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:6 http://security.ubuntu.com/ubuntu focal-updates/main amd64 firefox amd64 122.0.1+build1-0ubuntu0.20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:7 http://security.ubuntu.com/ubuntu focal-updates/main amd64 firefox-locale-en amd64 122.0.1+build1-0ubuntu0.20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:8 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:9 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:10 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-extra-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:11 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:12 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:14 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:2 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 121.0.6167.160-1
+  Cannot initiate the connection to dl.google.com:443 (142.250.200.142). - connect (101: Network is unreachable) Cannot initiate the connection to dl.google.com:443 (2a00:1450:4003:80c::200e). - connect (101: Network is unreachable) [IP: 142.250.200.142 443]
+Err:3 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 107.0.5045.15
+  Cannot initiate the connection to deb.opera.com:443 (84.53.132.129). - connect (101: Network is unreachable) Cannot initiate the connection to deb.opera.com:443 (84.53.132.107). - connect (101: Network is unreachable) [IP: 84.53.132.129 443]
+Err:15 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Err:16 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-171.189
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+Ign:13 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+Err:13 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) [IP: 185.125.190.39 80]
+[2024-02-12 17:12:54][Network interuputed. Exiting.] 
+[2024-02-12 17:13:04][Network interuputed. Exiting.] 
+[2024-02-12 18:05:40][info] 
+[2024-02-12 18:05:40][info] 
+[2024-02-12 18:05:40][info] 
+[2024-02-12 18:05:40][info] 
+[2024-02-12 18:05:40][info] 
+[2024-02-12 18:05:45][Network connection verified] 
+[2024-02-12 18:05:45][detected distribution: Ubuntu] 
+[2024-02-12 18:06:12][info] 
+[2024-02-12 18:06:12][info] 
+[2024-02-12 18:06:12][info] 
+[2024-02-12 18:06:12][info] 
+[2024-02-12 18:06:12][info] 
+[2024-02-12 18:06:15][Network connection verified] 
+[2024-02-12 18:06:16][detected distribution: Ubuntu] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 https://deb.opera.com/opera-stable stable InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 http://security.ubuntu.com/ubuntu focal-security InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+11 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-02-12 18:06:47][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-5.15.0-94-generic linux-hwe-5.15-headers-5.15.0-94
+  linux-image-5.15.0-94-generic linux-modules-5.15.0-94-generic
+  linux-modules-extra-5.15.0-94-generic
+The following packages will be upgraded:
+  dns-root-data firefox firefox-locale-en google-chrome-stable libssl1.1
+  linux-generic-hwe-20.04 linux-headers-generic-hwe-20.04
+  linux-image-generic-hwe-20.04 linux-libc-dev openssl opera-stable
+11 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+8 standard LTS security updates
+Need to get 388 MB of archives.
+After this operation, 603 MB of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.21 [1,321 kB]
+Get:2 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 121.0.6167.160-1 [106 MB]
+Get:3 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 107.0.5045.15 [109 MB]
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.21 [621 kB]
+Err:3 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 107.0.5045.15
+  Cannot initiate the connection to deb.opera.com:443 (92.122.154.118). - connect (101: Network is unreachable) Cannot initiate the connection to deb.opera.com:443 (92.122.154.112). - connect (101: Network is unreachable) [IP: 92.122.154.118 443]
+Ign:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.21
+Ign:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 dns-root-data all 2023112702~ubuntu0.20.04.1
+Err:2 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 121.0.6167.160-1
+  Cannot initiate the connection to dl.google.com:443 (142.250.200.142). - connect (101: Network is unreachable) Cannot initiate the connection to dl.google.com:443 (2a00:1450:4003:80f::200e). - connect (101: Network is unreachable) [IP: 142.250.200.142 443]
+Ign:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 firefox amd64 122.0.1+build1-0ubuntu0.20.04.1
+Ign:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 firefox-locale-en amd64 122.0.1+build1-0ubuntu0.20.04.1
+Ign:8 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:9 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-extra-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:11 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+Ign:12 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+Ign:13 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+Ign:14 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+Ign:15 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+Ign:16 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-171.189
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 dns-root-data all 2023112702~ubuntu0.20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:4 http://security.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.21
+  Connection failed [IP: 91.189.91.81 80]
+Ign:13 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+Err:6 http://security.ubuntu.com/ubuntu focal-updates/main amd64 firefox amd64 122.0.1+build1-0ubuntu0.20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:7 http://security.ubuntu.com/ubuntu focal-updates/main amd64 firefox-locale-en amd64 122.0.1+build1-0ubuntu0.20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:8 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:9 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:10 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-extra-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:11 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:12 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-image-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:14 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-5.15.0-94-generic amd64 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:15 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-generic-hwe-20.04 amd64 5.15.0.94.104~20.04.50
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Err:16 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-171.189
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Ign:13 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+Err:13 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-hwe-5.15-headers-5.15.0-94 all 5.15.0-94.104~20.04.1
+  Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.81). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.36). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::101). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.83). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (91.189.91.82). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::103). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (185.125.190.39). - connect (101: Network is unreachable) Cannot initiate the connection to ci.archive.ubuntu.com:80 (2620:2d:4002:1::102). - connect (101: Network is unreachable) [IP: 91.189.91.81 80]
+Fetched 375 kB in 1min 5s (5,801 B/s)
+[2024-02-12 18:08:03][Network interuputed. Exiting.] 
+[2024-02-12 18:08:13][Network interuputed. Exiting.] 
+[2024-02-12 18:11:46][info] 
+[2024-02-12 18:11:46][info] 
+[2024-02-12 18:11:46][info] 
+[2024-02-12 18:11:46][info] 
+[2024-02-12 18:11:46][info] 
+[2024-02-12 18:13:18][Network not available] 
+[2024-02-12 18:13:19][info] 
+[2024-02-12 18:13:19][info] 
+[2024-02-12 18:13:19][info] 
+[2024-02-12 18:13:19][info] 
+[2024-02-12 18:13:19][info] 
+[2024-02-12 18:13:23][Network connection verified] 
+[2024-02-12 18:13:23][detected distribution: Ubuntu] 
+[2024-02-12 18:14:04][info] 
+[2024-02-12 18:14:04][info] 
+[2024-02-12 18:14:04][info] 
+[2024-02-12 18:14:04][info] 
+[2024-02-12 18:14:04][info] 
+[2024-02-12 18:14:07][Network connection verified] 
+[2024-02-12 18:14:07][detected distribution: Ubuntu] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:7 https://deb.opera.com/opera-stable stable InRelease
+Err:8 https://deb.opera.com/opera-stable stable Release
+  Could not wait for server fd - select (11: Resource temporarily unavailable) [IP: 92.123.26.187 443]
+Reading package lists...
+[2024-02-12 18:15:27][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-02-12 18:34:33][Exiting debian function] 
+[2024-02-12 18:34:40][Error details: sudo apt update -y >> update.log on line 26 update_packages.sh in ./update.sh] 
+[2024-02-25 12:41:55][info] 
+[2024-02-25 12:41:55][info] 
+[2024-02-25 12:41:55][info] 
+[2024-02-25 12:41:55][info] 
+[2024-02-25 12:41:55][info] 
+[2024-02-25 12:41:59][Network connection verified] 
+[2024-02-25 12:41:59][detected distribution: Ubuntu] 
+[2024-02-25 12:42:22][info] 
+[2024-02-25 12:42:22][info] 
+[2024-02-25 12:42:22][info] 
+[2024-02-25 12:42:22][info] 
+[2024-02-25 12:42:22][info] 
+[2024-02-25 12:42:25][Network connection verified] 
+[2024-02-25 12:42:25][detected distribution: Ubuntu] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+8 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-02-25 12:42:46][Beginning upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  dns-root-data git git-man google-chrome-stable ltrace opera-stable tcpdump
+  unzip
+8 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 226 MB of archives.
+After this operation, 5,042 kB of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ltrace amd64 0.7.3-6.1ubuntu1.1 [123 kB]
+Get:2 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tcpdump amd64 4.9.3-4ubuntu0.3 [370 kB]
+Err:3 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 107.0.5045.36
+  Temporary failure resolving 'deb.opera.com'
+Get:4 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 122.0.6261.69-1 [106 MB]
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 dns-root-data all 2023112702~ubuntu0.20.04.1 [5,308 B]
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 unzip amd64 6.0-25ubuntu1.2 [169 kB]
+Get:7 http://ppa.launchpad.net/git-core/ppa/ubuntu focal/main amd64 git amd64 1:2.43.2-0ppa1~ubuntu20.04.1 [7,500 kB]
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 unzip amd64 6.0-25ubuntu1.2 [169 kB]
+Get:8 http://ppa.launchpad.net/git-core/ppa/ubuntu focal/main amd64 git-man all 1:2.43.2-0ppa1~ubuntu20.04.1 [2,147 kB]
+Fetched 117 MB in 11min 15s (173 kB/s)
+[2024-02-25 12:54:07][Error details: sudo apt upgrade -y >> update.log 2>> error.log on line 54 update_packages.sh in ./update.sh] 
+[2024-02-25 12:54:07][upgrade complete] 
+[2024-02-25 13:42:57][Exiting debian function] 
+[2024-03-01 20:11:58][info] 
+[2024-03-01 20:11:58][info] 
+[2024-03-01 20:11:58][info] 
+[2024-03-01 20:11:58][info] 
+[2024-03-01 20:11:58][info] 
+[2024-03-01 20:12:02][Network connection verified] 
+[2024-03-01 20:12:02][detected distribution: Ubuntu] 
+[2024-03-01 20:12:13][info] 
+[2024-03-01 20:12:13][info] 
+[2024-03-01 20:12:13][info] 
+[2024-03-01 20:12:13][info] 
+[2024-03-01 20:12:13][info] 
+[2024-03-01 20:12:16][Network connection verified] 
+[2024-03-01 20:12:16][detected distribution: Ubuntu] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Err:5 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Hit:6 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Fetched 114 kB in 7s (16.1 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-01 20:12:58][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  dns-root-data git git-man google-chrome-stable ltrace opera-stable tcpdump
+  tzdata ubuntu-drivers-common unzip
+10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+1 standard LTS security update
+Need to get 216 MB/226 MB of archives.
+After this operation, 4,239 kB of additional disk space will be used.
+Err:1 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 107.0.5045.36
+  Could not resolve 'deb.opera.com'
+Get:2 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-drivers-common amd64 1:0.9.0~0.20.04.8 [53.6 kB]
+Get:3 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 122.0.6261.94-1 [106 MB]
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 tzdata all 2024a-0ubuntu0.20.04 [301 kB]
+Get:3 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 122.0.6261.94-1 [106 MB]
+Fetched 8,374 kB in 7min 12s (19.4 kB/s)
+[2024-03-01 20:34:29][Error details: sudo apt full-upgrade -y >> update.log 2>> error.log on line 63 update_packages.sh in ./update.sh] 
+[2024-03-01 20:34:29][Full upgrade complete] 
+[2024-03-01 20:37:28][Exiting debian function] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-01 20:38:46][Exiting debian function] 
+[2024-03-01 22:11:56][info] 
+[2024-03-01 22:11:56][info] 
+[2024-03-01 22:11:56][info] 
+[2024-03-01 22:11:56][info] 
+[2024-03-01 22:11:56][info] 
+[2024-03-01 22:14:20][Network not available] 
+[2024-03-01 22:14:36][info] 
+[2024-03-01 22:14:36][info] 
+[2024-03-01 22:14:36][info] 
+[2024-03-01 22:14:36][info] 
+[2024-03-01 22:14:36][info] 
+[2024-03-01 22:14:58][Network connection verified] 
+[2024-03-01 22:14:58][detected distribution: Ubuntu] 
+[2024-03-01 22:15:26][info] 
+[2024-03-01 22:15:26][info] 
+[2024-03-01 22:15:26][info] 
+[2024-03-01 22:15:26][info] 
+[2024-03-01 22:15:26][info] 
+[2024-03-01 22:15:39][Network connection verified] 
+[2024-03-01 22:15:39][detected distribution: Ubuntu] 
+Err:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:4 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:5 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-01 22:18:22][Exiting debian function] 
+[2024-03-01 22:18:37][info] 
+[2024-03-01 22:18:37][info] 
+[2024-03-01 22:18:37][info] 
+[2024-03-01 22:18:37][info] 
+[2024-03-01 22:18:37][info] 
+[2024-03-01 22:19:06][Network connection verified] 
+[2024-03-01 22:19:07][detected distribution: Ubuntu] 
+[2024-03-01 22:19:09][info] 
+[2024-03-01 22:19:09][info] 
+[2024-03-01 22:19:09][info] 
+[2024-03-01 22:19:09][info] 
+[2024-03-01 22:19:09][info] 
+[2024-03-01 22:20:01][Network connection verified] 
+[2024-03-01 22:20:01][detected distribution: Ubuntu] 
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:5 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-02 00:00:06][Exiting debian function] 
+[2024-03-03 16:20:41][info] 
+[2024-03-03 16:20:41][info] 
+[2024-03-03 16:20:41][info] 
+[2024-03-03 16:20:41][info] 
+[2024-03-03 16:20:41][info] 
+[2024-03-03 16:20:44][Network connection verified] 
+[2024-03-03 16:20:44][detected distribution: Ubuntu] 
+[2024-03-03 16:21:05][info] 
+[2024-03-03 16:21:05][info] 
+[2024-03-03 16:21:05][info] 
+[2024-03-03 16:21:05][info] 
+[2024-03-03 16:21:05][info] 
+[2024-03-03 16:21:08][Network connection verified] 
+[2024-03-03 16:21:08][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [940 kB]
+Hit:8 https://deb.opera.com/opera-stable stable InRelease
+Get:9 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [3,129 kB]
+Get:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,170 kB]
+Get:11 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [776 kB]
+Fetched 6,129 kB in 14s (453 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+9 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-03 16:23:04][info] 
+[2024-03-03 16:23:04][info] 
+[2024-03-03 16:23:04][info] 
+[2024-03-03 16:23:04][info] 
+[2024-03-03 16:23:04][info] 
+[2024-03-03 16:23:07][Network connection verified] 
+[2024-03-03 16:23:07][detected distribution: Ubuntu] 
+[2024-03-03 16:23:08][info] 
+[2024-03-03 16:23:08][info] 
+[2024-03-03 16:23:08][info] 
+[2024-03-03 16:23:08][info] 
+[2024-03-03 16:23:08][info] 
+[2024-03-03 16:23:12][Network connection verified] 
+[2024-03-03 16:23:12][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 https://deb.opera.com/opera-stable stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+9 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-03 16:33:09][Exiting debian function] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://deb.opera.com/opera-stable stable InRelease
+Hit:7 https://dl.google.com/linux/chrome/deb stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+9 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-03 16:33:23][Exiting debian function] 
+[2024-03-17 12:36:02][info] 
+[2024-03-17 12:36:02][info] 
+[2024-03-17 12:36:02][info] 
+[2024-03-17 12:36:02][info] 
+[2024-03-17 12:36:02][info] 
+[2024-03-17 12:36:31][Network not available] 
+[2024-03-17 12:36:32][info] 
+[2024-03-17 12:36:32][info] 
+[2024-03-17 12:36:32][info] 
+[2024-03-17 12:36:32][info] 
+[2024-03-17 12:36:32][info] 
+[2024-03-17 12:36:49][Network not available] 
+[2024-03-17 12:37:01][info] 
+[2024-03-17 12:37:01][info] 
+[2024-03-17 12:37:01][info] 
+[2024-03-17 12:37:01][info] 
+[2024-03-17 12:37:01][info] 
+[2024-03-17 12:37:01][detected distribution: Ubuntu] 
+Err:1 https://deb.opera.com/opera-stable stable InRelease
+  Temporary failure resolving 'deb.opera.com'
+Err:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+  Temporary failure resolving 'ppa.launchpad.net'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+29 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-17 12:37:24][Exiting debian function] 
+[2024-03-17 14:05:21][info] 
+[2024-03-17 14:05:21][info] 
+[2024-03-17 14:05:21][info] 
+[2024-03-17 14:05:21][info] 
+[2024-03-17 14:05:21][info] 
+[2024-03-17 14:05:24][Network connection verified] 
+[2024-03-17 14:05:24][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:3 https://dl.google.com/linux/chrome/deb stable InRelease [1,825 B]
+Get:4 https://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,083 B]
+Get:5 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2,779 kB]
+Get:6 https://deb.opera.com/opera-stable stable InRelease [2,590 B]
+Get:7 https://deb.opera.com/opera-stable stable/non-free amd64 Packages [1,173 B]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/main i386 Packages [720 kB]
+Hit:9 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Get:10 http://security.ubuntu.com/ubuntu focal-security/universe i386 Packages [654 kB]
+Hit:11 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:12 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [950 kB]
+Get:13 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:14 http://ci.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [945 kB]
+Get:15 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [3,156 kB]
+Get:16 http://ci.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [504 kB]
+Get:17 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [780 kB]
+Get:18 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,175 kB]
+Get:19 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [282 kB]
+Fetched 12.2 MB in 1min 9s (178 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+34 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-17 14:07:44][Exiting debian function] 
+[2024-03-17 14:07:51][info] 
+[2024-03-17 14:07:51][info] 
+[2024-03-17 14:07:51][info] 
+[2024-03-17 14:07:51][info] 
+[2024-03-17 14:07:51][info] 
+[2024-03-17 14:07:59][Network connection verified] 
+[2024-03-17 14:07:59][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+34 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-17 14:15:31][Exiting debian function] 
+[2024-03-17 17:52:19][info] 
+[2024-03-17 17:52:19][info] 
+[2024-03-17 17:52:19][info] 
+[2024-03-17 17:52:19][info] 
+[2024-03-17 17:52:19][info] 
+[2024-03-17 17:52:36][info] 
+[2024-03-17 17:52:36][info] 
+[2024-03-17 17:52:36][info] 
+[2024-03-17 17:52:36][info] 
+[2024-03-17 17:52:36][info] 
+[2024-03-17 17:52:42][Network connection verified] 
+[2024-03-17 17:52:42][detected distribution: Ubuntu] 
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Fetched 114 kB in 12s (9,498 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+34 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-17 17:54:46][Exiting debian function] 
+[2024-03-17 17:54:47][info] 
+[2024-03-17 17:54:47][info] 
+[2024-03-17 17:54:47][info] 
+[2024-03-17 17:54:47][info] 
+[2024-03-17 17:54:47][info] 
+[2024-03-17 17:54:49][info] 
+[2024-03-17 17:54:49][info] 
+[2024-03-17 17:54:49][info] 
+[2024-03-17 17:54:49][info] 
+[2024-03-17 17:54:49][info] 
+[2024-03-17 17:54:52][Network connection verified] 
+[2024-03-17 17:54:52][detected distribution: Ubuntu] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+34 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-17 17:55:09][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-5.15.0-100-generic linux-hwe-5.15-headers-5.15.0-100
+  linux-image-5.15.0-100-generic linux-modules-5.15.0-100-generic
+  linux-modules-extra-5.15.0-100-generic ubuntu-pro-client
+The following packages will be upgraded:
+  accountsservice dns-root-data firefox firefox-locale-en
+  gir1.2-accountsservice-1.0 git git-man google-chrome-stable
+  libaccountsservice0 libgpgme11 libgpgmepp6 libkpathsea6 libsynctex2
+  linux-generic-hwe-20.04 linux-headers-generic-hwe-20.04
+  linux-image-generic-hwe-20.04 linux-libc-dev ltrace opera-stable
+  python3-cryptography python3-update-manager tcpdump thunderbird
+  thunderbird-gnome-support thunderbird-locale-en thunderbird-locale-en-us
+  tracker-extract tracker-miner-fs ubuntu-advantage-tools
+  ubuntu-drivers-common ubuntu-pro-client-l10n unzip update-manager
+  update-manager-core
+34 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+16 standard LTS security updates
+Need to get 458 MB/469 MB of archives.
+After this operation, 611 MB of additional disk space will be used.
+Get:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-advantage-tools all 31.2~20.04 [10.9 kB]
+Get:2 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 122.0.6261.128-1 [106 MB]
+Get:3 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-pro-client amd64 31.2~20.04 [196 kB]
+Get:4 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 108.0.5067.29 [115 MB]
+Get:5 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-pro-client-l10n amd64 31.2~20.04 [18.4 kB]
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 accountsservice amd64 0.6.55-0ubuntu12~20.04.7 [61.3 kB]
+Get:7 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libaccountsservice0 amd64 0.6.55-0ubuntu12~20.04.7 [72.4 kB]
+Get:8 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-update-manager all 1:20.04.10.20 [38.4 kB]
+Get:9 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager-core all 1:20.04.10.20 [11.6 kB]
+Get:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager all 1:20.04.10.20 [552 kB]
+Get:4 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 108.0.5067.29 [115 MB]
+Get:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager all 1:20.04.10.20 [552 kB]
+Get:4 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 108.0.5067.29 [115 MB]
+Get:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager all 1:20.04.10.20 [552 kB]
+Get:4 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 108.0.5067.29 [115 MB]
+Get:10 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager all 1:20.04.10.20 [552 kB]
+Get:4 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 108.0.5067.29 [115 MB]
+Get:11 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 firefox amd64 123.0.1+build1-0ubuntu0.20.04.1 [65.0 MB]
+Get:2 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 122.0.6261.128-1 [106 MB]
+Get:12 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 firefox-locale-en amd64 123.0.1+build1-0ubuntu0.20.04.1 [774 kB]
+Get:13 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-accountsservice-1.0 amd64 0.6.55-0ubuntu12~20.04.7 [4,980 B]
+Get:14 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgpgme11 amd64 1.13.1-7ubuntu2.2 [120 kB]
+Get:14 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgpgme11 amd64 1.13.1-7ubuntu2.2 [120 kB]
+Get:15 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgpgmepp6 amd64 1.13.1-7ubuntu2.2 [101 kB]
+Get:15 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgpgmepp6 amd64 1.13.1-7ubuntu2.2 [101 kB]
+Get:16 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libkpathsea6 amd64 2019.20190605.51237-3ubuntu0.2 [57.2 kB]
+Get:17 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libsynctex2 amd64 2019.20190605.51237-3ubuntu0.2 [55.2 kB]
+Get:18 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-100-generic amd64 5.15.0-100.110~20.04.1 [21.0 MB]
+Get:18 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-100-generic amd64 5.15.0-100.110~20.04.1 [21.0 MB]
+Get:18 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-100-generic amd64 5.15.0-100.110~20.04.1 [21.0 MB]
+Get:18 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-modules-5.15.0-100-generic amd64 5.15.0-100.110~20.04.1 [21.0 MB]
+[2024-03-17 19:03:09][info] 
+[2024-03-17 19:03:09][info] 
+[2024-03-17 19:03:09][info] 
+[2024-03-17 19:03:09][info] 
+[2024-03-17 19:03:09][info] 
+[2024-03-17 19:03:19][info] 
+[2024-03-17 19:03:19][info] 
+[2024-03-17 19:03:19][info] 
+[2024-03-17 19:03:19][info] 
+[2024-03-17 19:03:19][info] 
+[2024-03-17 19:03:22][Network connection verified] 
+[2024-03-17 19:03:22][detected distribution: Ubuntu] 
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 https://deb.opera.com/opera-stable stable InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:5 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Fetched 114 kB in 21s (5,520 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+34 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-03-17 19:06:59][Exiting debian function] 
+[2024-04-02 17:30:28][Network connection verified] 
+[2024-04-02 17:30:28][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:3 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 https://deb.opera.com/opera-stable stable InRelease
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+[2024-04-02 17:32:34][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  opera-stable
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 109 MB of archives.
+After this operation, 6,611 kB disk space will be freed.
+Get:1 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 109.0.5097.38 [109 MB]
+Get:1 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 109.0.5097.38 [109 MB]
+Get:1 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 109.0.5097.38 [109 MB]
+Err:1 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 109.0.5097.38
+  Could not connect to deb.opera.com:443 (92.123.26.209), connection timed out Could not connect to deb.opera.com:443 (92.123.26.137), connection timed out [IP: 92.123.26.209 443]
+[2024-04-02 17:42:48][Network interuputed. Exiting.] 
+[2024-04-14 14:23:45][Network connection verified] 
+[2024-04-14 14:23:45][detected distribution: Ubuntu] 
+Hit:1 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:2 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 https://deb.opera.com/opera-stable stable InRelease
+Hit:7 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-04-14 14:33:57][Beginning full upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  google-chrome-stable libnss3 opera-stable
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 218 MB of archives.
+After this operation, 6,788 kB disk space will be freed.
+Err:1 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss3 amd64 2:3.98-0ubuntu0.20.04.2
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:2 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 123.0.6312.122-1
+  Temporary failure resolving 'dl.google.com'
+Err:3 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 109.0.5097.45
+  Temporary failure resolving 'deb.opera.com'
+[2024-04-14 14:34:49][Network interuputed. Exiting.] 
+[2024-04-14 14:50:53][Network connection verified] 
+[2024-04-14 14:50:53][detected distribution: Ubuntu] 
+Hit:1 http://ci.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Get:4 http://ci.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:5 http://ci.archive.ubuntu.com/ubuntu focal-backports InRelease
+Get:6 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [782 kB]
+Hit:7 https://deb.opera.com/opera-stable stable InRelease
+Get:8 http://ci.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,179 kB]
+Hit:9 http://security.ubuntu.com/ubuntu focal-security InRelease
+Fetched 2,075 kB in 27s (76.5 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2024-04-14 16:22:38][Beginning upgrade] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  vlc-bin vlc-plugin-video-output libavformat58 libavfilter7 vlc-plugin-samba
+  libswresample3 vlc-plugin-qt libzmq5 libmagickwand-6.q16-6 vlc-plugin-skins2
+  vlc-plugin-visualization vlc-l10n vlc-plugin-notify libvlc5 libpostproc55
+  libvlccore9 libvlc-bin libavcodec-extra vlc libavutil56 vlc-data libswscale5
+  libmysofa1 libmagickcore-6.q16-6 vlc-plugin-video-splitter
+  libavcodec-extra58 vlc-plugin-base imagemagick-6-common
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  google-chrome-stable libnss3 opera-stable
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 218 MB of archives.
+After this operation, 6,788 kB disk space will be freed.
+Get:1 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 109.0.5097.45 [109 MB]
+Err:2 http://ci.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss3 amd64 2:3.98-0ubuntu0.20.04.2
+  Temporary failure resolving 'ci.archive.ubuntu.com'
+Err:3 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 123.0.6312.122-1
+  Temporary failure resolving 'dl.google.com'
+Get:1 https://deb.opera.com/opera-stable stable/non-free amd64 opera-stable amd64 109.0.5097.45 [109 MB]
+Fetched 32.8 MB in 8min 10s (66.8 kB/s)
+[2024-04-14 16:30:57][Error details: sudo apt upgrade -y >> update.log 2>> error.log on line 54 update_packages.sh in ./update.sh] 
+[2024-04-14 16:30:57][unsuccessfull upgrade] 
+[2024-04-14 18:45:15][Exiting debian function] 

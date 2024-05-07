@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Dinosaur</title>
+</head>
+<body>
+    <canvas id="gameCanvas" width="200" height="150"></canvas>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Draw the dinosaur
+        function drawDinosaur() {
+            // Body
+            ctx.fillStyle = 'green';
+            ctx.fillRect(50, 50, 40, 20);
+
+            // Head
+            ctx.fillRect(90, 50, 10, 10);
+
+            // Eyes
+            ctx.fillStyle = 'white';
+            ctx.fillRect(92, 52, 2, 2);
+            ctx.fillRect(96, 52, 2, 2);
+
+            // Legs
+            ctx.fillRect(55, 70, 5, 10);
+            ctx.fillRect(70, 70, 5, 10);
+
+            // Tail
+            ctx.fillRect(90, 70, 5, 5);
+            ctx.fillRect(95, 75, 5, 5);
+            ctx.fillRect(100, 80, 5, 5);
+        }
+
+        drawDinosaur(); // Call the drawDinosaur function to draw the dinosaur
+    </script>
+</body>
+</html>
+

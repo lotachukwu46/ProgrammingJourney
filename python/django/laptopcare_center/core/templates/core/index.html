@@ -1,0 +1,41 @@
+{% extends 'core/base.html' %}  {% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+	<section class="hero">
+		<div class="hero-content">
+			<h1>Welcome to Envybees Global</h1>
+			<p>Your one-stop shop for laptop sales and repairs</p>
+			<a href="{% url 'product:product' %}" class="btn">View Products</a>
+			<a href="{% url 'core:contact' %}" class="btn">Contact Us</a>
+		</div>
+	</section>
+
+	<section id="featured-products" class="features-products">
+		<div class="featured-container">
+			<div class="featured-heading">
+				<h2>Featured Products</h2>
+				<hr>
+			</div>
+			<div class="product-list">
+				{% for product in products %}
+				<a href="{% url 'product:detail' product.id %}" class="product-url">
+					<div class="product-card">
+						<div>
+							<img src="{{ product.image.url }}" alt="{{ product.name }}">
+						</div>
+		
+						<div class="product-details">
+							<h3>{{ product.name }}</h3>
+							<span>NGN{{ product.price }}</span>
+						</div>
+					</div>
+					</a>
+				{% endfor %}
+			</div>
+			<a href="{% url 'product:product' %}" class="btn">See More</a>
+		</div>
+	</section>
+{% endblock %}
+

@@ -36,7 +36,8 @@ body {
 				margin-top: 60px;
 			}
 
-			.reset {
+			.reset,
+			.autoPlay {
 				background: white;
 				border: none;
 				font-size: 15px;
@@ -46,10 +47,12 @@ body {
 				transition: background-color 0.15s;
 			}
 
-			.reset:hover {
+			.reset:hover,
+			.autoPlay:hover {
 				background-color:rgb(200, 200, 200);
 			}
 
-			.reset:active {
+			.reset:active,
+			.autoPlay:active {
 				background-color: rgb(230, 230, 230);
 			}
