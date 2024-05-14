@@ -13,7 +13,7 @@
 		<header>
 			<div class="container">
 				<div class="logo">
-					<a href="/"><strong class="envy">Envy</strong>bees <span>Global</span></a>
+					<a href="/"><strong>Envy</strong>bees <span>Global</span></a>
 				</div>
 
 				<nav>
@@ -25,6 +25,7 @@
 						<li><a href="{% url 'core:contact' %}">Contact Us</a></li>
 					</ul>
 				</nav>
+			</div>
 		</header>
 		{% block content %}
 		{% endblock %}
@@ -34,31 +35,31 @@
 				<div class="footer-content">
 					<div class="footer-section about">
 						<h1>About Us</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at ornare nibh. Integer at ultricies elit.</p>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi rem voluptatum reiciendis voluptatem error. Hic saepe eius harum reprehenderit at aut adipisci eos, distinctio repellat natus sit illo voluptatem dolore rem iste blanditiis enim temporibus doloribus tempora error exercitationem perferendis ab! Dolores, quia! Praesentium suscipit itaque explicabo, obcaecati odio exercitationem.</p>
 					</div>
 
 					<div class="footer-section links">
 						<h2>Quick Links</h2>
 						<ul>
 							<li><a href='/'>Home</a></li>
-							<li><a href='#products'>Products</a></li>
-							<li><a href='#services'>Services</a></li>
-							<li><a href='#about'>About Us</a></li>
-							<li><a href='#contact'>Contact Us</a></li>
+							<li><a href="{% url 'product:product' %}">Products</a></li>
+							<li><a href="{% url 'core:service' %}">Our Services</a></li>
+							<li><a href="{% url 'core:about' %}">About Us</a></li>
+							<li><a href="{% url 'core:contact' %}">Contact Us</a></li>
 						</ul>
 					</div>
 
 					<div class="footer-section contact-form">
 						<h2>Contact Us</h2>
-						<form action="#" method="post">
+						<form method="post" action="#">
+							{% csrf_token %}
 							<input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
 							<textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
 							<button type="submit" class="btn btn-big contact-btn">
 								<i class="fas fa-envelope"></i>
-								Send
-							</button>
-						</form>
-					</div>
+								<img src="/static/assets/email.png" alt="Email icon" class="contact-icon email-icon">
+							</button> Send
+						</form>						
 				</div>
 			</div>
 		</footer>

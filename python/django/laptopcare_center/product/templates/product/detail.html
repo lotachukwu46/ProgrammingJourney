@@ -1,56 +1,59 @@
-{% extends 'core/base.html' %} {% load static %}
-
-{% block title %}{{ product.name }}{% endblock %}
-
-{% block content %}
+{% extends 'core/base.html' %} {% load static %} {% block title %} {{product.name }} {% endblock %} {% block content %}
 <div class="detail-container">
-	<div class="detail-img">
-		<img src="{{ product.image.url }}" alt="{{ product.name }}" class="product-image">
-	</div>
+  <div class="detail-img">
+    {% if product.get_image %}
+    <img src="{{ product.get_image }}" alt="Product Image" class="product-image"/>
+    {% else %}
+    <p>No image available for this product.</p>
+    {% endif %}
+  </div>
 
-	<div class="detail-description">
-		<h1> {{ product.name }} </h1>
-		<p><strong>Price: NGN</strong> {{ product.price }} </p>
+  <div class="detail-description">
+    <h1>{{ product.name }}</h1>
+    <p><strong>Price: NGN</strong> {{ product.price }}</p>
 
-		{% if product.description %}
-		<p>
-			<strong>Description:</strong><br>
-			{{ product.description }}
-		</p>
-		{% endif %}
-	</div>
+    {% if product.description %}
+    <p>
+      <strong>Description:</strong><br />
+        {{ product.description }}
+    </p>
+    {% endif %}
+  </div>
 </div>
 
 {% if product.web_link %}
 
-<a href="{{ product.web_link }}" class="btn">Buy from Amazone</a>
+<a href="{{ product.web_link }}" class="btn">Buy from Amazon</a>
 
 {% endif %}
 
-<a href="#" class="btn">Place an order</a>
+<a href="{% url 'product:order' product.id %}" class="btn">Place an order</a>
 
-
+{% if related_product %}
 <div class="featured-container">
-	<div class="featured-heading">
-		<h2>Related Products</h2>
-		<hr>
-	</div>
-	<div class="product-list">
-		{% for product in related_product %}
-		<a href="{% url 'product:detail' product.id %}" class="product-url">
-			<div class="product-card">
-				<div>
-					<img src="{{ product.image.url }}" alt="{{ product.name }}">
-				</div>
+  <div class="featured-heading">
+    <h2>Related Products</h2>
+    <hr />
+  </div>
+  <div class="product-list">
+    {% for product in related_product %}
+    <a href="{% url 'product:detail' product.id %}" class="product-url">
+      <div class="product-card">
+        <div>
+          {% if product.get_image %}
+          <img src="{{ product.get_image }}" alt="Product Image" />
+          {% else %}
+          <p>No image available for this product.</p>
+          {% endif %}
+        </div>
 
-				<div class="product-details">
-					<h3>{{ product.name }}</h3>
-					<span>NGN{{ product.price }}</span>
-				</div>
-			</div>
-			</a>
-		{% endfor %}
-	</div>
+        <div class="product-details">
+          <h3>{{ product.name }}</h3>
+          <span>NGN{{ product.price }}</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </div>
-
-{% endblock %}
+{% endif %} {% endblock %}

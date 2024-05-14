@@ -4,7 +4,7 @@
 
 {% block content %}
 <section class="contact">
-    <h2>Contact Us</h2>
+    <h2 class="heading">Contact Us</h2>
     <p>Feel free to reach out to us for any inquiries or support.</p>
     <form method="post">
         {% csrf_token %}
@@ -21,27 +21,19 @@
 <section class="contact-info">
     <h3>Contact Information</h3>
     <ul>
-        <li><strong>Email:</strong> example@example.com</li>
-        <li><strong>Phone:</strong> +234 000 000 000</li>
-        <li><strong>Address:</strong> shop 38 lamond 15 Langtang Street, Jos 930105, Plateau </li>
-    </ul><form method="post">
-        {% csrf_token %}
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
+        <li><strong>Email: </strong> <a href="mailto:lotaodi46@gmail.com">envybees@gmail.com</a></li>
+        <li><strong>Phone:</strong> +234 816 324 8451</li>
+        <li><strong>Address:</strong> shop 38 lamond plasa, 15 Langtang Street, Jos 930105, Plateau </li>
+    </ul>
 </section>
 
 <section class="social-media">
-    <h3>Follow Us</h3>
+    <h3>Follow Us On</h3>
     <ul>
         <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-        <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
         <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.twitter.com/" target="_blank">X</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
     </ul>
 </section>
 {% endblock %}

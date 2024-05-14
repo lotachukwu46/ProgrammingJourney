@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<title>{% block  title %}{% endblock %}</title>
+	</head>
+	<body>
+		<nav>
+			<div>
+				<a id="login" href="/login">Login</a>
+				<a id="SignUp" href="/sign-up">Sign Up</a>
+				<a id="logout" href="/logout">Logout</a>
+				<a id="home" href="/">Home</a>
+			</div>
+		</nav>
+
+		{% with messages = get_flashed_messages(with_categories=true) %}
+			{% if messages %}
+				{% for category, message in messages %}
+					{% if category == 'error' %}
+					<div class="flashed_message" role="alert">
+						{{ message }}
+						<button type="button" data-dismiss="alert" class="close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					{% else %}
+					<div class="flashed_message" role="alert">
+						{{ message }}
+						<button type="button" data-dismiss="alert" class="close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+
+		<div class="container">
+			{% block content %}
+			{% endblock %}
+		</div>
+		
+		<script
+			type="text/javascript"
+			src="{{ url_for('static', filename='script.js') }}">
+		</script>
+	</body>
+</html>
